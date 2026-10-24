@@ -68,7 +68,7 @@ export default function GraniteLoader({
         rafRef.current = requestAnimationFrame(tick);
       } else {
         setDone(true);
-        window.setTimeout(() => onComplete?.(), 500);
+        window.setTimeout(() => onComplete?.(), 750);
       }
     }
 

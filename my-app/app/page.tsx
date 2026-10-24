@@ -19,7 +19,13 @@ export default function Home() {
 
   return (   
      <>
-      
+      {loading && (
+  <GraniteLoader
+    duration={3200}
+    onComplete={() => setLoading(false)}
+  />
+)}
+
     {/* Desktop + Tablet */}
       <div className="desktop-nav">
         <NavBar />
@@ -35,9 +41,9 @@ export default function Home() {
      <div className="desktop-nav">
  <Export />
      </div>
-    <div className="mobile-nav">
+    {/* <div className="mobile-nav">
         <MobExport/>
-      </div>
+      </div> */}
       <About/>
      
       <ProcessSection/>

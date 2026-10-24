@@ -1,0 +1,594 @@
+[
+  {
+    "id": 1,
+    "src": "/assets/catlog/final/dark-granite/slab-001.jpeg",
+    "visualCategory": "Dark / black texture",
+    "categoryKey": "dark-granite",
+    "originalFilename": "WhatsApp Image 2026-10-23 at 8.43.51 PM.jpeg",
+    "filename": "slab-001.jpeg"
+  },
+  {
+    "id": 2,
+    "src": "/assets/catlog/final/warm-red-brown/slab-002.jpeg",
+    "visualCategory": "Warm red-brown",
+    "categoryKey": "warm-red-brown",
+    "originalFilename": "WhatsApp Image 2026-10-23 at 8.43.51 PM (1).jpeg",
+    "filename": "slab-002.jpeg"
+  },
+  {
+    "id": 3,
+    "src": "/assets/catlog/final/warm-red-brown/slab-003.jpeg",
+    "visualCategory": "Warm red-brown",
+    "categoryKey": "warm-red-brown",
+    "originalFilename": "WhatsApp Image 2026-10-23 at 8.43.51 PM (2).jpeg",
+    "filename": "slab-003.jpeg"
+  },
+  {
+    "id": 4,
+    "src": "/assets/catlog/final/dark-granite/slab-004.jpeg",
+    "visualCategory": "Dark / black texture",
+    "categoryKey": "dark-granite",
+    "originalFilename": "WhatsApp Image 2026-10-23 at 8.43.52 PM.jpeg",
+    "filename": "slab-004.jpeg"
+  },
+  {
+    "id": 5,
+    "src": "/assets/catlog/final/dark-granite/slab-005.jpeg",
+    "visualCategory": "Dark / black texture",
+    "categoryKey": "dark-granite",
+    "originalFilename": "WhatsApp Image 2026-10-23 at 8.43.54 PM.jpeg",
+    "filename": "slab-005.jpeg"
+  },
+  {
+    "id": 6,
+    "src": "/assets/catlog/final/warm-red-brown/slab-006.jpeg",
+    "visualCategory": "Warm red-brown",
+    "categoryKey": "warm-red-brown",
+    "originalFilename": "WhatsApp Image 2026-10-23 at 8.43.55 PM.jpeg",
+    "filename": "slab-006.jpeg"
+  },
+  {
+    "id": 7,
+    "src": "/assets/catlog/final/warm-red-brown/slab-007.jpeg",
+    "visualCategory": "Warm red-brown",
+    "categoryKey": "warm-red-brown",
+    "originalFilename": "WhatsApp Image 2026-10-23 at 8.43.55 PM (1).jpeg",
+    "filename": "slab-007.jpeg"
+  },
+  {
+    "id": 8,
+    "src": "/assets/catlog/final/dark-granite/slab-008.jpeg",
+    "visualCategory": "Dark / black texture",
+    "categoryKey": "dark-granite",
+    "originalFilename": "WhatsApp Image 2026-10-23 at 8.43.56 PM.jpeg",
+    "filename": "slab-008.jpeg"
+  },
+  {
+    "id": 9,
+    "src": "/assets/catlog/final/warm-red-brown/slab-009.jpeg",
+    "visualCategory": "Warm red-brown",
+    "categoryKey": "warm-red-brown",
+    "originalFilename": "WhatsApp Image 2026-10-23 at 8.43.58 PM.jpeg",
+    "filename": "slab-009.jpeg"
+  },
+  {
+    "id": 10,
+    "src": "/assets/catlog/final/dark-granite/slab-010.jpeg",
+    "visualCategory": "Dark / black texture",
+    "categoryKey": "dark-granite",
+    "originalFilename": "WhatsApp Image 2026-10-23 at 8.43.58 PM (1).jpeg",
+    "filename": "slab-010.jpeg"
+  },
+  {
+    "id": 11,
+    "src": "/assets/catlog/final/dark-granite/slab-011.jpeg",
+    "visualCategory": "Dark / black texture",
+    "categoryKey": "dark-granite",
+    "originalFilename": "WhatsApp Image 2026-10-23 at 8.43.58 PM (2).jpeg",
+    "filename": "slab-011.jpeg"
+  },
+  {
+    "id": 12,
+    "src": "/assets/catlog/final/light-grey-white/slab-012.jpeg",
+    "visualCategory": "Light grey-white",
+    "categoryKey": "light-grey-white",
+    "originalFilename": "WhatsApp Image 2026-10-23 at 8.43.59 PM.jpeg",
+    "filename": "slab-012.jpeg"
+  },
+  {
+    "id": 13,
+    "src": "/assets/catlog/final/mixed-veined/slab-013.jpeg",
+    "visualCategory": "Mixed / flowing veins",
+    "categoryKey": "mixed-veined",
+    "originalFilename": "WhatsApp Image 2026-10-23 at 8.43.59 PM (1).jpeg",
+    "filename": "slab-013.jpeg"
+  },
+  {
+    "id": 14,
+    "src": "/assets/catlog/final/warm-red-brown/slab-014.jpeg",
+    "visualCategory": "Warm red-brown",
+    "categoryKey": "warm-red-brown",
+    "originalFilename": "WhatsApp Image 2026-10-23 at 8.44.00 PM.jpeg",
+    "filename": "slab-014.jpeg"
+  },
+  {
+    "id": 15,
+    "src": "/assets/catlog/final/light-grey-white/slab-015.jpeg",
+    "visualCategory": "Light grey-white",
+    "categoryKey": "light-grey-white",
+    "originalFilename": "WhatsApp Image 2026-10-23 at 8.44.01 PM.jpeg",
+    "filename": "slab-015.jpeg"
+  },
+  {
+    "id": 16,
+    "src": "/assets/catlog/final/light-grey-white/slab-016.jpeg",
+    "visualCategory": "Light grey-white",
+    "categoryKey": "light-grey-white",
+    "originalFilename": "WhatsApp Image 2026-10-23 at 8.44.02 PM.jpeg",
+    "filename": "slab-016.jpeg"
+  },
+  {
+    "id": 17,
+    "src": "/assets/catlog/final/light-grey-white/slab-017.jpeg",
+    "visualCategory": "Light grey-white",
+    "categoryKey": "light-grey-white",
+    "originalFilename": "WhatsApp Image 2026-10-23 at 8.44.03 PM.jpeg",
+    "filename": "slab-017.jpeg"
+  },
+  {
+    "id": 18,
+    "src": "/assets/catlog/final/mixed-veined/slab-018.jpeg",
+    "visualCategory": "Mixed / flowing veins",
+    "categoryKey": "mixed-veined",
+    "originalFilename": "WhatsApp Image 2026-10-23 at 8.44.04 PM.jpeg",
+    "filename": "slab-018.jpeg"
+  },
+  {
+    "id": 19,
+    "src": "/assets/catlog/final/light-grey-white/slab-019.jpeg",
+    "visualCategory": "Light grey-white",
+    "categoryKey": "light-grey-white",
+    "originalFilename": "WhatsApp Image 2026-10-23 at 8.44.04 PM (1).jpeg",
+    "filename": "slab-019.jpeg"
+  },
+  {
+    "id": 20,
+    "src": "/assets/catlog/final/mixed-veined/slab-020.jpeg",
+    "visualCategory": "Mixed / flowing veins",
+    "categoryKey": "mixed-veined",
+    "originalFilename": "WhatsApp Image 2026-10-23 at 8.44.05 PM.jpeg",
+    "filename": "slab-020.jpeg"
+  },
+  {
+    "id": 21,
+    "src": "/assets/catlog/final/warm-red-brown/slab-021.jpeg",
+    "visualCategory": "Warm red-brown",
+    "categoryKey": "warm-red-brown",
+    "originalFilename": "WhatsApp Image 2026-10-23 at 8.44.07 PM.jpeg",
+    "filename": "slab-021.jpeg"
+  },
+  {
+    "id": 22,
+    "src": "/assets/catlog/final/warm-red-brown/slab-022.jpeg",
+    "visualCategory": "Warm red-brown",
+    "categoryKey": "warm-red-brown",
+    "originalFilename": "WhatsApp Image 2026-10-23 at 8.44.07 PM (1).jpeg",
+    "filename": "slab-022.jpeg"
+  },
+  {
+    "id": 23,
+    "src": "/assets/catlog/final/mixed-veined/slab-023.jpeg",
+    "visualCategory": "Mixed / flowing veins",
+    "categoryKey": "mixed-veined",
+    "originalFilename": "WhatsApp Image 2026-10-23 at 8.44.07 PM (2).jpeg",
+    "filename": "slab-023.jpeg"
+  },
+  {
+    "id": 24,
+    "src": "/assets/catlog/final/warm-red-brown/slab-024.jpeg",
+    "visualCategory": "Warm red-brown",
+    "categoryKey": "warm-red-brown",
+    "originalFilename": "WhatsApp Image 2026-10-23 at 8.44.08 PM.jpeg",
+    "filename": "slab-024.jpeg"
+  },
+  {
+    "id": 25,
+    "src": "/assets/catlog/final/warm-red-brown/slab-025.jpeg",
+    "visualCategory": "Warm red-brown",
+    "categoryKey": "warm-red-brown",
+    "originalFilename": "WhatsApp Image 2026-10-23 at 8.44.09 PM.jpeg",
+    "filename": "slab-025.jpeg"
+  },
+  {
+    "id": 26,
+    "src": "/assets/catlog/final/warm-red-brown/slab-026.jpeg",
+    "visualCategory": "Warm red-brown",
+    "categoryKey": "warm-red-brown",
+    "originalFilename": "WhatsApp Image 2026-10-23 at 8.44.09 PM (1).jpeg",
+    "filename": "slab-026.jpeg"
+  },
+  {
+    "id": 27,
+    "src": "/assets/catlog/final/light-grey-white/slab-027.jpeg",
+    "visualCategory": "Light grey-white",
+    "categoryKey": "light-grey-white",
+    "originalFilename": "WhatsApp Image 2026-10-23 at 8.44.10 PM.jpeg",
+    "filename": "slab-027.jpeg"
+  },
+  {
+    "id": 28,
+    "src": "/assets/catlog/final/dark-granite/slab-028.jpeg",
+    "visualCategory": "Dark / black texture",
+    "categoryKey": "dark-granite",
+    "originalFilename": "WhatsApp Image 2026-10-23 at 8.44.12 PM.jpeg",
+    "filename": "slab-028.jpeg"
+  },
+  {
+    "id": 29,
+    "src": "/assets/catlog/final/warm-red-brown/slab-029.jpeg",
+    "visualCategory": "Warm red-brown",
+    "categoryKey": "warm-red-brown",
+    "originalFilename": "WhatsApp Image 2026-10-23 at 8.44.12 PM (1).jpeg",
+    "filename": "slab-029.jpeg"
+  },
+  {
+    "id": 30,
+    "src": "/assets/catlog/final/warm-red-brown/slab-030.jpeg",
+    "visualCategory": "Warm red-brown",
+    "categoryKey": "warm-red-brown",
+    "originalFilename": "WhatsApp Image 2026-10-23 at 8.44.12 PM (2).jpeg",
+    "filename": "slab-030.jpeg"
+  },
+  {
+    "id": 31,
+    "src": "/assets/catlog/final/warm-red-brown/slab-031.jpeg",
+    "visualCategory": "Warm red-brown",
+    "categoryKey": "warm-red-brown",
+    "originalFilename": "WhatsApp Image 2026-10-23 at 8.44.13 PM.jpeg",
+    "filename": "slab-031.jpeg"
+  },
+  {
+    "id": 32,
+    "src": "/assets/catlog/final/dark-granite/slab-032.jpeg",
+    "visualCategory": "Dark / black texture",
+    "categoryKey": "dark-granite",
+    "originalFilename": "WhatsApp Image 2026-10-23 at 8.44.15 PM.jpeg",
+    "filename": "slab-032.jpeg"
+  },
+  {
+    "id": 33,
+    "src": "/assets/catlog/final/warm-red-brown/slab-033.jpeg",
+    "visualCategory": "Warm red-brown",
+    "categoryKey": "warm-red-brown",
+    "originalFilename": "WhatsApp Image 2026-10-23 at 8.44.15 PM (1).jpeg",
+    "filename": "slab-033.jpeg"
+  },
+  {
+    "id": 34,
+    "src": "/assets/catlog/final/warm-red-brown/slab-034.jpeg",
+    "visualCategory": "Warm red-brown",
+    "categoryKey": "warm-red-brown",
+    "originalFilename": "WhatsApp Image 2026-10-23 at 8.44.16 PM.jpeg",
+    "filename": "slab-034.jpeg"
+  },
+  {
+    "id": 35,
+    "src": "/assets/catlog/final/warm-red-brown/slab-035.jpeg",
+    "visualCategory": "Warm red-brown",
+    "categoryKey": "warm-red-brown",
+    "originalFilename": "WhatsApp Image 2026-10-23 at 8.44.17 PM.jpeg",
+    "filename": "slab-035.jpeg"
+  },
+  {
+    "id": 36,
+    "src": "/assets/catlog/final/mixed-veined/slab-036.jpeg",
+    "visualCategory": "Mixed / flowing veins",
+    "categoryKey": "mixed-veined",
+    "originalFilename": "WhatsApp Image 2026-10-23 at 8.44.17 PM (1).jpeg",
+    "filename": "slab-036.jpeg"
+  },
+  {
+    "id": 37,
+    "src": "/assets/catlog/final/warm-red-brown/slab-037.jpeg",
+    "visualCategory": "Warm red-brown",
+    "categoryKey": "warm-red-brown",
+    "originalFilename": "WhatsApp Image 2026-10-23 at 8.44.19 PM.jpeg",
+    "filename": "slab-037.jpeg"
+  },
+  {
+    "id": 38,
+    "src": "/assets/catlog/final/warm-red-brown/slab-038.jpeg",
+    "visualCategory": "Warm red-brown",
+    "categoryKey": "warm-red-brown",
+    "originalFilename": "WhatsApp Image 2026-10-23 at 8.44.19 PM (1).jpeg",
+    "filename": "slab-038.jpeg"
+  },
+  {
+    "id": 39,
+    "src": "/assets/catlog/final/warm-red-brown/slab-039.jpeg",
+    "visualCategory": "Warm red-brown",
+    "categoryKey": "warm-red-brown",
+    "originalFilename": "WhatsApp Image 2026-10-23 at 8.44.20 PM.jpeg",
+    "filename": "slab-039.jpeg"
+  },
+  {
+    "id": 40,
+    "src": "/assets/catlog/final/mixed-veined/slab-040.jpeg",
+    "visualCategory": "Mixed / flowing veins",
+    "categoryKey": "mixed-veined",
+    "originalFilename": "WhatsApp Image 2026-10-23 at 8.44.21 PM.jpeg",
+    "filename": "slab-040.jpeg"
+  },
+  {
+    "id": 41,
+    "src": "/assets/catlog/final/light-grey-white/slab-041.jpeg",
+    "visualCategory": "Light grey-white",
+    "categoryKey": "light-grey-white",
+    "originalFilename": "WhatsApp Image 2026-10-23 at 8.44.22 PM.jpeg",
+    "filename": "slab-041.jpeg"
+  },
+  {
+    "id": 42,
+    "src": "/assets/catlog/final/warm-red-brown/slab-042.jpeg",
+    "visualCategory": "Warm red-brown",
+    "categoryKey": "warm-red-brown",
+    "originalFilename": "WhatsApp Image 2026-10-23 at 8.44.23 PM.jpeg",
+    "filename": "slab-042.jpeg"
+  },
+  {
+    "id": 43,
+    "src": "/assets/catlog/final/warm-red-brown/slab-043.jpeg",
+    "visualCategory": "Warm red-brown",
+    "categoryKey": "warm-red-brown",
+    "originalFilename": "WhatsApp Image 2026-10-23 at 8.44.23 PM (1).jpeg",
+    "filename": "slab-043.jpeg"
+  },
+  {
+    "id": 44,
+    "src": "/assets/catlog/final/warm-red-brown/slab-044.jpeg",
+    "visualCategory": "Warm red-brown",
+    "categoryKey": "warm-red-brown",
+    "originalFilename": "WhatsApp Image 2026-10-23 at 8.44.25 PM.jpeg",
+    "filename": "slab-044.jpeg"
+  },
+  {
+    "id": 45,
+    "src": "/assets/catlog/final/light-grey-white/slab-045.jpeg",
+    "visualCategory": "Light grey-white",
+    "categoryKey": "light-grey-white",
+    "originalFilename": "WhatsApp Image 2026-10-23 at 8.44.27 PM.jpeg",
+    "filename": "slab-045.jpeg"
+  },
+  {
+    "id": 46,
+    "src": "/assets/catlog/final/dark-granite/slab-046.jpeg",
+    "visualCategory": "Dark / black texture",
+    "categoryKey": "dark-granite",
+    "originalFilename": "WhatsApp Image 2026-10-23 at 8.44.27 PM (1).jpeg",
+    "filename": "slab-046.jpeg"
+  },
+  {
+    "id": 47,
+    "src": "/assets/catlog/final/warm-red-brown/slab-047.jpeg",
+    "visualCategory": "Warm red-brown",
+    "categoryKey": "warm-red-brown",
+    "originalFilename": "WhatsApp Image 2026-10-23 at 8.44.28 PM.jpeg",
+    "filename": "slab-047.jpeg"
+  },
+  {
+    "id": 48,
+    "src": "/assets/catlog/final/warm-red-brown/slab-048.jpeg",
+    "visualCategory": "Warm red-brown",
+    "categoryKey": "warm-red-brown",
+    "originalFilename": "WhatsApp Image 2026-10-23 at 8.44.29 PM.jpeg",
+    "filename": "slab-048.jpeg"
+  },
+  {
+    "id": 49,
+    "src": "/assets/catlog/final/warm-red-brown/slab-049.jpeg",
+    "visualCategory": "Warm red-brown",
+    "categoryKey": "warm-red-brown",
+    "originalFilename": "WhatsApp Image 2026-10-23 at 8.44.29 PM (1).jpeg",
+    "filename": "slab-049.jpeg"
+  },
+  {
+    "id": 50,
+    "src": "/assets/catlog/final/dark-granite/slab-050.jpeg",
+    "visualCategory": "Dark / black texture",
+    "categoryKey": "dark-granite",
+    "originalFilename": "WhatsApp Image 2026-10-23 at 8.44.30 PM.jpeg",
+    "filename": "slab-050.jpeg"
+  },
+  {
+    "id": 51,
+    "src": "/assets/catlog/final/warm-red-brown/slab-051.jpeg",
+    "visualCategory": "Warm red-brown",
+    "categoryKey": "warm-red-brown",
+    "originalFilename": "WhatsApp Image 2026-10-23 at 8.44.31 PM.jpeg",
+    "filename": "slab-051.jpeg"
+  },
+  {
+    "id": 52,
+    "src": "/assets/catlog/final/warm-red-brown/slab-052.jpeg",
+    "visualCategory": "Warm red-brown",
+    "categoryKey": "warm-red-brown",
+    "originalFilename": "WhatsApp Image 2026-10-23 at 8.44.31 PM (1).jpeg",
+    "filename": "slab-052.jpeg"
+  },
+  {
+    "id": 53,
+    "src": "/assets/catlog/final/warm-red-brown/slab-053.jpeg",
+    "visualCategory": "Warm red-brown",
+    "categoryKey": "warm-red-brown",
+    "originalFilename": "WhatsApp Image 2026-10-23 at 8.44.32 PM.jpeg",
+    "filename": "slab-053.jpeg"
+  },
+  {
+    "id": 54,
+    "src": "/assets/catlog/final/warm-red-brown/slab-054.jpeg",
+    "visualCategory": "Warm red-brown",
+    "categoryKey": "warm-red-brown",
+    "originalFilename": "WhatsApp Image 2026-10-23 at 8.44.33 PM.jpeg",
+    "filename": "slab-054.jpeg"
+  },
+  {
+    "id": 55,
+    "src": "/assets/catlog/final/warm-red-brown/slab-055.jpeg",
+    "visualCategory": "Warm red-brown",
+    "categoryKey": "warm-red-brown",
+    "originalFilename": "WhatsApp Image 2026-10-23 at 8.44.34 PM.jpeg",
+    "filename": "slab-055.jpeg"
+  },
+  {
+    "id": 56,
+    "src": "/assets/catlog/final/mixed-veined/slab-056.jpeg",
+    "visualCategory": "Mixed / flowing veins",
+    "categoryKey": "mixed-veined",
+    "originalFilename": "WhatsApp Image 2026-10-23 at 8.44.34 PM (1).jpeg",
+    "filename": "slab-056.jpeg"
+  },
+  {
+    "id": 57,
+    "src": "/assets/catlog/final/warm-red-brown/slab-057.jpeg",
+    "visualCategory": "Warm red-brown",
+    "categoryKey": "warm-red-brown",
+    "originalFilename": "WhatsApp Image 2026-10-23 at 8.44.35 PM.jpeg",
+    "filename": "slab-057.jpeg"
+  },
+  {
+    "id": 58,
+    "src": "/assets/catlog/final/mixed-veined/slab-058.jpeg",
+    "visualCategory": "Mixed / flowing veins",
+    "categoryKey": "mixed-veined",
+    "originalFilename": "WhatsApp Image 2026-10-23 at 8.44.35 PM (1).jpeg",
+    "filename": "slab-058.jpeg"
+  },
+  {
+    "id": 59,
+    "src": "/assets/catlog/final/light-grey-white/slab-059.jpeg",
+    "visualCategory": "Light grey-white",
+    "categoryKey": "light-grey-white",
+    "originalFilename": "WhatsApp Image 2026-10-23 at 8.44.35 PM (2).jpeg",
+    "filename": "slab-059.jpeg"
+  },
+  {
+    "id": 60,
+    "src": "/assets/catlog/final/mixed-veined/slab-060.jpeg",
+    "visualCategory": "Mixed / flowing veins",
+    "categoryKey": "mixed-veined",
+    "originalFilename": "WhatsApp Image 2026-10-23 at 8.44.37 PM.jpeg",
+    "filename": "slab-060.jpeg"
+  },
+  {
+    "id": 61,
+    "src": "/assets/catlog/final/warm-red-brown/slab-061.jpeg",
+    "visualCategory": "Warm red-brown",
+    "categoryKey": "warm-red-brown",
+    "originalFilename": "WhatsApp Image 2026-10-23 at 8.44.37 PM (1).jpeg",
+    "filename": "slab-061.jpeg"
+  },
+  {
+    "id": 62,
+    "src": "/assets/catlog/final/light-grey-white/slab-062.jpeg",
+    "visualCategory": "Light grey-white",
+    "categoryKey": "light-grey-white",
+    "originalFilename": "WhatsApp Image 2026-10-23 at 8.44.38 PM.jpeg",
+    "filename": "slab-062.jpeg"
+  },
+  {
+    "id": 63,
+    "src": "/assets/catlog/final/warm-red-brown/slab-063.jpeg",
+    "visualCategory": "Warm red-brown",
+    "categoryKey": "warm-red-brown",
+    "originalFilename": "WhatsApp Image 2026-10-23 at 8.44.38 PM (1).jpeg",
+    "filename": "slab-063.jpeg"
+  },
+  {
+    "id": 64,
+    "src": "/assets/catlog/final/light-grey-white/slab-064.jpeg",
+    "visualCategory": "Light grey-white",
+    "categoryKey": "light-grey-white",
+    "originalFilename": "WhatsApp Image 2026-10-23 at 8.44.39 PM.jpeg",
+    "filename": "slab-064.jpeg"
+  },
+  {
+    "id": 65,
+    "src": "/assets/catlog/final/dark-granite/slab-065.jpeg",
+    "visualCategory": "Dark / black texture",
+    "categoryKey": "dark-granite",
+    "originalFilename": "WhatsApp Image 2026-10-23 at 8.44.39 PM (1).jpeg",
+    "filename": "slab-065.jpeg"
+  },
+  {
+    "id": 66,
+    "src": "/assets/catlog/final/light-grey-white/slab-066.jpeg",
+    "visualCategory": "Light grey-white",
+    "categoryKey": "light-grey-white",
+    "originalFilename": "WhatsApp Image 2026-10-23 at 8.44.40 PM.jpeg",
+    "filename": "slab-066.jpeg"
+  },
+  {
+    "id": 67,
+    "src": "/assets/catlog/final/light-grey-white/slab-067.jpeg",
+    "visualCategory": "Light grey-white",
+    "categoryKey": "light-grey-white",
+    "originalFilename": "WhatsApp Image 2026-10-23 at 8.44.41 PM.jpeg",
+    "filename": "slab-067.jpeg"
+  },
+  {
+    "id": 68,
+    "src": "/assets/catlog/final/light-grey-white/slab-068.jpeg",
+    "visualCategory": "Light grey-white",
+    "categoryKey": "light-grey-white",
+    "originalFilename": "WhatsApp Image 2026-10-23 at 8.44.41 PM (1).jpeg",
+    "filename": "slab-068.jpeg"
+  },
+  {
+    "id": 69,
+    "src": "/assets/catlog/final/light-grey-white/slab-069.jpeg",
+    "visualCategory": "Light grey-white",
+    "categoryKey": "light-grey-white",
+    "originalFilename": "WhatsApp Image 2026-10-23 at 8.44.41 PM (2).jpeg",
+    "filename": "slab-069.jpeg"
+  },
+  {
+    "id": 70,
+    "src": "/assets/catlog/final/light-grey-white/slab-070.jpeg",
+    "visualCategory": "Light grey-white",
+    "categoryKey": "light-grey-white",
+    "originalFilename": "WhatsApp Image 2026-10-23 at 8.44.42 PM.jpeg",
+    "filename": "slab-070.jpeg"
+  },
+  {
+    "id": 71,
+    "src": "/assets/catlog/final/light-grey-white/slab-071.jpeg",
+    "visualCategory": "Light grey-white",
+    "categoryKey": "light-grey-white",
+    "originalFilename": "WhatsApp Image 2026-10-23 at 8.44.42 PM (1).jpeg",
+    "filename": "slab-071.jpeg"
+  },
+  {
+    "id": 72,
+    "src": "/assets/catlog/final/light-grey-white/slab-072.jpeg",
+    "visualCategory": "Light grey-white",
+    "categoryKey": "light-grey-white",
+    "originalFilename": "WhatsApp Image 2026-10-23 at 8.44.43 PM.jpeg",
+    "filename": "slab-072.jpeg"
+  },
+  {
+    "id": 73,
+    "src": "/assets/catlog/final/light-grey-white/slab-073.jpeg",
+    "visualCategory": "Light grey-white",
+    "categoryKey": "light-grey-white",
+    "originalFilename": "WhatsApp Image 2026-10-23 at 8.44.43 PM (1).jpeg",
+    "filename": "slab-073.jpeg"
+  },
+  {
+    "id": 74,
+    "src": "/assets/catlog/final/dark-granite/slab-074.jpeg",
+    "visualCategory": "Dark / black texture",
+    "categoryKey": "dark-granite",
+    "originalFilename": "WhatsApp Image 2026-10-23 at 8.44.43 PM (2).jpeg",
+    "filename": "slab-074.jpeg"
+  }
+]

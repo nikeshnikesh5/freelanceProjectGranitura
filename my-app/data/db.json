@@ -1,0 +1,2814 @@
+[
+  {
+    "id": 1,
+    "name": "Italian White Marble",
+    "category": "Marble",
+    "origin": "Rajasthan, India",
+    "image": "/assets/catlog/final/light-grey-white/slab-072.jpeg",
+    "tag": "Best Seller",
+    "tagColor": "#d4bc8a",
+    "description": "Timeless white marble with graceful natural veining, sourced from premier Indian quarries. Ideal for flooring, wall cladding, and luxury interior applications.",
+    "longDesc": "Italian-grade white marble quarried from the finest deposits in Rajasthan. Each slab presents a unique pattern of natural veining ranging from subtle grey to warm gold undertones. Suitable for flooring, feature walls, countertops, bathrooms and high-end hospitality projects. Supplied in both slab and tile formats with customised cutting available.",
+    "specs": {
+      "Water Absorption": "< 0.4%",
+      "Compressive Strength": "131 MPa",
+      "Flexural Strength": "14 MPa",
+      "Finish Available": "Polished, Honed, Brushed",
+      "Slab Size": "Up to 2800 × 1600 mm",
+      "Thickness": "16mm, 18mm, 20mm, 30mm"
+    },
+    "applications": [
+      "Flooring",
+      "Wall Cladding",
+      "Countertops",
+      "Staircases",
+      "Feature Walls"
+    ],
+    "pricing": {
+      "Export Quality": 320,
+      "Premium Grade": 260,
+      "Commercial Grade": 200,
+      "Economy Grade": 150
+    },
+    "unit": "sq.ft",
+    "moq": "200 sq.ft",
+    "leadTime": "10–14 days",
+    "inStock": true,
+    "featured": true,
+    "imageSourceId": 72
+  },
+  {
+    "id": 2,
+    "name": "Black Galaxy Granite",
+    "category": "Granite",
+    "origin": "Andhra Pradesh, India",
+    "image": "/assets/catlog/final/dark-granite/slab-005.jpeg",
+    "tag": "Export Grade",
+    "tagColor": "#4a8a5e",
+    "description": "Deep black granite with shimmering golden flecks, forming a dramatic night-sky texture. The premium choice for countertops, flooring and statement facades.",
+    "longDesc": "Black Galaxy is among the world's most recognised granites, quarried exclusively in Nellore district of Andhra Pradesh. The hypnotic golden bronze specks embedded in a near-black base make it a perennial favourite for luxury exports. Dimensionally stable, low porosity and exceptionally durable — suited for both indoor and outdoor applications including heavy-traffic commercial floors.",
+    "specs": {
+      "Water Absorption": "< 0.1%",
+      "Compressive Strength": "228 MPa",
+      "Flexural Strength": "18 MPa",
+      "Finish Available": "Polished, Flamed, Leather",
+      "Slab Size": "Up to 3000 × 1800 mm",
+      "Thickness": "18mm, 20mm, 30mm, 40mm"
+    },
+    "applications": [
+      "Countertops",
+      "Flooring",
+      "Exterior Cladding",
+      "Monuments",
+      "Kitchen Tops"
+    ],
+    "pricing": {
+      "Export Quality": 240,
+      "Premium Grade": 190,
+      "Commercial Grade": 150,
+      "Economy Grade": 110
+    },
+    "unit": "sq.ft",
+    "moq": "300 sq.ft",
+    "leadTime": "7–10 days",
+    "inStock": true,
+    "featured": true,
+    "imageSourceId": 5
+  },
+  {
+    "id": 3,
+    "name": "Forest Green Marble",
+    "category": "Marble",
+    "origin": "Udaipur, Rajasthan",
+    "image": "/assets/catlog/final/warm-red-brown/slab-029.jpeg",
+    "tag": "Luxury",
+    "tagColor": "#b8a070",
+    "description": "Rich deep-green marble with natural movement and character. A bold material choice for feature walls, luxury hospitality and architectural statements.",
+    "longDesc": "Forest Green marble from the Udaipur belt is prized for its deep emerald base with contrasting white calcite veining. Each slab is virtually unique. Widely specified by leading architects and interior designers for hotel lobbies, spa interiors, reception counters and exterior feature installations. Available in bookmatched pairs for maximum visual impact.",
+    "specs": {
+      "Water Absorption": "< 0.3%",
+      "Compressive Strength": "118 MPa",
+      "Flexural Strength": "12 MPa",
+      "Finish Available": "Polished, Honed, Sandblasted",
+      "Slab Size": "Up to 2600 × 1500 mm",
+      "Thickness": "18mm, 20mm, 30mm"
+    },
+    "applications": [
+      "Feature Walls",
+      "Hotel Lobbies",
+      "Bathroom Vanities",
+      "Reception Desks",
+      "Pool Surrounds"
+    ],
+    "pricing": {
+      "Export Quality": 390,
+      "Premium Grade": 320,
+      "Commercial Grade": 250,
+      "Economy Grade": 180
+    },
+    "unit": "sq.ft",
+    "moq": "150 sq.ft",
+    "leadTime": "12–18 days",
+    "inStock": true,
+    "featured": true,
+    "imageSourceId": 29
+  },
+  {
+    "id": 4,
+    "name": "Absolute Black Granite",
+    "category": "Granite",
+    "origin": "Tamil Nadu, India",
+    "image": "/assets/catlog/final/dark-granite/slab-004.jpeg",
+    "tag": "High Demand",
+    "tagColor": "#4a8a5e",
+    "description": "Pure jet-black granite with a mirror-like polished surface. Delivers a sophisticated, timeless aesthetic for high-end countertops and architectural cladding.",
+    "longDesc": "Absolute Black granite from Tamil Nadu is one of the hardest and most uniform granites available globally. Zero visible grain variation makes it the preferred choice for minimalist architecture, contemporary kitchens and luxury bathrooms. Exceptional scratch and heat resistance. Widely exported to USA, UAE, UK and European markets for both residential and commercial projects.",
+    "specs": {
+      "Water Absorption": "< 0.05%",
+      "Compressive Strength": "248 MPa",
+      "Flexural Strength": "21 MPa",
+      "Finish Available": "Polished, Leathered, Flamed",
+      "Slab Size": "Up to 3200 × 2000 mm",
+      "Thickness": "18mm, 20mm, 30mm, 40mm"
+    },
+    "applications": [
+      "Kitchen Countertops",
+      "Bathroom Floors",
+      "Exterior Facades",
+      "Stairs",
+      "Monuments"
+    ],
+    "pricing": {
+      "Export Quality": 280,
+      "Premium Grade": 220,
+      "Commercial Grade": 175,
+      "Economy Grade": 130
+    },
+    "unit": "sq.ft",
+    "moq": "400 sq.ft",
+    "leadTime": "7–12 days",
+    "inStock": true,
+    "featured": true,
+    "imageSourceId": 4
+  },
+  {
+    "id": 5,
+    "name": "Kota Blue Stone",
+    "category": "Natural Stone",
+    "origin": "Kota, Rajasthan",
+    "image": "/assets/catlog/final/light-grey-white/slab-041.jpeg",
+    "tag": "Heritage Stone",
+    "tagColor": "#7a9080",
+    "description": "Classic Indian natural limestone with a distinctive blue-grey hue. Renowned for exceptional durability, slip resistance and timeless character for outdoor use.",
+    "longDesc": "Kota stone is India's most iconic natural flooring material — quarried in Kota district of Rajasthan for centuries. Its fine-grained limestone composition delivers superior anti-skid properties making it ideal for courtyards, pathways, terraces and commercial areas. It improves in appearance over time with natural use. Cost-effective, sustainable and widely specified for both heritage restoration and modern architecture.",
+    "specs": {
+      "Water Absorption": "< 1.5%",
+      "Compressive Strength": "95 MPa",
+      "Flexural Strength": "8 MPa",
+      "Finish Available": "Natural, Machine-cut, Polished",
+      "Slab Size": "Custom cut to order",
+      "Thickness": "20mm, 25mm, 30mm"
+    },
+    "applications": [
+      "Outdoor Flooring",
+      "Courtyards",
+      "Staircases",
+      "Garden Paths",
+      "Commercial Areas"
+    ],
+    "pricing": {
+      "Export Quality": 120,
+      "Premium Grade": 95,
+      "Commercial Grade": 75,
+      "Economy Grade": 55
+    },
+    "unit": "sq.ft",
+    "moq": "500 sq.ft",
+    "leadTime": "5–8 days",
+    "inStock": true,
+    "featured": true,
+    "imageSourceId": 41
+  },
+  {
+    "id": 6,
+    "name": "Kashmir White Granite",
+    "category": "Granite",
+    "origin": "Tamil Nadu, India",
+    "image": "/assets/catlog/final/light-grey-white/slab-069.jpeg",
+    "tag": "Premium",
+    "tagColor": "#d4bc8a",
+    "description": "White granite with intricate burgundy and grey mineral veining. A warm, sophisticated stone with the durability of granite and the elegance of marble.",
+    "longDesc": "Kashmir White is one of India's most celebrated export granites — combining a creamy white base with an intricate pattern of burgundy garnets and dark grey amphibole minerals. Uniquely, it offers the visual richness of marble with granite's dimensional stability and stain resistance. A top specification for kitchen countertops and bathroom applications across North American and European markets.",
+    "specs": {
+      "Water Absorption": "< 0.2%",
+      "Compressive Strength": "195 MPa",
+      "Flexural Strength": "16 MPa",
+      "Finish Available": "Polished, Honed, Brushed",
+      "Slab Size": "Up to 2800 × 1800 mm",
+      "Thickness": "16mm, 18mm, 20mm, 30mm"
+    },
+    "applications": [
+      "Kitchen Countertops",
+      "Bathroom Vanities",
+      "Flooring",
+      "Wall Cladding",
+      "Island Tops"
+    ],
+    "pricing": {
+      "Export Quality": 310,
+      "Premium Grade": 250,
+      "Commercial Grade": 195,
+      "Economy Grade": 145
+    },
+    "unit": "sq.ft",
+    "moq": "250 sq.ft",
+    "leadTime": "8–14 days",
+    "inStock": true,
+    "featured": true,
+    "imageSourceId": 69
+  },
+  {
+    "id": 7,
+    "name": "Indian Aurora Marble",
+    "category": "Marble",
+    "origin": "Madhya Pradesh, India",
+    "image": "/assets/catlog/final/warm-red-brown/slab-003.jpeg",
+    "tag": "New Arrival",
+    "tagColor": "#b8a070",
+    "description": "A warm beige-gold marble with flowing veins of amber and ivory. Evokes the soft tones of Italian Onyx with the structural strength of Indian quarries.",
+    "longDesc": "Indian Aurora is a premium warm-toned marble from Madhya Pradesh featuring a rich beige base overlaid with flowing veins of amber, gold and ivory. Its visual warmth makes it particularly desirable for master bedrooms, spa bathrooms, and luxury hospitality projects. Bookmatched pairs create dramatic wall installations. Supplied in calibrated tiles or rough-cut slabs for architectural projects.",
+    "specs": {
+      "Water Absorption": "< 0.5%",
+      "Compressive Strength": "108 MPa",
+      "Flexural Strength": "11 MPa",
+      "Finish Available": "Polished, Brushed, Leather",
+      "Slab Size": "Up to 2400 × 1400 mm",
+      "Thickness": "18mm, 20mm, 30mm"
+    },
+    "applications": [
+      "Master Bedrooms",
+      "Spa Interiors",
+      "Bathroom Walls",
+      "Feature Panels",
+      "Luxury Hotels"
+    ],
+    "pricing": {
+      "Export Quality": 360,
+      "Premium Grade": 290,
+      "Commercial Grade": 225,
+      "Economy Grade": 165
+    },
+    "unit": "sq.ft",
+    "moq": "150 sq.ft",
+    "leadTime": "14–20 days",
+    "inStock": false,
+    "featured": false,
+    "imageSourceId": 3
+  },
+  {
+    "id": 8,
+    "name": "Steel Grey Granite",
+    "category": "Granite",
+    "origin": "Andhra Pradesh, India",
+    "image": "/assets/catlog/final/light-grey-white/slab-012.jpeg",
+    "tag": "Industrial",
+    "tagColor": "#7a9080",
+    "description": "Cool-toned dark grey granite with a uniform fine grain. Versatile and architectural — equally at home in contemporary residential and large-scale commercial projects.",
+    "longDesc": "Steel Grey granite from Andhra Pradesh is defined by its consistent dark charcoal-grey tone with minimal pattern variation. Its uniformity makes it a favourite for large installations where consistency across slabs is essential — shopping malls, office lobbies, airport concourses and modern residential developments. Highly frost-resistant and suitable for exterior applications. Available in jumbo slab format.",
+    "specs": {
+      "Water Absorption": "< 0.08%",
+      "Compressive Strength": "215 MPa",
+      "Flexural Strength": "19 MPa",
+      "Finish Available": "Polished, Flamed, Bushhammered",
+      "Slab Size": "Up to 3200 × 1800 mm",
+      "Thickness": "20mm, 30mm, 40mm"
+    },
+    "applications": [
+      "Commercial Flooring",
+      "Exterior Facades",
+      "Paving",
+      "Office Lobbies",
+      "Landscaping"
+    ],
+    "pricing": {
+      "Export Quality": 195,
+      "Premium Grade": 155,
+      "Commercial Grade": 120,
+      "Economy Grade": 90
+    },
+    "unit": "sq.ft",
+    "moq": "500 sq.ft",
+    "leadTime": "7–10 days",
+    "inStock": true,
+    "featured": false,
+    "imageSourceId": 12
+  },
+  {
+    "id": 9,
+    "name": "Sample Stone 009",
+    "category": "Granite",
+    "origin": "To be confirmed",
+    "image": "/assets/catlog/final/dark-granite/slab-001.jpeg",
+    "tag": "Sample Data",
+    "tagColor": "#777777",
+    "description": "Placeholder catalog listing for a stone with a dark / black texture appearance. Replace this description with verified product details.",
+    "longDesc": "This is temporary sample data added to display and review all available stone images. The current visual grouping is \"Dark / black texture\" and is not a confirmed commercial stone name. Confirm the stone name, origin, specifications, applications, pricing, and availability with Granitura before publishing.",
+    "specs": {
+      "Water Absorption": "To be confirmed",
+      "Compressive Strength": "To be confirmed",
+      "Flexural Strength": "To be confirmed",
+      "Finish Available": "Polished / Honed (placeholder)",
+      "Slab Size": "To be confirmed",
+      "Thickness": "To be confirmed"
+    },
+    "applications": [
+      "Flooring (placeholder)",
+      "Wall Cladding (placeholder)",
+      "Countertops (placeholder)"
+    ],
+    "pricing": {
+      "Export Quality": 320,
+      "Premium Grade": 260,
+      "Commercial Grade": 200,
+      "Economy Grade": 150
+    },
+    "unit": "sq.ft",
+    "moq": "200 sq.ft (placeholder)",
+    "leadTime": "10–14 days (placeholder)",
+    "inStock": true,
+    "featured": false,
+    "imageSourceId": 1,
+    "isPlaceholder": true,
+    "visualCategory": "Dark / black texture"
+  },
+  {
+    "id": 10,
+    "name": "Sample Stone 010",
+    "category": "Natural Stone",
+    "origin": "To be confirmed",
+    "image": "/assets/catlog/final/warm-red-brown/slab-002.jpeg",
+    "tag": "Sample Data",
+    "tagColor": "#a96d4d",
+    "description": "Placeholder catalog listing for a stone with a warm red-brown appearance. Replace this description with verified product details.",
+    "longDesc": "This is temporary sample data added to display and review all available stone images. The current visual grouping is \"Warm red-brown\" and is not a confirmed commercial stone name. Confirm the stone name, origin, specifications, applications, pricing, and availability with Granitura before publishing.",
+    "specs": {
+      "Water Absorption": "To be confirmed",
+      "Compressive Strength": "To be confirmed",
+      "Flexural Strength": "To be confirmed",
+      "Finish Available": "Polished / Honed (placeholder)",
+      "Slab Size": "To be confirmed",
+      "Thickness": "To be confirmed"
+    },
+    "applications": [
+      "Flooring (placeholder)",
+      "Wall Cladding (placeholder)",
+      "Countertops (placeholder)"
+    ],
+    "pricing": {
+      "Export Quality": 320,
+      "Premium Grade": 260,
+      "Commercial Grade": 200,
+      "Economy Grade": 150
+    },
+    "unit": "sq.ft",
+    "moq": "200 sq.ft (placeholder)",
+    "leadTime": "10–14 days (placeholder)",
+    "inStock": true,
+    "featured": false,
+    "imageSourceId": 2,
+    "isPlaceholder": true,
+    "visualCategory": "Warm red-brown"
+  },
+  {
+    "id": 11,
+    "name": "Sample Stone 011",
+    "category": "Natural Stone",
+    "origin": "To be confirmed",
+    "image": "/assets/catlog/final/warm-red-brown/slab-006.jpeg",
+    "tag": "Sample Data",
+    "tagColor": "#a96d4d",
+    "description": "Placeholder catalog listing for a stone with a warm red-brown appearance. Replace this description with verified product details.",
+    "longDesc": "This is temporary sample data added to display and review all available stone images. The current visual grouping is \"Warm red-brown\" and is not a confirmed commercial stone name. Confirm the stone name, origin, specifications, applications, pricing, and availability with Granitura before publishing.",
+    "specs": {
+      "Water Absorption": "To be confirmed",
+      "Compressive Strength": "To be confirmed",
+      "Flexural Strength": "To be confirmed",
+      "Finish Available": "Polished / Honed (placeholder)",
+      "Slab Size": "To be confirmed",
+      "Thickness": "To be confirmed"
+    },
+    "applications": [
+      "Flooring (placeholder)",
+      "Wall Cladding (placeholder)",
+      "Countertops (placeholder)"
+    ],
+    "pricing": {
+      "Export Quality": 320,
+      "Premium Grade": 260,
+      "Commercial Grade": 200,
+      "Economy Grade": 150
+    },
+    "unit": "sq.ft",
+    "moq": "200 sq.ft (placeholder)",
+    "leadTime": "10–14 days (placeholder)",
+    "inStock": true,
+    "featured": false,
+    "imageSourceId": 6,
+    "isPlaceholder": true,
+    "visualCategory": "Warm red-brown"
+  },
+  {
+    "id": 12,
+    "name": "Sample Stone 012",
+    "category": "Natural Stone",
+    "origin": "To be confirmed",
+    "image": "/assets/catlog/final/warm-red-brown/slab-007.jpeg",
+    "tag": "Sample Data",
+    "tagColor": "#a96d4d",
+    "description": "Placeholder catalog listing for a stone with a warm red-brown appearance. Replace this description with verified product details.",
+    "longDesc": "This is temporary sample data added to display and review all available stone images. The current visual grouping is \"Warm red-brown\" and is not a confirmed commercial stone name. Confirm the stone name, origin, specifications, applications, pricing, and availability with Granitura before publishing.",
+    "specs": {
+      "Water Absorption": "To be confirmed",
+      "Compressive Strength": "To be confirmed",
+      "Flexural Strength": "To be confirmed",
+      "Finish Available": "Polished / Honed (placeholder)",
+      "Slab Size": "To be confirmed",
+      "Thickness": "To be confirmed"
+    },
+    "applications": [
+      "Flooring (placeholder)",
+      "Wall Cladding (placeholder)",
+      "Countertops (placeholder)"
+    ],
+    "pricing": {
+      "Export Quality": 320,
+      "Premium Grade": 260,
+      "Commercial Grade": 200,
+      "Economy Grade": 150
+    },
+    "unit": "sq.ft",
+    "moq": "200 sq.ft (placeholder)",
+    "leadTime": "10–14 days (placeholder)",
+    "inStock": true,
+    "featured": false,
+    "imageSourceId": 7,
+    "isPlaceholder": true,
+    "visualCategory": "Warm red-brown"
+  },
+  {
+    "id": 13,
+    "name": "Sample Stone 013",
+    "category": "Granite",
+    "origin": "To be confirmed",
+    "image": "/assets/catlog/final/dark-granite/slab-008.jpeg",
+    "tag": "Sample Data",
+    "tagColor": "#777777",
+    "description": "Placeholder catalog listing for a stone with a dark / black texture appearance. Replace this description with verified product details.",
+    "longDesc": "This is temporary sample data added to display and review all available stone images. The current visual grouping is \"Dark / black texture\" and is not a confirmed commercial stone name. Confirm the stone name, origin, specifications, applications, pricing, and availability with Granitura before publishing.",
+    "specs": {
+      "Water Absorption": "To be confirmed",
+      "Compressive Strength": "To be confirmed",
+      "Flexural Strength": "To be confirmed",
+      "Finish Available": "Polished / Honed (placeholder)",
+      "Slab Size": "To be confirmed",
+      "Thickness": "To be confirmed"
+    },
+    "applications": [
+      "Flooring (placeholder)",
+      "Wall Cladding (placeholder)",
+      "Countertops (placeholder)"
+    ],
+    "pricing": {
+      "Export Quality": 320,
+      "Premium Grade": 260,
+      "Commercial Grade": 200,
+      "Economy Grade": 150
+    },
+    "unit": "sq.ft",
+    "moq": "200 sq.ft (placeholder)",
+    "leadTime": "10–14 days (placeholder)",
+    "inStock": true,
+    "featured": false,
+    "imageSourceId": 8,
+    "isPlaceholder": true,
+    "visualCategory": "Dark / black texture"
+  },
+  {
+    "id": 14,
+    "name": "Sample Stone 014",
+    "category": "Natural Stone",
+    "origin": "To be confirmed",
+    "image": "/assets/catlog/final/warm-red-brown/slab-009.jpeg",
+    "tag": "Sample Data",
+    "tagColor": "#a96d4d",
+    "description": "Placeholder catalog listing for a stone with a warm red-brown appearance. Replace this description with verified product details.",
+    "longDesc": "This is temporary sample data added to display and review all available stone images. The current visual grouping is \"Warm red-brown\" and is not a confirmed commercial stone name. Confirm the stone name, origin, specifications, applications, pricing, and availability with Granitura before publishing.",
+    "specs": {
+      "Water Absorption": "To be confirmed",
+      "Compressive Strength": "To be confirmed",
+      "Flexural Strength": "To be confirmed",
+      "Finish Available": "Polished / Honed (placeholder)",
+      "Slab Size": "To be confirmed",
+      "Thickness": "To be confirmed"
+    },
+    "applications": [
+      "Flooring (placeholder)",
+      "Wall Cladding (placeholder)",
+      "Countertops (placeholder)"
+    ],
+    "pricing": {
+      "Export Quality": 320,
+      "Premium Grade": 260,
+      "Commercial Grade": 200,
+      "Economy Grade": 150
+    },
+    "unit": "sq.ft",
+    "moq": "200 sq.ft (placeholder)",
+    "leadTime": "10–14 days (placeholder)",
+    "inStock": true,
+    "featured": false,
+    "imageSourceId": 9,
+    "isPlaceholder": true,
+    "visualCategory": "Warm red-brown"
+  },
+  {
+    "id": 15,
+    "name": "Sample Stone 015",
+    "category": "Granite",
+    "origin": "To be confirmed",
+    "image": "/assets/catlog/final/dark-granite/slab-010.jpeg",
+    "tag": "Sample Data",
+    "tagColor": "#777777",
+    "description": "Placeholder catalog listing for a stone with a dark / black texture appearance. Replace this description with verified product details.",
+    "longDesc": "This is temporary sample data added to display and review all available stone images. The current visual grouping is \"Dark / black texture\" and is not a confirmed commercial stone name. Confirm the stone name, origin, specifications, applications, pricing, and availability with Granitura before publishing.",
+    "specs": {
+      "Water Absorption": "To be confirmed",
+      "Compressive Strength": "To be confirmed",
+      "Flexural Strength": "To be confirmed",
+      "Finish Available": "Polished / Honed (placeholder)",
+      "Slab Size": "To be confirmed",
+      "Thickness": "To be confirmed"
+    },
+    "applications": [
+      "Flooring (placeholder)",
+      "Wall Cladding (placeholder)",
+      "Countertops (placeholder)"
+    ],
+    "pricing": {
+      "Export Quality": 320,
+      "Premium Grade": 260,
+      "Commercial Grade": 200,
+      "Economy Grade": 150
+    },
+    "unit": "sq.ft",
+    "moq": "200 sq.ft (placeholder)",
+    "leadTime": "10–14 days (placeholder)",
+    "inStock": true,
+    "featured": false,
+    "imageSourceId": 10,
+    "isPlaceholder": true,
+    "visualCategory": "Dark / black texture"
+  },
+  {
+    "id": 16,
+    "name": "Sample Stone 016",
+    "category": "Granite",
+    "origin": "To be confirmed",
+    "image": "/assets/catlog/final/dark-granite/slab-011.jpeg",
+    "tag": "Sample Data",
+    "tagColor": "#777777",
+    "description": "Placeholder catalog listing for a stone with a dark / black texture appearance. Replace this description with verified product details.",
+    "longDesc": "This is temporary sample data added to display and review all available stone images. The current visual grouping is \"Dark / black texture\" and is not a confirmed commercial stone name. Confirm the stone name, origin, specifications, applications, pricing, and availability with Granitura before publishing.",
+    "specs": {
+      "Water Absorption": "To be confirmed",
+      "Compressive Strength": "To be confirmed",
+      "Flexural Strength": "To be confirmed",
+      "Finish Available": "Polished / Honed (placeholder)",
+      "Slab Size": "To be confirmed",
+      "Thickness": "To be confirmed"
+    },
+    "applications": [
+      "Flooring (placeholder)",
+      "Wall Cladding (placeholder)",
+      "Countertops (placeholder)"
+    ],
+    "pricing": {
+      "Export Quality": 320,
+      "Premium Grade": 260,
+      "Commercial Grade": 200,
+      "Economy Grade": 150
+    },
+    "unit": "sq.ft",
+    "moq": "200 sq.ft (placeholder)",
+    "leadTime": "10–14 days (placeholder)",
+    "inStock": true,
+    "featured": false,
+    "imageSourceId": 11,
+    "isPlaceholder": true,
+    "visualCategory": "Dark / black texture"
+  },
+  {
+    "id": 17,
+    "name": "Sample Stone 017",
+    "category": "Natural Stone",
+    "origin": "To be confirmed",
+    "image": "/assets/catlog/final/mixed-veined/slab-013.jpeg",
+    "tag": "Sample Data",
+    "tagColor": "#9c8c75",
+    "description": "Placeholder catalog listing for a stone with a mixed / flowing veins appearance. Replace this description with verified product details.",
+    "longDesc": "This is temporary sample data added to display and review all available stone images. The current visual grouping is \"Mixed / flowing veins\" and is not a confirmed commercial stone name. Confirm the stone name, origin, specifications, applications, pricing, and availability with Granitura before publishing.",
+    "specs": {
+      "Water Absorption": "To be confirmed",
+      "Compressive Strength": "To be confirmed",
+      "Flexural Strength": "To be confirmed",
+      "Finish Available": "Polished / Honed (placeholder)",
+      "Slab Size": "To be confirmed",
+      "Thickness": "To be confirmed"
+    },
+    "applications": [
+      "Flooring (placeholder)",
+      "Wall Cladding (placeholder)",
+      "Countertops (placeholder)"
+    ],
+    "pricing": {
+      "Export Quality": 320,
+      "Premium Grade": 260,
+      "Commercial Grade": 200,
+      "Economy Grade": 150
+    },
+    "unit": "sq.ft",
+    "moq": "200 sq.ft (placeholder)",
+    "leadTime": "10–14 days (placeholder)",
+    "inStock": true,
+    "featured": false,
+    "imageSourceId": 13,
+    "isPlaceholder": true,
+    "visualCategory": "Mixed / flowing veins"
+  },
+  {
+    "id": 18,
+    "name": "Sample Stone 018",
+    "category": "Natural Stone",
+    "origin": "To be confirmed",
+    "image": "/assets/catlog/final/warm-red-brown/slab-014.jpeg",
+    "tag": "Sample Data",
+    "tagColor": "#a96d4d",
+    "description": "Placeholder catalog listing for a stone with a warm red-brown appearance. Replace this description with verified product details.",
+    "longDesc": "This is temporary sample data added to display and review all available stone images. The current visual grouping is \"Warm red-brown\" and is not a confirmed commercial stone name. Confirm the stone name, origin, specifications, applications, pricing, and availability with Granitura before publishing.",
+    "specs": {
+      "Water Absorption": "To be confirmed",
+      "Compressive Strength": "To be confirmed",
+      "Flexural Strength": "To be confirmed",
+      "Finish Available": "Polished / Honed (placeholder)",
+      "Slab Size": "To be confirmed",
+      "Thickness": "To be confirmed"
+    },
+    "applications": [
+      "Flooring (placeholder)",
+      "Wall Cladding (placeholder)",
+      "Countertops (placeholder)"
+    ],
+    "pricing": {
+      "Export Quality": 320,
+      "Premium Grade": 260,
+      "Commercial Grade": 200,
+      "Economy Grade": 150
+    },
+    "unit": "sq.ft",
+    "moq": "200 sq.ft (placeholder)",
+    "leadTime": "10–14 days (placeholder)",
+    "inStock": true,
+    "featured": false,
+    "imageSourceId": 14,
+    "isPlaceholder": true,
+    "visualCategory": "Warm red-brown"
+  },
+  {
+    "id": 19,
+    "name": "Sample Stone 019",
+    "category": "Marble",
+    "origin": "To be confirmed",
+    "image": "/assets/catlog/final/light-grey-white/slab-015.jpeg",
+    "tag": "Sample Data",
+    "tagColor": "#b8b8b8",
+    "description": "Placeholder catalog listing for a stone with a light grey-white appearance. Replace this description with verified product details.",
+    "longDesc": "This is temporary sample data added to display and review all available stone images. The current visual grouping is \"Light grey-white\" and is not a confirmed commercial stone name. Confirm the stone name, origin, specifications, applications, pricing, and availability with Granitura before publishing.",
+    "specs": {
+      "Water Absorption": "To be confirmed",
+      "Compressive Strength": "To be confirmed",
+      "Flexural Strength": "To be confirmed",
+      "Finish Available": "Polished / Honed (placeholder)",
+      "Slab Size": "To be confirmed",
+      "Thickness": "To be confirmed"
+    },
+    "applications": [
+      "Flooring (placeholder)",
+      "Wall Cladding (placeholder)",
+      "Countertops (placeholder)"
+    ],
+    "pricing": {
+      "Export Quality": 320,
+      "Premium Grade": 260,
+      "Commercial Grade": 200,
+      "Economy Grade": 150
+    },
+    "unit": "sq.ft",
+    "moq": "200 sq.ft (placeholder)",
+    "leadTime": "10–14 days (placeholder)",
+    "inStock": true,
+    "featured": false,
+    "imageSourceId": 15,
+    "isPlaceholder": true,
+    "visualCategory": "Light grey-white"
+  },
+  {
+    "id": 20,
+    "name": "Sample Stone 020",
+    "category": "Marble",
+    "origin": "To be confirmed",
+    "image": "/assets/catlog/final/light-grey-white/slab-016.jpeg",
+    "tag": "Sample Data",
+    "tagColor": "#b8b8b8",
+    "description": "Placeholder catalog listing for a stone with a light grey-white appearance. Replace this description with verified product details.",
+    "longDesc": "This is temporary sample data added to display and review all available stone images. The current visual grouping is \"Light grey-white\" and is not a confirmed commercial stone name. Confirm the stone name, origin, specifications, applications, pricing, and availability with Granitura before publishing.",
+    "specs": {
+      "Water Absorption": "To be confirmed",
+      "Compressive Strength": "To be confirmed",
+      "Flexural Strength": "To be confirmed",
+      "Finish Available": "Polished / Honed (placeholder)",
+      "Slab Size": "To be confirmed",
+      "Thickness": "To be confirmed"
+    },
+    "applications": [
+      "Flooring (placeholder)",
+      "Wall Cladding (placeholder)",
+      "Countertops (placeholder)"
+    ],
+    "pricing": {
+      "Export Quality": 320,
+      "Premium Grade": 260,
+      "Commercial Grade": 200,
+      "Economy Grade": 150
+    },
+    "unit": "sq.ft",
+    "moq": "200 sq.ft (placeholder)",
+    "leadTime": "10–14 days (placeholder)",
+    "inStock": true,
+    "featured": false,
+    "imageSourceId": 16,
+    "isPlaceholder": true,
+    "visualCategory": "Light grey-white"
+  },
+  {
+    "id": 21,
+    "name": "Sample Stone 021",
+    "category": "Marble",
+    "origin": "To be confirmed",
+    "image": "/assets/catlog/final/light-grey-white/slab-017.jpeg",
+    "tag": "Sample Data",
+    "tagColor": "#b8b8b8",
+    "description": "Placeholder catalog listing for a stone with a light grey-white appearance. Replace this description with verified product details.",
+    "longDesc": "This is temporary sample data added to display and review all available stone images. The current visual grouping is \"Light grey-white\" and is not a confirmed commercial stone name. Confirm the stone name, origin, specifications, applications, pricing, and availability with Granitura before publishing.",
+    "specs": {
+      "Water Absorption": "To be confirmed",
+      "Compressive Strength": "To be confirmed",
+      "Flexural Strength": "To be confirmed",
+      "Finish Available": "Polished / Honed (placeholder)",
+      "Slab Size": "To be confirmed",
+      "Thickness": "To be confirmed"
+    },
+    "applications": [
+      "Flooring (placeholder)",
+      "Wall Cladding (placeholder)",
+      "Countertops (placeholder)"
+    ],
+    "pricing": {
+      "Export Quality": 320,
+      "Premium Grade": 260,
+      "Commercial Grade": 200,
+      "Economy Grade": 150
+    },
+    "unit": "sq.ft",
+    "moq": "200 sq.ft (placeholder)",
+    "leadTime": "10–14 days (placeholder)",
+    "inStock": true,
+    "featured": false,
+    "imageSourceId": 17,
+    "isPlaceholder": true,
+    "visualCategory": "Light grey-white"
+  },
+  {
+    "id": 22,
+    "name": "Sample Stone 022",
+    "category": "Natural Stone",
+    "origin": "To be confirmed",
+    "image": "/assets/catlog/final/mixed-veined/slab-018.jpeg",
+    "tag": "Sample Data",
+    "tagColor": "#9c8c75",
+    "description": "Placeholder catalog listing for a stone with a mixed / flowing veins appearance. Replace this description with verified product details.",
+    "longDesc": "This is temporary sample data added to display and review all available stone images. The current visual grouping is \"Mixed / flowing veins\" and is not a confirmed commercial stone name. Confirm the stone name, origin, specifications, applications, pricing, and availability with Granitura before publishing.",
+    "specs": {
+      "Water Absorption": "To be confirmed",
+      "Compressive Strength": "To be confirmed",
+      "Flexural Strength": "To be confirmed",
+      "Finish Available": "Polished / Honed (placeholder)",
+      "Slab Size": "To be confirmed",
+      "Thickness": "To be confirmed"
+    },
+    "applications": [
+      "Flooring (placeholder)",
+      "Wall Cladding (placeholder)",
+      "Countertops (placeholder)"
+    ],
+    "pricing": {
+      "Export Quality": 320,
+      "Premium Grade": 260,
+      "Commercial Grade": 200,
+      "Economy Grade": 150
+    },
+    "unit": "sq.ft",
+    "moq": "200 sq.ft (placeholder)",
+    "leadTime": "10–14 days (placeholder)",
+    "inStock": true,
+    "featured": false,
+    "imageSourceId": 18,
+    "isPlaceholder": true,
+    "visualCategory": "Mixed / flowing veins"
+  },
+  {
+    "id": 23,
+    "name": "Sample Stone 023",
+    "category": "Marble",
+    "origin": "To be confirmed",
+    "image": "/assets/catlog/final/light-grey-white/slab-019.jpeg",
+    "tag": "Sample Data",
+    "tagColor": "#b8b8b8",
+    "description": "Placeholder catalog listing for a stone with a light grey-white appearance. Replace this description with verified product details.",
+    "longDesc": "This is temporary sample data added to display and review all available stone images. The current visual grouping is \"Light grey-white\" and is not a confirmed commercial stone name. Confirm the stone name, origin, specifications, applications, pricing, and availability with Granitura before publishing.",
+    "specs": {
+      "Water Absorption": "To be confirmed",
+      "Compressive Strength": "To be confirmed",
+      "Flexural Strength": "To be confirmed",
+      "Finish Available": "Polished / Honed (placeholder)",
+      "Slab Size": "To be confirmed",
+      "Thickness": "To be confirmed"
+    },
+    "applications": [
+      "Flooring (placeholder)",
+      "Wall Cladding (placeholder)",
+      "Countertops (placeholder)"
+    ],
+    "pricing": {
+      "Export Quality": 320,
+      "Premium Grade": 260,
+      "Commercial Grade": 200,
+      "Economy Grade": 150
+    },
+    "unit": "sq.ft",
+    "moq": "200 sq.ft (placeholder)",
+    "leadTime": "10–14 days (placeholder)",
+    "inStock": true,
+    "featured": false,
+    "imageSourceId": 19,
+    "isPlaceholder": true,
+    "visualCategory": "Light grey-white"
+  },
+  {
+    "id": 24,
+    "name": "Sample Stone 024",
+    "category": "Natural Stone",
+    "origin": "To be confirmed",
+    "image": "/assets/catlog/final/mixed-veined/slab-020.jpeg",
+    "tag": "Sample Data",
+    "tagColor": "#9c8c75",
+    "description": "Placeholder catalog listing for a stone with a mixed / flowing veins appearance. Replace this description with verified product details.",
+    "longDesc": "This is temporary sample data added to display and review all available stone images. The current visual grouping is \"Mixed / flowing veins\" and is not a confirmed commercial stone name. Confirm the stone name, origin, specifications, applications, pricing, and availability with Granitura before publishing.",
+    "specs": {
+      "Water Absorption": "To be confirmed",
+      "Compressive Strength": "To be confirmed",
+      "Flexural Strength": "To be confirmed",
+      "Finish Available": "Polished / Honed (placeholder)",
+      "Slab Size": "To be confirmed",
+      "Thickness": "To be confirmed"
+    },
+    "applications": [
+      "Flooring (placeholder)",
+      "Wall Cladding (placeholder)",
+      "Countertops (placeholder)"
+    ],
+    "pricing": {
+      "Export Quality": 320,
+      "Premium Grade": 260,
+      "Commercial Grade": 200,
+      "Economy Grade": 150
+    },
+    "unit": "sq.ft",
+    "moq": "200 sq.ft (placeholder)",
+    "leadTime": "10–14 days (placeholder)",
+    "inStock": true,
+    "featured": false,
+    "imageSourceId": 20,
+    "isPlaceholder": true,
+    "visualCategory": "Mixed / flowing veins"
+  },
+  {
+    "id": 25,
+    "name": "Sample Stone 025",
+    "category": "Natural Stone",
+    "origin": "To be confirmed",
+    "image": "/assets/catlog/final/warm-red-brown/slab-021.jpeg",
+    "tag": "Sample Data",
+    "tagColor": "#a96d4d",
+    "description": "Placeholder catalog listing for a stone with a warm red-brown appearance. Replace this description with verified product details.",
+    "longDesc": "This is temporary sample data added to display and review all available stone images. The current visual grouping is \"Warm red-brown\" and is not a confirmed commercial stone name. Confirm the stone name, origin, specifications, applications, pricing, and availability with Granitura before publishing.",
+    "specs": {
+      "Water Absorption": "To be confirmed",
+      "Compressive Strength": "To be confirmed",
+      "Flexural Strength": "To be confirmed",
+      "Finish Available": "Polished / Honed (placeholder)",
+      "Slab Size": "To be confirmed",
+      "Thickness": "To be confirmed"
+    },
+    "applications": [
+      "Flooring (placeholder)",
+      "Wall Cladding (placeholder)",
+      "Countertops (placeholder)"
+    ],
+    "pricing": {
+      "Export Quality": 320,
+      "Premium Grade": 260,
+      "Commercial Grade": 200,
+      "Economy Grade": 150
+    },
+    "unit": "sq.ft",
+    "moq": "200 sq.ft (placeholder)",
+    "leadTime": "10–14 days (placeholder)",
+    "inStock": true,
+    "featured": false,
+    "imageSourceId": 21,
+    "isPlaceholder": true,
+    "visualCategory": "Warm red-brown"
+  },
+  {
+    "id": 26,
+    "name": "Sample Stone 026",
+    "category": "Natural Stone",
+    "origin": "To be confirmed",
+    "image": "/assets/catlog/final/warm-red-brown/slab-022.jpeg",
+    "tag": "Sample Data",
+    "tagColor": "#a96d4d",
+    "description": "Placeholder catalog listing for a stone with a warm red-brown appearance. Replace this description with verified product details.",
+    "longDesc": "This is temporary sample data added to display and review all available stone images. The current visual grouping is \"Warm red-brown\" and is not a confirmed commercial stone name. Confirm the stone name, origin, specifications, applications, pricing, and availability with Granitura before publishing.",
+    "specs": {
+      "Water Absorption": "To be confirmed",
+      "Compressive Strength": "To be confirmed",
+      "Flexural Strength": "To be confirmed",
+      "Finish Available": "Polished / Honed (placeholder)",
+      "Slab Size": "To be confirmed",
+      "Thickness": "To be confirmed"
+    },
+    "applications": [
+      "Flooring (placeholder)",
+      "Wall Cladding (placeholder)",
+      "Countertops (placeholder)"
+    ],
+    "pricing": {
+      "Export Quality": 320,
+      "Premium Grade": 260,
+      "Commercial Grade": 200,
+      "Economy Grade": 150
+    },
+    "unit": "sq.ft",
+    "moq": "200 sq.ft (placeholder)",
+    "leadTime": "10–14 days (placeholder)",
+    "inStock": true,
+    "featured": false,
+    "imageSourceId": 22,
+    "isPlaceholder": true,
+    "visualCategory": "Warm red-brown"
+  },
+  {
+    "id": 27,
+    "name": "Sample Stone 027",
+    "category": "Natural Stone",
+    "origin": "To be confirmed",
+    "image": "/assets/catlog/final/mixed-veined/slab-023.jpeg",
+    "tag": "Sample Data",
+    "tagColor": "#9c8c75",
+    "description": "Placeholder catalog listing for a stone with a mixed / flowing veins appearance. Replace this description with verified product details.",
+    "longDesc": "This is temporary sample data added to display and review all available stone images. The current visual grouping is \"Mixed / flowing veins\" and is not a confirmed commercial stone name. Confirm the stone name, origin, specifications, applications, pricing, and availability with Granitura before publishing.",
+    "specs": {
+      "Water Absorption": "To be confirmed",
+      "Compressive Strength": "To be confirmed",
+      "Flexural Strength": "To be confirmed",
+      "Finish Available": "Polished / Honed (placeholder)",
+      "Slab Size": "To be confirmed",
+      "Thickness": "To be confirmed"
+    },
+    "applications": [
+      "Flooring (placeholder)",
+      "Wall Cladding (placeholder)",
+      "Countertops (placeholder)"
+    ],
+    "pricing": {
+      "Export Quality": 320,
+      "Premium Grade": 260,
+      "Commercial Grade": 200,
+      "Economy Grade": 150
+    },
+    "unit": "sq.ft",
+    "moq": "200 sq.ft (placeholder)",
+    "leadTime": "10–14 days (placeholder)",
+    "inStock": true,
+    "featured": false,
+    "imageSourceId": 23,
+    "isPlaceholder": true,
+    "visualCategory": "Mixed / flowing veins"
+  },
+  {
+    "id": 28,
+    "name": "Sample Stone 028",
+    "category": "Natural Stone",
+    "origin": "To be confirmed",
+    "image": "/assets/catlog/final/warm-red-brown/slab-024.jpeg",
+    "tag": "Sample Data",
+    "tagColor": "#a96d4d",
+    "description": "Placeholder catalog listing for a stone with a warm red-brown appearance. Replace this description with verified product details.",
+    "longDesc": "This is temporary sample data added to display and review all available stone images. The current visual grouping is \"Warm red-brown\" and is not a confirmed commercial stone name. Confirm the stone name, origin, specifications, applications, pricing, and availability with Granitura before publishing.",
+    "specs": {
+      "Water Absorption": "To be confirmed",
+      "Compressive Strength": "To be confirmed",
+      "Flexural Strength": "To be confirmed",
+      "Finish Available": "Polished / Honed (placeholder)",
+      "Slab Size": "To be confirmed",
+      "Thickness": "To be confirmed"
+    },
+    "applications": [
+      "Flooring (placeholder)",
+      "Wall Cladding (placeholder)",
+      "Countertops (placeholder)"
+    ],
+    "pricing": {
+      "Export Quality": 320,
+      "Premium Grade": 260,
+      "Commercial Grade": 200,
+      "Economy Grade": 150
+    },
+    "unit": "sq.ft",
+    "moq": "200 sq.ft (placeholder)",
+    "leadTime": "10–14 days (placeholder)",
+    "inStock": true,
+    "featured": false,
+    "imageSourceId": 24,
+    "isPlaceholder": true,
+    "visualCategory": "Warm red-brown"
+  },
+  {
+    "id": 29,
+    "name": "Sample Stone 029",
+    "category": "Natural Stone",
+    "origin": "To be confirmed",
+    "image": "/assets/catlog/final/warm-red-brown/slab-025.jpeg",
+    "tag": "Sample Data",
+    "tagColor": "#a96d4d",
+    "description": "Placeholder catalog listing for a stone with a warm red-brown appearance. Replace this description with verified product details.",
+    "longDesc": "This is temporary sample data added to display and review all available stone images. The current visual grouping is \"Warm red-brown\" and is not a confirmed commercial stone name. Confirm the stone name, origin, specifications, applications, pricing, and availability with Granitura before publishing.",
+    "specs": {
+      "Water Absorption": "To be confirmed",
+      "Compressive Strength": "To be confirmed",
+      "Flexural Strength": "To be confirmed",
+      "Finish Available": "Polished / Honed (placeholder)",
+      "Slab Size": "To be confirmed",
+      "Thickness": "To be confirmed"
+    },
+    "applications": [
+      "Flooring (placeholder)",
+      "Wall Cladding (placeholder)",
+      "Countertops (placeholder)"
+    ],
+    "pricing": {
+      "Export Quality": 320,
+      "Premium Grade": 260,
+      "Commercial Grade": 200,
+      "Economy Grade": 150
+    },
+    "unit": "sq.ft",
+    "moq": "200 sq.ft (placeholder)",
+    "leadTime": "10–14 days (placeholder)",
+    "inStock": true,
+    "featured": false,
+    "imageSourceId": 25,
+    "isPlaceholder": true,
+    "visualCategory": "Warm red-brown"
+  },
+  {
+    "id": 30,
+    "name": "Sample Stone 030",
+    "category": "Natural Stone",
+    "origin": "To be confirmed",
+    "image": "/assets/catlog/final/warm-red-brown/slab-026.jpeg",
+    "tag": "Sample Data",
+    "tagColor": "#a96d4d",
+    "description": "Placeholder catalog listing for a stone with a warm red-brown appearance. Replace this description with verified product details.",
+    "longDesc": "This is temporary sample data added to display and review all available stone images. The current visual grouping is \"Warm red-brown\" and is not a confirmed commercial stone name. Confirm the stone name, origin, specifications, applications, pricing, and availability with Granitura before publishing.",
+    "specs": {
+      "Water Absorption": "To be confirmed",
+      "Compressive Strength": "To be confirmed",
+      "Flexural Strength": "To be confirmed",
+      "Finish Available": "Polished / Honed (placeholder)",
+      "Slab Size": "To be confirmed",
+      "Thickness": "To be confirmed"
+    },
+    "applications": [
+      "Flooring (placeholder)",
+      "Wall Cladding (placeholder)",
+      "Countertops (placeholder)"
+    ],
+    "pricing": {
+      "Export Quality": 320,
+      "Premium Grade": 260,
+      "Commercial Grade": 200,
+      "Economy Grade": 150
+    },
+    "unit": "sq.ft",
+    "moq": "200 sq.ft (placeholder)",
+    "leadTime": "10–14 days (placeholder)",
+    "inStock": true,
+    "featured": false,
+    "imageSourceId": 26,
+    "isPlaceholder": true,
+    "visualCategory": "Warm red-brown"
+  },
+  {
+    "id": 31,
+    "name": "Sample Stone 031",
+    "category": "Marble",
+    "origin": "To be confirmed",
+    "image": "/assets/catlog/final/light-grey-white/slab-027.jpeg",
+    "tag": "Sample Data",
+    "tagColor": "#b8b8b8",
+    "description": "Placeholder catalog listing for a stone with a light grey-white appearance. Replace this description with verified product details.",
+    "longDesc": "This is temporary sample data added to display and review all available stone images. The current visual grouping is \"Light grey-white\" and is not a confirmed commercial stone name. Confirm the stone name, origin, specifications, applications, pricing, and availability with Granitura before publishing.",
+    "specs": {
+      "Water Absorption": "To be confirmed",
+      "Compressive Strength": "To be confirmed",
+      "Flexural Strength": "To be confirmed",
+      "Finish Available": "Polished / Honed (placeholder)",
+      "Slab Size": "To be confirmed",
+      "Thickness": "To be confirmed"
+    },
+    "applications": [
+      "Flooring (placeholder)",
+      "Wall Cladding (placeholder)",
+      "Countertops (placeholder)"
+    ],
+    "pricing": {
+      "Export Quality": 320,
+      "Premium Grade": 260,
+      "Commercial Grade": 200,
+      "Economy Grade": 150
+    },
+    "unit": "sq.ft",
+    "moq": "200 sq.ft (placeholder)",
+    "leadTime": "10–14 days (placeholder)",
+    "inStock": true,
+    "featured": false,
+    "imageSourceId": 27,
+    "isPlaceholder": true,
+    "visualCategory": "Light grey-white"
+  },
+  {
+    "id": 32,
+    "name": "Sample Stone 032",
+    "category": "Granite",
+    "origin": "To be confirmed",
+    "image": "/assets/catlog/final/dark-granite/slab-028.jpeg",
+    "tag": "Sample Data",
+    "tagColor": "#777777",
+    "description": "Placeholder catalog listing for a stone with a dark / black texture appearance. Replace this description with verified product details.",
+    "longDesc": "This is temporary sample data added to display and review all available stone images. The current visual grouping is \"Dark / black texture\" and is not a confirmed commercial stone name. Confirm the stone name, origin, specifications, applications, pricing, and availability with Granitura before publishing.",
+    "specs": {
+      "Water Absorption": "To be confirmed",
+      "Compressive Strength": "To be confirmed",
+      "Flexural Strength": "To be confirmed",
+      "Finish Available": "Polished / Honed (placeholder)",
+      "Slab Size": "To be confirmed",
+      "Thickness": "To be confirmed"
+    },
+    "applications": [
+      "Flooring (placeholder)",
+      "Wall Cladding (placeholder)",
+      "Countertops (placeholder)"
+    ],
+    "pricing": {
+      "Export Quality": 320,
+      "Premium Grade": 260,
+      "Commercial Grade": 200,
+      "Economy Grade": 150
+    },
+    "unit": "sq.ft",
+    "moq": "200 sq.ft (placeholder)",
+    "leadTime": "10–14 days (placeholder)",
+    "inStock": true,
+    "featured": false,
+    "imageSourceId": 28,
+    "isPlaceholder": true,
+    "visualCategory": "Dark / black texture"
+  },
+  {
+    "id": 33,
+    "name": "Sample Stone 033",
+    "category": "Natural Stone",
+    "origin": "To be confirmed",
+    "image": "/assets/catlog/final/warm-red-brown/slab-030.jpeg",
+    "tag": "Sample Data",
+    "tagColor": "#a96d4d",
+    "description": "Placeholder catalog listing for a stone with a warm red-brown appearance. Replace this description with verified product details.",
+    "longDesc": "This is temporary sample data added to display and review all available stone images. The current visual grouping is \"Warm red-brown\" and is not a confirmed commercial stone name. Confirm the stone name, origin, specifications, applications, pricing, and availability with Granitura before publishing.",
+    "specs": {
+      "Water Absorption": "To be confirmed",
+      "Compressive Strength": "To be confirmed",
+      "Flexural Strength": "To be confirmed",
+      "Finish Available": "Polished / Honed (placeholder)",
+      "Slab Size": "To be confirmed",
+      "Thickness": "To be confirmed"
+    },
+    "applications": [
+      "Flooring (placeholder)",
+      "Wall Cladding (placeholder)",
+      "Countertops (placeholder)"
+    ],
+    "pricing": {
+      "Export Quality": 320,
+      "Premium Grade": 260,
+      "Commercial Grade": 200,
+      "Economy Grade": 150
+    },
+    "unit": "sq.ft",
+    "moq": "200 sq.ft (placeholder)",
+    "leadTime": "10–14 days (placeholder)",
+    "inStock": true,
+    "featured": false,
+    "imageSourceId": 30,
+    "isPlaceholder": true,
+    "visualCategory": "Warm red-brown"
+  },
+  {
+    "id": 34,
+    "name": "Sample Stone 034",
+    "category": "Natural Stone",
+    "origin": "To be confirmed",
+    "image": "/assets/catlog/final/warm-red-brown/slab-031.jpeg",
+    "tag": "Sample Data",
+    "tagColor": "#a96d4d",
+    "description": "Placeholder catalog listing for a stone with a warm red-brown appearance. Replace this description with verified product details.",
+    "longDesc": "This is temporary sample data added to display and review all available stone images. The current visual grouping is \"Warm red-brown\" and is not a confirmed commercial stone name. Confirm the stone name, origin, specifications, applications, pricing, and availability with Granitura before publishing.",
+    "specs": {
+      "Water Absorption": "To be confirmed",
+      "Compressive Strength": "To be confirmed",
+      "Flexural Strength": "To be confirmed",
+      "Finish Available": "Polished / Honed (placeholder)",
+      "Slab Size": "To be confirmed",
+      "Thickness": "To be confirmed"
+    },
+    "applications": [
+      "Flooring (placeholder)",
+      "Wall Cladding (placeholder)",
+      "Countertops (placeholder)"
+    ],
+    "pricing": {
+      "Export Quality": 320,
+      "Premium Grade": 260,
+      "Commercial Grade": 200,
+      "Economy Grade": 150
+    },
+    "unit": "sq.ft",
+    "moq": "200 sq.ft (placeholder)",
+    "leadTime": "10–14 days (placeholder)",
+    "inStock": true,
+    "featured": false,
+    "imageSourceId": 31,
+    "isPlaceholder": true,
+    "visualCategory": "Warm red-brown"
+  },
+  {
+    "id": 35,
+    "name": "Sample Stone 035",
+    "category": "Granite",
+    "origin": "To be confirmed",
+    "image": "/assets/catlog/final/dark-granite/slab-032.jpeg",
+    "tag": "Sample Data",
+    "tagColor": "#777777",
+    "description": "Placeholder catalog listing for a stone with a dark / black texture appearance. Replace this description with verified product details.",
+    "longDesc": "This is temporary sample data added to display and review all available stone images. The current visual grouping is \"Dark / black texture\" and is not a confirmed commercial stone name. Confirm the stone name, origin, specifications, applications, pricing, and availability with Granitura before publishing.",
+    "specs": {
+      "Water Absorption": "To be confirmed",
+      "Compressive Strength": "To be confirmed",
+      "Flexural Strength": "To be confirmed",
+      "Finish Available": "Polished / Honed (placeholder)",
+      "Slab Size": "To be confirmed",
+      "Thickness": "To be confirmed"
+    },
+    "applications": [
+      "Flooring (placeholder)",
+      "Wall Cladding (placeholder)",
+      "Countertops (placeholder)"
+    ],
+    "pricing": {
+      "Export Quality": 320,
+      "Premium Grade": 260,
+      "Commercial Grade": 200,
+      "Economy Grade": 150
+    },
+    "unit": "sq.ft",
+    "moq": "200 sq.ft (placeholder)",
+    "leadTime": "10–14 days (placeholder)",
+    "inStock": true,
+    "featured": false,
+    "imageSourceId": 32,
+    "isPlaceholder": true,
+    "visualCategory": "Dark / black texture"
+  },
+  {
+    "id": 36,
+    "name": "Sample Stone 036",
+    "category": "Natural Stone",
+    "origin": "To be confirmed",
+    "image": "/assets/catlog/final/warm-red-brown/slab-033.jpeg",
+    "tag": "Sample Data",
+    "tagColor": "#a96d4d",
+    "description": "Placeholder catalog listing for a stone with a warm red-brown appearance. Replace this description with verified product details.",
+    "longDesc": "This is temporary sample data added to display and review all available stone images. The current visual grouping is \"Warm red-brown\" and is not a confirmed commercial stone name. Confirm the stone name, origin, specifications, applications, pricing, and availability with Granitura before publishing.",
+    "specs": {
+      "Water Absorption": "To be confirmed",
+      "Compressive Strength": "To be confirmed",
+      "Flexural Strength": "To be confirmed",
+      "Finish Available": "Polished / Honed (placeholder)",
+      "Slab Size": "To be confirmed",
+      "Thickness": "To be confirmed"
+    },
+    "applications": [
+      "Flooring (placeholder)",
+      "Wall Cladding (placeholder)",
+      "Countertops (placeholder)"
+    ],
+    "pricing": {
+      "Export Quality": 320,
+      "Premium Grade": 260,
+      "Commercial Grade": 200,
+      "Economy Grade": 150
+    },
+    "unit": "sq.ft",
+    "moq": "200 sq.ft (placeholder)",
+    "leadTime": "10–14 days (placeholder)",
+    "inStock": true,
+    "featured": false,
+    "imageSourceId": 33,
+    "isPlaceholder": true,
+    "visualCategory": "Warm red-brown"
+  },
+  {
+    "id": 37,
+    "name": "Sample Stone 037",
+    "category": "Natural Stone",
+    "origin": "To be confirmed",
+    "image": "/assets/catlog/final/warm-red-brown/slab-034.jpeg",
+    "tag": "Sample Data",
+    "tagColor": "#a96d4d",
+    "description": "Placeholder catalog listing for a stone with a warm red-brown appearance. Replace this description with verified product details.",
+    "longDesc": "This is temporary sample data added to display and review all available stone images. The current visual grouping is \"Warm red-brown\" and is not a confirmed commercial stone name. Confirm the stone name, origin, specifications, applications, pricing, and availability with Granitura before publishing.",
+    "specs": {
+      "Water Absorption": "To be confirmed",
+      "Compressive Strength": "To be confirmed",
+      "Flexural Strength": "To be confirmed",
+      "Finish Available": "Polished / Honed (placeholder)",
+      "Slab Size": "To be confirmed",
+      "Thickness": "To be confirmed"
+    },
+    "applications": [
+      "Flooring (placeholder)",
+      "Wall Cladding (placeholder)",
+      "Countertops (placeholder)"
+    ],
+    "pricing": {
+      "Export Quality": 320,
+      "Premium Grade": 260,
+      "Commercial Grade": 200,
+      "Economy Grade": 150
+    },
+    "unit": "sq.ft",
+    "moq": "200 sq.ft (placeholder)",
+    "leadTime": "10–14 days (placeholder)",
+    "inStock": true,
+    "featured": false,
+    "imageSourceId": 34,
+    "isPlaceholder": true,
+    "visualCategory": "Warm red-brown"
+  },
+  {
+    "id": 38,
+    "name": "Sample Stone 038",
+    "category": "Natural Stone",
+    "origin": "To be confirmed",
+    "image": "/assets/catlog/final/warm-red-brown/slab-035.jpeg",
+    "tag": "Sample Data",
+    "tagColor": "#a96d4d",
+    "description": "Placeholder catalog listing for a stone with a warm red-brown appearance. Replace this description with verified product details.",
+    "longDesc": "This is temporary sample data added to display and review all available stone images. The current visual grouping is \"Warm red-brown\" and is not a confirmed commercial stone name. Confirm the stone name, origin, specifications, applications, pricing, and availability with Granitura before publishing.",
+    "specs": {
+      "Water Absorption": "To be confirmed",
+      "Compressive Strength": "To be confirmed",
+      "Flexural Strength": "To be confirmed",
+      "Finish Available": "Polished / Honed (placeholder)",
+      "Slab Size": "To be confirmed",
+      "Thickness": "To be confirmed"
+    },
+    "applications": [
+      "Flooring (placeholder)",
+      "Wall Cladding (placeholder)",
+      "Countertops (placeholder)"
+    ],
+    "pricing": {
+      "Export Quality": 320,
+      "Premium Grade": 260,
+      "Commercial Grade": 200,
+      "Economy Grade": 150
+    },
+    "unit": "sq.ft",
+    "moq": "200 sq.ft (placeholder)",
+    "leadTime": "10–14 days (placeholder)",
+    "inStock": true,
+    "featured": false,
+    "imageSourceId": 35,
+    "isPlaceholder": true,
+    "visualCategory": "Warm red-brown"
+  },
+  {
+    "id": 39,
+    "name": "Sample Stone 039",
+    "category": "Natural Stone",
+    "origin": "To be confirmed",
+    "image": "/assets/catlog/final/mixed-veined/slab-036.jpeg",
+    "tag": "Sample Data",
+    "tagColor": "#9c8c75",
+    "description": "Placeholder catalog listing for a stone with a mixed / flowing veins appearance. Replace this description with verified product details.",
+    "longDesc": "This is temporary sample data added to display and review all available stone images. The current visual grouping is \"Mixed / flowing veins\" and is not a confirmed commercial stone name. Confirm the stone name, origin, specifications, applications, pricing, and availability with Granitura before publishing.",
+    "specs": {
+      "Water Absorption": "To be confirmed",
+      "Compressive Strength": "To be confirmed",
+      "Flexural Strength": "To be confirmed",
+      "Finish Available": "Polished / Honed (placeholder)",
+      "Slab Size": "To be confirmed",
+      "Thickness": "To be confirmed"
+    },
+    "applications": [
+      "Flooring (placeholder)",
+      "Wall Cladding (placeholder)",
+      "Countertops (placeholder)"
+    ],
+    "pricing": {
+      "Export Quality": 320,
+      "Premium Grade": 260,
+      "Commercial Grade": 200,
+      "Economy Grade": 150
+    },
+    "unit": "sq.ft",
+    "moq": "200 sq.ft (placeholder)",
+    "leadTime": "10–14 days (placeholder)",
+    "inStock": true,
+    "featured": false,
+    "imageSourceId": 36,
+    "isPlaceholder": true,
+    "visualCategory": "Mixed / flowing veins"
+  },
+  {
+    "id": 40,
+    "name": "Sample Stone 040",
+    "category": "Natural Stone",
+    "origin": "To be confirmed",
+    "image": "/assets/catlog/final/warm-red-brown/slab-037.jpeg",
+    "tag": "Sample Data",
+    "tagColor": "#a96d4d",
+    "description": "Placeholder catalog listing for a stone with a warm red-brown appearance. Replace this description with verified product details.",
+    "longDesc": "This is temporary sample data added to display and review all available stone images. The current visual grouping is \"Warm red-brown\" and is not a confirmed commercial stone name. Confirm the stone name, origin, specifications, applications, pricing, and availability with Granitura before publishing.",
+    "specs": {
+      "Water Absorption": "To be confirmed",
+      "Compressive Strength": "To be confirmed",
+      "Flexural Strength": "To be confirmed",
+      "Finish Available": "Polished / Honed (placeholder)",
+      "Slab Size": "To be confirmed",
+      "Thickness": "To be confirmed"
+    },
+    "applications": [
+      "Flooring (placeholder)",
+      "Wall Cladding (placeholder)",
+      "Countertops (placeholder)"
+    ],
+    "pricing": {
+      "Export Quality": 320,
+      "Premium Grade": 260,
+      "Commercial Grade": 200,
+      "Economy Grade": 150
+    },
+    "unit": "sq.ft",
+    "moq": "200 sq.ft (placeholder)",
+    "leadTime": "10–14 days (placeholder)",
+    "inStock": true,
+    "featured": false,
+    "imageSourceId": 37,
+    "isPlaceholder": true,
+    "visualCategory": "Warm red-brown"
+  },
+  {
+    "id": 41,
+    "name": "Sample Stone 041",
+    "category": "Natural Stone",
+    "origin": "To be confirmed",
+    "image": "/assets/catlog/final/warm-red-brown/slab-038.jpeg",
+    "tag": "Sample Data",
+    "tagColor": "#a96d4d",
+    "description": "Placeholder catalog listing for a stone with a warm red-brown appearance. Replace this description with verified product details.",
+    "longDesc": "This is temporary sample data added to display and review all available stone images. The current visual grouping is \"Warm red-brown\" and is not a confirmed commercial stone name. Confirm the stone name, origin, specifications, applications, pricing, and availability with Granitura before publishing.",
+    "specs": {
+      "Water Absorption": "To be confirmed",
+      "Compressive Strength": "To be confirmed",
+      "Flexural Strength": "To be confirmed",
+      "Finish Available": "Polished / Honed (placeholder)",
+      "Slab Size": "To be confirmed",
+      "Thickness": "To be confirmed"
+    },
+    "applications": [
+      "Flooring (placeholder)",
+      "Wall Cladding (placeholder)",
+      "Countertops (placeholder)"
+    ],
+    "pricing": {
+      "Export Quality": 320,
+      "Premium Grade": 260,
+      "Commercial Grade": 200,
+      "Economy Grade": 150
+    },
+    "unit": "sq.ft",
+    "moq": "200 sq.ft (placeholder)",
+    "leadTime": "10–14 days (placeholder)",
+    "inStock": true,
+    "featured": false,
+    "imageSourceId": 38,
+    "isPlaceholder": true,
+    "visualCategory": "Warm red-brown"
+  },
+  {
+    "id": 42,
+    "name": "Sample Stone 042",
+    "category": "Natural Stone",
+    "origin": "To be confirmed",
+    "image": "/assets/catlog/final/warm-red-brown/slab-039.jpeg",
+    "tag": "Sample Data",
+    "tagColor": "#a96d4d",
+    "description": "Placeholder catalog listing for a stone with a warm red-brown appearance. Replace this description with verified product details.",
+    "longDesc": "This is temporary sample data added to display and review all available stone images. The current visual grouping is \"Warm red-brown\" and is not a confirmed commercial stone name. Confirm the stone name, origin, specifications, applications, pricing, and availability with Granitura before publishing.",
+    "specs": {
+      "Water Absorption": "To be confirmed",
+      "Compressive Strength": "To be confirmed",
+      "Flexural Strength": "To be confirmed",
+      "Finish Available": "Polished / Honed (placeholder)",
+      "Slab Size": "To be confirmed",
+      "Thickness": "To be confirmed"
+    },
+    "applications": [
+      "Flooring (placeholder)",
+      "Wall Cladding (placeholder)",
+      "Countertops (placeholder)"
+    ],
+    "pricing": {
+      "Export Quality": 320,
+      "Premium Grade": 260,
+      "Commercial Grade": 200,
+      "Economy Grade": 150
+    },
+    "unit": "sq.ft",
+    "moq": "200 sq.ft (placeholder)",
+    "leadTime": "10–14 days (placeholder)",
+    "inStock": true,
+    "featured": false,
+    "imageSourceId": 39,
+    "isPlaceholder": true,
+    "visualCategory": "Warm red-brown"
+  },
+  {
+    "id": 43,
+    "name": "Sample Stone 043",
+    "category": "Natural Stone",
+    "origin": "To be confirmed",
+    "image": "/assets/catlog/final/mixed-veined/slab-040.jpeg",
+    "tag": "Sample Data",
+    "tagColor": "#9c8c75",
+    "description": "Placeholder catalog listing for a stone with a mixed / flowing veins appearance. Replace this description with verified product details.",
+    "longDesc": "This is temporary sample data added to display and review all available stone images. The current visual grouping is \"Mixed / flowing veins\" and is not a confirmed commercial stone name. Confirm the stone name, origin, specifications, applications, pricing, and availability with Granitura before publishing.",
+    "specs": {
+      "Water Absorption": "To be confirmed",
+      "Compressive Strength": "To be confirmed",
+      "Flexural Strength": "To be confirmed",
+      "Finish Available": "Polished / Honed (placeholder)",
+      "Slab Size": "To be confirmed",
+      "Thickness": "To be confirmed"
+    },
+    "applications": [
+      "Flooring (placeholder)",
+      "Wall Cladding (placeholder)",
+      "Countertops (placeholder)"
+    ],
+    "pricing": {
+      "Export Quality": 320,
+      "Premium Grade": 260,
+      "Commercial Grade": 200,
+      "Economy Grade": 150
+    },
+    "unit": "sq.ft",
+    "moq": "200 sq.ft (placeholder)",
+    "leadTime": "10–14 days (placeholder)",
+    "inStock": true,
+    "featured": false,
+    "imageSourceId": 40,
+    "isPlaceholder": true,
+    "visualCategory": "Mixed / flowing veins"
+  },
+  {
+    "id": 44,
+    "name": "Sample Stone 044",
+    "category": "Natural Stone",
+    "origin": "To be confirmed",
+    "image": "/assets/catlog/final/warm-red-brown/slab-042.jpeg",
+    "tag": "Sample Data",
+    "tagColor": "#a96d4d",
+    "description": "Placeholder catalog listing for a stone with a warm red-brown appearance. Replace this description with verified product details.",
+    "longDesc": "This is temporary sample data added to display and review all available stone images. The current visual grouping is \"Warm red-brown\" and is not a confirmed commercial stone name. Confirm the stone name, origin, specifications, applications, pricing, and availability with Granitura before publishing.",
+    "specs": {
+      "Water Absorption": "To be confirmed",
+      "Compressive Strength": "To be confirmed",
+      "Flexural Strength": "To be confirmed",
+      "Finish Available": "Polished / Honed (placeholder)",
+      "Slab Size": "To be confirmed",
+      "Thickness": "To be confirmed"
+    },
+    "applications": [
+      "Flooring (placeholder)",
+      "Wall Cladding (placeholder)",
+      "Countertops (placeholder)"
+    ],
+    "pricing": {
+      "Export Quality": 320,
+      "Premium Grade": 260,
+      "Commercial Grade": 200,
+      "Economy Grade": 150
+    },
+    "unit": "sq.ft",
+    "moq": "200 sq.ft (placeholder)",
+    "leadTime": "10–14 days (placeholder)",
+    "inStock": true,
+    "featured": false,
+    "imageSourceId": 42,
+    "isPlaceholder": true,
+    "visualCategory": "Warm red-brown"
+  },
+  {
+    "id": 45,
+    "name": "Sample Stone 045",
+    "category": "Natural Stone",
+    "origin": "To be confirmed",
+    "image": "/assets/catlog/final/warm-red-brown/slab-043.jpeg",
+    "tag": "Sample Data",
+    "tagColor": "#a96d4d",
+    "description": "Placeholder catalog listing for a stone with a warm red-brown appearance. Replace this description with verified product details.",
+    "longDesc": "This is temporary sample data added to display and review all available stone images. The current visual grouping is \"Warm red-brown\" and is not a confirmed commercial stone name. Confirm the stone name, origin, specifications, applications, pricing, and availability with Granitura before publishing.",
+    "specs": {
+      "Water Absorption": "To be confirmed",
+      "Compressive Strength": "To be confirmed",
+      "Flexural Strength": "To be confirmed",
+      "Finish Available": "Polished / Honed (placeholder)",
+      "Slab Size": "To be confirmed",
+      "Thickness": "To be confirmed"
+    },
+    "applications": [
+      "Flooring (placeholder)",
+      "Wall Cladding (placeholder)",
+      "Countertops (placeholder)"
+    ],
+    "pricing": {
+      "Export Quality": 320,
+      "Premium Grade": 260,
+      "Commercial Grade": 200,
+      "Economy Grade": 150
+    },
+    "unit": "sq.ft",
+    "moq": "200 sq.ft (placeholder)",
+    "leadTime": "10–14 days (placeholder)",
+    "inStock": true,
+    "featured": false,
+    "imageSourceId": 43,
+    "isPlaceholder": true,
+    "visualCategory": "Warm red-brown"
+  },
+  {
+    "id": 46,
+    "name": "Sample Stone 046",
+    "category": "Natural Stone",
+    "origin": "To be confirmed",
+    "image": "/assets/catlog/final/warm-red-brown/slab-044.jpeg",
+    "tag": "Sample Data",
+    "tagColor": "#a96d4d",
+    "description": "Placeholder catalog listing for a stone with a warm red-brown appearance. Replace this description with verified product details.",
+    "longDesc": "This is temporary sample data added to display and review all available stone images. The current visual grouping is \"Warm red-brown\" and is not a confirmed commercial stone name. Confirm the stone name, origin, specifications, applications, pricing, and availability with Granitura before publishing.",
+    "specs": {
+      "Water Absorption": "To be confirmed",
+      "Compressive Strength": "To be confirmed",
+      "Flexural Strength": "To be confirmed",
+      "Finish Available": "Polished / Honed (placeholder)",
+      "Slab Size": "To be confirmed",
+      "Thickness": "To be confirmed"
+    },
+    "applications": [
+      "Flooring (placeholder)",
+      "Wall Cladding (placeholder)",
+      "Countertops (placeholder)"
+    ],
+    "pricing": {
+      "Export Quality": 320,
+      "Premium Grade": 260,
+      "Commercial Grade": 200,
+      "Economy Grade": 150
+    },
+    "unit": "sq.ft",
+    "moq": "200 sq.ft (placeholder)",
+    "leadTime": "10–14 days (placeholder)",
+    "inStock": true,
+    "featured": false,
+    "imageSourceId": 44,
+    "isPlaceholder": true,
+    "visualCategory": "Warm red-brown"
+  },
+  {
+    "id": 47,
+    "name": "Sample Stone 047",
+    "category": "Marble",
+    "origin": "To be confirmed",
+    "image": "/assets/catlog/final/light-grey-white/slab-045.jpeg",
+    "tag": "Sample Data",
+    "tagColor": "#b8b8b8",
+    "description": "Placeholder catalog listing for a stone with a light grey-white appearance. Replace this description with verified product details.",
+    "longDesc": "This is temporary sample data added to display and review all available stone images. The current visual grouping is \"Light grey-white\" and is not a confirmed commercial stone name. Confirm the stone name, origin, specifications, applications, pricing, and availability with Granitura before publishing.",
+    "specs": {
+      "Water Absorption": "To be confirmed",
+      "Compressive Strength": "To be confirmed",
+      "Flexural Strength": "To be confirmed",
+      "Finish Available": "Polished / Honed (placeholder)",
+      "Slab Size": "To be confirmed",
+      "Thickness": "To be confirmed"
+    },
+    "applications": [
+      "Flooring (placeholder)",
+      "Wall Cladding (placeholder)",
+      "Countertops (placeholder)"
+    ],
+    "pricing": {
+      "Export Quality": 320,
+      "Premium Grade": 260,
+      "Commercial Grade": 200,
+      "Economy Grade": 150
+    },
+    "unit": "sq.ft",
+    "moq": "200 sq.ft (placeholder)",
+    "leadTime": "10–14 days (placeholder)",
+    "inStock": true,
+    "featured": false,
+    "imageSourceId": 45,
+    "isPlaceholder": true,
+    "visualCategory": "Light grey-white"
+  },
+  {
+    "id": 48,
+    "name": "Sample Stone 048",
+    "category": "Granite",
+    "origin": "To be confirmed",
+    "image": "/assets/catlog/final/dark-granite/slab-046.jpeg",
+    "tag": "Sample Data",
+    "tagColor": "#777777",
+    "description": "Placeholder catalog listing for a stone with a dark / black texture appearance. Replace this description with verified product details.",
+    "longDesc": "This is temporary sample data added to display and review all available stone images. The current visual grouping is \"Dark / black texture\" and is not a confirmed commercial stone name. Confirm the stone name, origin, specifications, applications, pricing, and availability with Granitura before publishing.",
+    "specs": {
+      "Water Absorption": "To be confirmed",
+      "Compressive Strength": "To be confirmed",
+      "Flexural Strength": "To be confirmed",
+      "Finish Available": "Polished / Honed (placeholder)",
+      "Slab Size": "To be confirmed",
+      "Thickness": "To be confirmed"
+    },
+    "applications": [
+      "Flooring (placeholder)",
+      "Wall Cladding (placeholder)",
+      "Countertops (placeholder)"
+    ],
+    "pricing": {
+      "Export Quality": 320,
+      "Premium Grade": 260,
+      "Commercial Grade": 200,
+      "Economy Grade": 150
+    },
+    "unit": "sq.ft",
+    "moq": "200 sq.ft (placeholder)",
+    "leadTime": "10–14 days (placeholder)",
+    "inStock": true,
+    "featured": false,
+    "imageSourceId": 46,
+    "isPlaceholder": true,
+    "visualCategory": "Dark / black texture"
+  },
+  {
+    "id": 49,
+    "name": "Sample Stone 049",
+    "category": "Natural Stone",
+    "origin": "To be confirmed",
+    "image": "/assets/catlog/final/warm-red-brown/slab-047.jpeg",
+    "tag": "Sample Data",
+    "tagColor": "#a96d4d",
+    "description": "Placeholder catalog listing for a stone with a warm red-brown appearance. Replace this description with verified product details.",
+    "longDesc": "This is temporary sample data added to display and review all available stone images. The current visual grouping is \"Warm red-brown\" and is not a confirmed commercial stone name. Confirm the stone name, origin, specifications, applications, pricing, and availability with Granitura before publishing.",
+    "specs": {
+      "Water Absorption": "To be confirmed",
+      "Compressive Strength": "To be confirmed",
+      "Flexural Strength": "To be confirmed",
+      "Finish Available": "Polished / Honed (placeholder)",
+      "Slab Size": "To be confirmed",
+      "Thickness": "To be confirmed"
+    },
+    "applications": [
+      "Flooring (placeholder)",
+      "Wall Cladding (placeholder)",
+      "Countertops (placeholder)"
+    ],
+    "pricing": {
+      "Export Quality": 320,
+      "Premium Grade": 260,
+      "Commercial Grade": 200,
+      "Economy Grade": 150
+    },
+    "unit": "sq.ft",
+    "moq": "200 sq.ft (placeholder)",
+    "leadTime": "10–14 days (placeholder)",
+    "inStock": true,
+    "featured": false,
+    "imageSourceId": 47,
+    "isPlaceholder": true,
+    "visualCategory": "Warm red-brown"
+  },
+  {
+    "id": 50,
+    "name": "Sample Stone 050",
+    "category": "Natural Stone",
+    "origin": "To be confirmed",
+    "image": "/assets/catlog/final/warm-red-brown/slab-048.jpeg",
+    "tag": "Sample Data",
+    "tagColor": "#a96d4d",
+    "description": "Placeholder catalog listing for a stone with a warm red-brown appearance. Replace this description with verified product details.",
+    "longDesc": "This is temporary sample data added to display and review all available stone images. The current visual grouping is \"Warm red-brown\" and is not a confirmed commercial stone name. Confirm the stone name, origin, specifications, applications, pricing, and availability with Granitura before publishing.",
+    "specs": {
+      "Water Absorption": "To be confirmed",
+      "Compressive Strength": "To be confirmed",
+      "Flexural Strength": "To be confirmed",
+      "Finish Available": "Polished / Honed (placeholder)",
+      "Slab Size": "To be confirmed",
+      "Thickness": "To be confirmed"
+    },
+    "applications": [
+      "Flooring (placeholder)",
+      "Wall Cladding (placeholder)",
+      "Countertops (placeholder)"
+    ],
+    "pricing": {
+      "Export Quality": 320,
+      "Premium Grade": 260,
+      "Commercial Grade": 200,
+      "Economy Grade": 150
+    },
+    "unit": "sq.ft",
+    "moq": "200 sq.ft (placeholder)",
+    "leadTime": "10–14 days (placeholder)",
+    "inStock": true,
+    "featured": false,
+    "imageSourceId": 48,
+    "isPlaceholder": true,
+    "visualCategory": "Warm red-brown"
+  },
+  {
+    "id": 51,
+    "name": "Sample Stone 051",
+    "category": "Natural Stone",
+    "origin": "To be confirmed",
+    "image": "/assets/catlog/final/warm-red-brown/slab-049.jpeg",
+    "tag": "Sample Data",
+    "tagColor": "#a96d4d",
+    "description": "Placeholder catalog listing for a stone with a warm red-brown appearance. Replace this description with verified product details.",
+    "longDesc": "This is temporary sample data added to display and review all available stone images. The current visual grouping is \"Warm red-brown\" and is not a confirmed commercial stone name. Confirm the stone name, origin, specifications, applications, pricing, and availability with Granitura before publishing.",
+    "specs": {
+      "Water Absorption": "To be confirmed",
+      "Compressive Strength": "To be confirmed",
+      "Flexural Strength": "To be confirmed",
+      "Finish Available": "Polished / Honed (placeholder)",
+      "Slab Size": "To be confirmed",
+      "Thickness": "To be confirmed"
+    },
+    "applications": [
+      "Flooring (placeholder)",
+      "Wall Cladding (placeholder)",
+      "Countertops (placeholder)"
+    ],
+    "pricing": {
+      "Export Quality": 320,
+      "Premium Grade": 260,
+      "Commercial Grade": 200,
+      "Economy Grade": 150
+    },
+    "unit": "sq.ft",
+    "moq": "200 sq.ft (placeholder)",
+    "leadTime": "10–14 days (placeholder)",
+    "inStock": true,
+    "featured": false,
+    "imageSourceId": 49,
+    "isPlaceholder": true,
+    "visualCategory": "Warm red-brown"
+  },
+  {
+    "id": 52,
+    "name": "Sample Stone 052",
+    "category": "Granite",
+    "origin": "To be confirmed",
+    "image": "/assets/catlog/final/dark-granite/slab-050.jpeg",
+    "tag": "Sample Data",
+    "tagColor": "#777777",
+    "description": "Placeholder catalog listing for a stone with a dark / black texture appearance. Replace this description with verified product details.",
+    "longDesc": "This is temporary sample data added to display and review all available stone images. The current visual grouping is \"Dark / black texture\" and is not a confirmed commercial stone name. Confirm the stone name, origin, specifications, applications, pricing, and availability with Granitura before publishing.",
+    "specs": {
+      "Water Absorption": "To be confirmed",
+      "Compressive Strength": "To be confirmed",
+      "Flexural Strength": "To be confirmed",
+      "Finish Available": "Polished / Honed (placeholder)",
+      "Slab Size": "To be confirmed",
+      "Thickness": "To be confirmed"
+    },
+    "applications": [
+      "Flooring (placeholder)",
+      "Wall Cladding (placeholder)",
+      "Countertops (placeholder)"
+    ],
+    "pricing": {
+      "Export Quality": 320,
+      "Premium Grade": 260,
+      "Commercial Grade": 200,
+      "Economy Grade": 150
+    },
+    "unit": "sq.ft",
+    "moq": "200 sq.ft (placeholder)",
+    "leadTime": "10–14 days (placeholder)",
+    "inStock": true,
+    "featured": false,
+    "imageSourceId": 50,
+    "isPlaceholder": true,
+    "visualCategory": "Dark / black texture"
+  },
+  {
+    "id": 53,
+    "name": "Sample Stone 053",
+    "category": "Natural Stone",
+    "origin": "To be confirmed",
+    "image": "/assets/catlog/final/warm-red-brown/slab-051.jpeg",
+    "tag": "Sample Data",
+    "tagColor": "#a96d4d",
+    "description": "Placeholder catalog listing for a stone with a warm red-brown appearance. Replace this description with verified product details.",
+    "longDesc": "This is temporary sample data added to display and review all available stone images. The current visual grouping is \"Warm red-brown\" and is not a confirmed commercial stone name. Confirm the stone name, origin, specifications, applications, pricing, and availability with Granitura before publishing.",
+    "specs": {
+      "Water Absorption": "To be confirmed",
+      "Compressive Strength": "To be confirmed",
+      "Flexural Strength": "To be confirmed",
+      "Finish Available": "Polished / Honed (placeholder)",
+      "Slab Size": "To be confirmed",
+      "Thickness": "To be confirmed"
+    },
+    "applications": [
+      "Flooring (placeholder)",
+      "Wall Cladding (placeholder)",
+      "Countertops (placeholder)"
+    ],
+    "pricing": {
+      "Export Quality": 320,
+      "Premium Grade": 260,
+      "Commercial Grade": 200,
+      "Economy Grade": 150
+    },
+    "unit": "sq.ft",
+    "moq": "200 sq.ft (placeholder)",
+    "leadTime": "10–14 days (placeholder)",
+    "inStock": true,
+    "featured": false,
+    "imageSourceId": 51,
+    "isPlaceholder": true,
+    "visualCategory": "Warm red-brown"
+  },
+  {
+    "id": 54,
+    "name": "Sample Stone 054",
+    "category": "Natural Stone",
+    "origin": "To be confirmed",
+    "image": "/assets/catlog/final/warm-red-brown/slab-052.jpeg",
+    "tag": "Sample Data",
+    "tagColor": "#a96d4d",
+    "description": "Placeholder catalog listing for a stone with a warm red-brown appearance. Replace this description with verified product details.",
+    "longDesc": "This is temporary sample data added to display and review all available stone images. The current visual grouping is \"Warm red-brown\" and is not a confirmed commercial stone name. Confirm the stone name, origin, specifications, applications, pricing, and availability with Granitura before publishing.",
+    "specs": {
+      "Water Absorption": "To be confirmed",
+      "Compressive Strength": "To be confirmed",
+      "Flexural Strength": "To be confirmed",
+      "Finish Available": "Polished / Honed (placeholder)",
+      "Slab Size": "To be confirmed",
+      "Thickness": "To be confirmed"
+    },
+    "applications": [
+      "Flooring (placeholder)",
+      "Wall Cladding (placeholder)",
+      "Countertops (placeholder)"
+    ],
+    "pricing": {
+      "Export Quality": 320,
+      "Premium Grade": 260,
+      "Commercial Grade": 200,
+      "Economy Grade": 150
+    },
+    "unit": "sq.ft",
+    "moq": "200 sq.ft (placeholder)",
+    "leadTime": "10–14 days (placeholder)",
+    "inStock": true,
+    "featured": false,
+    "imageSourceId": 52,
+    "isPlaceholder": true,
+    "visualCategory": "Warm red-brown"
+  },
+  {
+    "id": 55,
+    "name": "Sample Stone 055",
+    "category": "Natural Stone",
+    "origin": "To be confirmed",
+    "image": "/assets/catlog/final/warm-red-brown/slab-053.jpeg",
+    "tag": "Sample Data",
+    "tagColor": "#a96d4d",
+    "description": "Placeholder catalog listing for a stone with a warm red-brown appearance. Replace this description with verified product details.",
+    "longDesc": "This is temporary sample data added to display and review all available stone images. The current visual grouping is \"Warm red-brown\" and is not a confirmed commercial stone name. Confirm the stone name, origin, specifications, applications, pricing, and availability with Granitura before publishing.",
+    "specs": {
+      "Water Absorption": "To be confirmed",
+      "Compressive Strength": "To be confirmed",
+      "Flexural Strength": "To be confirmed",
+      "Finish Available": "Polished / Honed (placeholder)",
+      "Slab Size": "To be confirmed",
+      "Thickness": "To be confirmed"
+    },
+    "applications": [
+      "Flooring (placeholder)",
+      "Wall Cladding (placeholder)",
+      "Countertops (placeholder)"
+    ],
+    "pricing": {
+      "Export Quality": 320,
+      "Premium Grade": 260,
+      "Commercial Grade": 200,
+      "Economy Grade": 150
+    },
+    "unit": "sq.ft",
+    "moq": "200 sq.ft (placeholder)",
+    "leadTime": "10–14 days (placeholder)",
+    "inStock": true,
+    "featured": false,
+    "imageSourceId": 53,
+    "isPlaceholder": true,
+    "visualCategory": "Warm red-brown"
+  },
+  {
+    "id": 56,
+    "name": "Sample Stone 056",
+    "category": "Natural Stone",
+    "origin": "To be confirmed",
+    "image": "/assets/catlog/final/warm-red-brown/slab-054.jpeg",
+    "tag": "Sample Data",
+    "tagColor": "#a96d4d",
+    "description": "Placeholder catalog listing for a stone with a warm red-brown appearance. Replace this description with verified product details.",
+    "longDesc": "This is temporary sample data added to display and review all available stone images. The current visual grouping is \"Warm red-brown\" and is not a confirmed commercial stone name. Confirm the stone name, origin, specifications, applications, pricing, and availability with Granitura before publishing.",
+    "specs": {
+      "Water Absorption": "To be confirmed",
+      "Compressive Strength": "To be confirmed",
+      "Flexural Strength": "To be confirmed",
+      "Finish Available": "Polished / Honed (placeholder)",
+      "Slab Size": "To be confirmed",
+      "Thickness": "To be confirmed"
+    },
+    "applications": [
+      "Flooring (placeholder)",
+      "Wall Cladding (placeholder)",
+      "Countertops (placeholder)"
+    ],
+    "pricing": {
+      "Export Quality": 320,
+      "Premium Grade": 260,
+      "Commercial Grade": 200,
+      "Economy Grade": 150
+    },
+    "unit": "sq.ft",
+    "moq": "200 sq.ft (placeholder)",
+    "leadTime": "10–14 days (placeholder)",
+    "inStock": true,
+    "featured": false,
+    "imageSourceId": 54,
+    "isPlaceholder": true,
+    "visualCategory": "Warm red-brown"
+  },
+  {
+    "id": 57,
+    "name": "Sample Stone 057",
+    "category": "Natural Stone",
+    "origin": "To be confirmed",
+    "image": "/assets/catlog/final/warm-red-brown/slab-055.jpeg",
+    "tag": "Sample Data",
+    "tagColor": "#a96d4d",
+    "description": "Placeholder catalog listing for a stone with a warm red-brown appearance. Replace this description with verified product details.",
+    "longDesc": "This is temporary sample data added to display and review all available stone images. The current visual grouping is \"Warm red-brown\" and is not a confirmed commercial stone name. Confirm the stone name, origin, specifications, applications, pricing, and availability with Granitura before publishing.",
+    "specs": {
+      "Water Absorption": "To be confirmed",
+      "Compressive Strength": "To be confirmed",
+      "Flexural Strength": "To be confirmed",
+      "Finish Available": "Polished / Honed (placeholder)",
+      "Slab Size": "To be confirmed",
+      "Thickness": "To be confirmed"
+    },
+    "applications": [
+      "Flooring (placeholder)",
+      "Wall Cladding (placeholder)",
+      "Countertops (placeholder)"
+    ],
+    "pricing": {
+      "Export Quality": 320,
+      "Premium Grade": 260,
+      "Commercial Grade": 200,
+      "Economy Grade": 150
+    },
+    "unit": "sq.ft",
+    "moq": "200 sq.ft (placeholder)",
+    "leadTime": "10–14 days (placeholder)",
+    "inStock": true,
+    "featured": false,
+    "imageSourceId": 55,
+    "isPlaceholder": true,
+    "visualCategory": "Warm red-brown"
+  },
+  {
+    "id": 58,
+    "name": "Sample Stone 058",
+    "category": "Natural Stone",
+    "origin": "To be confirmed",
+    "image": "/assets/catlog/final/mixed-veined/slab-056.jpeg",
+    "tag": "Sample Data",
+    "tagColor": "#9c8c75",
+    "description": "Placeholder catalog listing for a stone with a mixed / flowing veins appearance. Replace this description with verified product details.",
+    "longDesc": "This is temporary sample data added to display and review all available stone images. The current visual grouping is \"Mixed / flowing veins\" and is not a confirmed commercial stone name. Confirm the stone name, origin, specifications, applications, pricing, and availability with Granitura before publishing.",
+    "specs": {
+      "Water Absorption": "To be confirmed",
+      "Compressive Strength": "To be confirmed",
+      "Flexural Strength": "To be confirmed",
+      "Finish Available": "Polished / Honed (placeholder)",
+      "Slab Size": "To be confirmed",
+      "Thickness": "To be confirmed"
+    },
+    "applications": [
+      "Flooring (placeholder)",
+      "Wall Cladding (placeholder)",
+      "Countertops (placeholder)"
+    ],
+    "pricing": {
+      "Export Quality": 320,
+      "Premium Grade": 260,
+      "Commercial Grade": 200,
+      "Economy Grade": 150
+    },
+    "unit": "sq.ft",
+    "moq": "200 sq.ft (placeholder)",
+    "leadTime": "10–14 days (placeholder)",
+    "inStock": true,
+    "featured": false,
+    "imageSourceId": 56,
+    "isPlaceholder": true,
+    "visualCategory": "Mixed / flowing veins"
+  },
+  {
+    "id": 59,
+    "name": "Sample Stone 059",
+    "category": "Natural Stone",
+    "origin": "To be confirmed",
+    "image": "/assets/catlog/final/warm-red-brown/slab-057.jpeg",
+    "tag": "Sample Data",
+    "tagColor": "#a96d4d",
+    "description": "Placeholder catalog listing for a stone with a warm red-brown appearance. Replace this description with verified product details.",
+    "longDesc": "This is temporary sample data added to display and review all available stone images. The current visual grouping is \"Warm red-brown\" and is not a confirmed commercial stone name. Confirm the stone name, origin, specifications, applications, pricing, and availability with Granitura before publishing.",
+    "specs": {
+      "Water Absorption": "To be confirmed",
+      "Compressive Strength": "To be confirmed",
+      "Flexural Strength": "To be confirmed",
+      "Finish Available": "Polished / Honed (placeholder)",
+      "Slab Size": "To be confirmed",
+      "Thickness": "To be confirmed"
+    },
+    "applications": [
+      "Flooring (placeholder)",
+      "Wall Cladding (placeholder)",
+      "Countertops (placeholder)"
+    ],
+    "pricing": {
+      "Export Quality": 320,
+      "Premium Grade": 260,
+      "Commercial Grade": 200,
+      "Economy Grade": 150
+    },
+    "unit": "sq.ft",
+    "moq": "200 sq.ft (placeholder)",
+    "leadTime": "10–14 days (placeholder)",
+    "inStock": true,
+    "featured": false,
+    "imageSourceId": 57,
+    "isPlaceholder": true,
+    "visualCategory": "Warm red-brown"
+  },
+  {
+    "id": 60,
+    "name": "Sample Stone 060",
+    "category": "Natural Stone",
+    "origin": "To be confirmed",
+    "image": "/assets/catlog/final/mixed-veined/slab-058.jpeg",
+    "tag": "Sample Data",
+    "tagColor": "#9c8c75",
+    "description": "Placeholder catalog listing for a stone with a mixed / flowing veins appearance. Replace this description with verified product details.",
+    "longDesc": "This is temporary sample data added to display and review all available stone images. The current visual grouping is \"Mixed / flowing veins\" and is not a confirmed commercial stone name. Confirm the stone name, origin, specifications, applications, pricing, and availability with Granitura before publishing.",
+    "specs": {
+      "Water Absorption": "To be confirmed",
+      "Compressive Strength": "To be confirmed",
+      "Flexural Strength": "To be confirmed",
+      "Finish Available": "Polished / Honed (placeholder)",
+      "Slab Size": "To be confirmed",
+      "Thickness": "To be confirmed"
+    },
+    "applications": [
+      "Flooring (placeholder)",
+      "Wall Cladding (placeholder)",
+      "Countertops (placeholder)"
+    ],
+    "pricing": {
+      "Export Quality": 320,
+      "Premium Grade": 260,
+      "Commercial Grade": 200,
+      "Economy Grade": 150
+    },
+    "unit": "sq.ft",
+    "moq": "200 sq.ft (placeholder)",
+    "leadTime": "10–14 days (placeholder)",
+    "inStock": true,
+    "featured": false,
+    "imageSourceId": 58,
+    "isPlaceholder": true,
+    "visualCategory": "Mixed / flowing veins"
+  },
+  {
+    "id": 61,
+    "name": "Sample Stone 061",
+    "category": "Marble",
+    "origin": "To be confirmed",
+    "image": "/assets/catlog/final/light-grey-white/slab-059.jpeg",
+    "tag": "Sample Data",
+    "tagColor": "#b8b8b8",
+    "description": "Placeholder catalog listing for a stone with a light grey-white appearance. Replace this description with verified product details.",
+    "longDesc": "This is temporary sample data added to display and review all available stone images. The current visual grouping is \"Light grey-white\" and is not a confirmed commercial stone name. Confirm the stone name, origin, specifications, applications, pricing, and availability with Granitura before publishing.",
+    "specs": {
+      "Water Absorption": "To be confirmed",
+      "Compressive Strength": "To be confirmed",
+      "Flexural Strength": "To be confirmed",
+      "Finish Available": "Polished / Honed (placeholder)",
+      "Slab Size": "To be confirmed",
+      "Thickness": "To be confirmed"
+    },
+    "applications": [
+      "Flooring (placeholder)",
+      "Wall Cladding (placeholder)",
+      "Countertops (placeholder)"
+    ],
+    "pricing": {
+      "Export Quality": 320,
+      "Premium Grade": 260,
+      "Commercial Grade": 200,
+      "Economy Grade": 150
+    },
+    "unit": "sq.ft",
+    "moq": "200 sq.ft (placeholder)",
+    "leadTime": "10–14 days (placeholder)",
+    "inStock": true,
+    "featured": false,
+    "imageSourceId": 59,
+    "isPlaceholder": true,
+    "visualCategory": "Light grey-white"
+  },
+  {
+    "id": 62,
+    "name": "Sample Stone 062",
+    "category": "Natural Stone",
+    "origin": "To be confirmed",
+    "image": "/assets/catlog/final/mixed-veined/slab-060.jpeg",
+    "tag": "Sample Data",
+    "tagColor": "#9c8c75",
+    "description": "Placeholder catalog listing for a stone with a mixed / flowing veins appearance. Replace this description with verified product details.",
+    "longDesc": "This is temporary sample data added to display and review all available stone images. The current visual grouping is \"Mixed / flowing veins\" and is not a confirmed commercial stone name. Confirm the stone name, origin, specifications, applications, pricing, and availability with Granitura before publishing.",
+    "specs": {
+      "Water Absorption": "To be confirmed",
+      "Compressive Strength": "To be confirmed",
+      "Flexural Strength": "To be confirmed",
+      "Finish Available": "Polished / Honed (placeholder)",
+      "Slab Size": "To be confirmed",
+      "Thickness": "To be confirmed"
+    },
+    "applications": [
+      "Flooring (placeholder)",
+      "Wall Cladding (placeholder)",
+      "Countertops (placeholder)"
+    ],
+    "pricing": {
+      "Export Quality": 320,
+      "Premium Grade": 260,
+      "Commercial Grade": 200,
+      "Economy Grade": 150
+    },
+    "unit": "sq.ft",
+    "moq": "200 sq.ft (placeholder)",
+    "leadTime": "10–14 days (placeholder)",
+    "inStock": true,
+    "featured": false,
+    "imageSourceId": 60,
+    "isPlaceholder": true,
+    "visualCategory": "Mixed / flowing veins"
+  },
+  {
+    "id": 63,
+    "name": "Sample Stone 063",
+    "category": "Natural Stone",
+    "origin": "To be confirmed",
+    "image": "/assets/catlog/final/warm-red-brown/slab-061.jpeg",
+    "tag": "Sample Data",
+    "tagColor": "#a96d4d",
+    "description": "Placeholder catalog listing for a stone with a warm red-brown appearance. Replace this description with verified product details.",
+    "longDesc": "This is temporary sample data added to display and review all available stone images. The current visual grouping is \"Warm red-brown\" and is not a confirmed commercial stone name. Confirm the stone name, origin, specifications, applications, pricing, and availability with Granitura before publishing.",
+    "specs": {
+      "Water Absorption": "To be confirmed",
+      "Compressive Strength": "To be confirmed",
+      "Flexural Strength": "To be confirmed",
+      "Finish Available": "Polished / Honed (placeholder)",
+      "Slab Size": "To be confirmed",
+      "Thickness": "To be confirmed"
+    },
+    "applications": [
+      "Flooring (placeholder)",
+      "Wall Cladding (placeholder)",
+      "Countertops (placeholder)"
+    ],
+    "pricing": {
+      "Export Quality": 320,
+      "Premium Grade": 260,
+      "Commercial Grade": 200,
+      "Economy Grade": 150
+    },
+    "unit": "sq.ft",
+    "moq": "200 sq.ft (placeholder)",
+    "leadTime": "10–14 days (placeholder)",
+    "inStock": true,
+    "featured": false,
+    "imageSourceId": 61,
+    "isPlaceholder": true,
+    "visualCategory": "Warm red-brown"
+  },
+  {
+    "id": 64,
+    "name": "Sample Stone 064",
+    "category": "Marble",
+    "origin": "To be confirmed",
+    "image": "/assets/catlog/final/light-grey-white/slab-062.jpeg",
+    "tag": "Sample Data",
+    "tagColor": "#b8b8b8",
+    "description": "Placeholder catalog listing for a stone with a light grey-white appearance. Replace this description with verified product details.",
+    "longDesc": "This is temporary sample data added to display and review all available stone images. The current visual grouping is \"Light grey-white\" and is not a confirmed commercial stone name. Confirm the stone name, origin, specifications, applications, pricing, and availability with Granitura before publishing.",
+    "specs": {
+      "Water Absorption": "To be confirmed",
+      "Compressive Strength": "To be confirmed",
+      "Flexural Strength": "To be confirmed",
+      "Finish Available": "Polished / Honed (placeholder)",
+      "Slab Size": "To be confirmed",
+      "Thickness": "To be confirmed"
+    },
+    "applications": [
+      "Flooring (placeholder)",
+      "Wall Cladding (placeholder)",
+      "Countertops (placeholder)"
+    ],
+    "pricing": {
+      "Export Quality": 320,
+      "Premium Grade": 260,
+      "Commercial Grade": 200,
+      "Economy Grade": 150
+    },
+    "unit": "sq.ft",
+    "moq": "200 sq.ft (placeholder)",
+    "leadTime": "10–14 days (placeholder)",
+    "inStock": true,
+    "featured": false,
+    "imageSourceId": 62,
+    "isPlaceholder": true,
+    "visualCategory": "Light grey-white"
+  },
+  {
+    "id": 65,
+    "name": "Sample Stone 065",
+    "category": "Natural Stone",
+    "origin": "To be confirmed",
+    "image": "/assets/catlog/final/warm-red-brown/slab-063.jpeg",
+    "tag": "Sample Data",
+    "tagColor": "#a96d4d",
+    "description": "Placeholder catalog listing for a stone with a warm red-brown appearance. Replace this description with verified product details.",
+    "longDesc": "This is temporary sample data added to display and review all available stone images. The current visual grouping is \"Warm red-brown\" and is not a confirmed commercial stone name. Confirm the stone name, origin, specifications, applications, pricing, and availability with Granitura before publishing.",
+    "specs": {
+      "Water Absorption": "To be confirmed",
+      "Compressive Strength": "To be confirmed",
+      "Flexural Strength": "To be confirmed",
+      "Finish Available": "Polished / Honed (placeholder)",
+      "Slab Size": "To be confirmed",
+      "Thickness": "To be confirmed"
+    },
+    "applications": [
+      "Flooring (placeholder)",
+      "Wall Cladding (placeholder)",
+      "Countertops (placeholder)"
+    ],
+    "pricing": {
+      "Export Quality": 320,
+      "Premium Grade": 260,
+      "Commercial Grade": 200,
+      "Economy Grade": 150
+    },
+    "unit": "sq.ft",
+    "moq": "200 sq.ft (placeholder)",
+    "leadTime": "10–14 days (placeholder)",
+    "inStock": true,
+    "featured": false,
+    "imageSourceId": 63,
+    "isPlaceholder": true,
+    "visualCategory": "Warm red-brown"
+  },
+  {
+    "id": 66,
+    "name": "Sample Stone 066",
+    "category": "Marble",
+    "origin": "To be confirmed",
+    "image": "/assets/catlog/final/light-grey-white/slab-064.jpeg",
+    "tag": "Sample Data",
+    "tagColor": "#b8b8b8",
+    "description": "Placeholder catalog listing for a stone with a light grey-white appearance. Replace this description with verified product details.",
+    "longDesc": "This is temporary sample data added to display and review all available stone images. The current visual grouping is \"Light grey-white\" and is not a confirmed commercial stone name. Confirm the stone name, origin, specifications, applications, pricing, and availability with Granitura before publishing.",
+    "specs": {
+      "Water Absorption": "To be confirmed",
+      "Compressive Strength": "To be confirmed",
+      "Flexural Strength": "To be confirmed",
+      "Finish Available": "Polished / Honed (placeholder)",
+      "Slab Size": "To be confirmed",
+      "Thickness": "To be confirmed"
+    },
+    "applications": [
+      "Flooring (placeholder)",
+      "Wall Cladding (placeholder)",
+      "Countertops (placeholder)"
+    ],
+    "pricing": {
+      "Export Quality": 320,
+      "Premium Grade": 260,
+      "Commercial Grade": 200,
+      "Economy Grade": 150
+    },
+    "unit": "sq.ft",
+    "moq": "200 sq.ft (placeholder)",
+    "leadTime": "10–14 days (placeholder)",
+    "inStock": true,
+    "featured": false,
+    "imageSourceId": 64,
+    "isPlaceholder": true,
+    "visualCategory": "Light grey-white"
+  },
+  {
+    "id": 67,
+    "name": "Sample Stone 067",
+    "category": "Granite",
+    "origin": "To be confirmed",
+    "image": "/assets/catlog/final/dark-granite/slab-065.jpeg",
+    "tag": "Sample Data",
+    "tagColor": "#777777",
+    "description": "Placeholder catalog listing for a stone with a dark / black texture appearance. Replace this description with verified product details.",
+    "longDesc": "This is temporary sample data added to display and review all available stone images. The current visual grouping is \"Dark / black texture\" and is not a confirmed commercial stone name. Confirm the stone name, origin, specifications, applications, pricing, and availability with Granitura before publishing.",
+    "specs": {
+      "Water Absorption": "To be confirmed",
+      "Compressive Strength": "To be confirmed",
+      "Flexural Strength": "To be confirmed",
+      "Finish Available": "Polished / Honed (placeholder)",
+      "Slab Size": "To be confirmed",
+      "Thickness": "To be confirmed"
+    },
+    "applications": [
+      "Flooring (placeholder)",
+      "Wall Cladding (placeholder)",
+      "Countertops (placeholder)"
+    ],
+    "pricing": {
+      "Export Quality": 320,
+      "Premium Grade": 260,
+      "Commercial Grade": 200,
+      "Economy Grade": 150
+    },
+    "unit": "sq.ft",
+    "moq": "200 sq.ft (placeholder)",
+    "leadTime": "10–14 days (placeholder)",
+    "inStock": true,
+    "featured": false,
+    "imageSourceId": 65,
+    "isPlaceholder": true,
+    "visualCategory": "Dark / black texture"
+  },
+  {
+    "id": 68,
+    "name": "Sample Stone 068",
+    "category": "Marble",
+    "origin": "To be confirmed",
+    "image": "/assets/catlog/final/light-grey-white/slab-066.jpeg",
+    "tag": "Sample Data",
+    "tagColor": "#b8b8b8",
+    "description": "Placeholder catalog listing for a stone with a light grey-white appearance. Replace this description with verified product details.",
+    "longDesc": "This is temporary sample data added to display and review all available stone images. The current visual grouping is \"Light grey-white\" and is not a confirmed commercial stone name. Confirm the stone name, origin, specifications, applications, pricing, and availability with Granitura before publishing.",
+    "specs": {
+      "Water Absorption": "To be confirmed",
+      "Compressive Strength": "To be confirmed",
+      "Flexural Strength": "To be confirmed",
+      "Finish Available": "Polished / Honed (placeholder)",
+      "Slab Size": "To be confirmed",
+      "Thickness": "To be confirmed"
+    },
+    "applications": [
+      "Flooring (placeholder)",
+      "Wall Cladding (placeholder)",
+      "Countertops (placeholder)"
+    ],
+    "pricing": {
+      "Export Quality": 320,
+      "Premium Grade": 260,
+      "Commercial Grade": 200,
+      "Economy Grade": 150
+    },
+    "unit": "sq.ft",
+    "moq": "200 sq.ft (placeholder)",
+    "leadTime": "10–14 days (placeholder)",
+    "inStock": true,
+    "featured": false,
+    "imageSourceId": 66,
+    "isPlaceholder": true,
+    "visualCategory": "Light grey-white"
+  },
+  {
+    "id": 69,
+    "name": "Sample Stone 069",
+    "category": "Marble",
+    "origin": "To be confirmed",
+    "image": "/assets/catlog/final/light-grey-white/slab-067.jpeg",
+    "tag": "Sample Data",
+    "tagColor": "#b8b8b8",
+    "description": "Placeholder catalog listing for a stone with a light grey-white appearance. Replace this description with verified product details.",
+    "longDesc": "This is temporary sample data added to display and review all available stone images. The current visual grouping is \"Light grey-white\" and is not a confirmed commercial stone name. Confirm the stone name, origin, specifications, applications, pricing, and availability with Granitura before publishing.",
+    "specs": {
+      "Water Absorption": "To be confirmed",
+      "Compressive Strength": "To be confirmed",
+      "Flexural Strength": "To be confirmed",
+      "Finish Available": "Polished / Honed (placeholder)",
+      "Slab Size": "To be confirmed",
+      "Thickness": "To be confirmed"
+    },
+    "applications": [
+      "Flooring (placeholder)",
+      "Wall Cladding (placeholder)",
+      "Countertops (placeholder)"
+    ],
+    "pricing": {
+      "Export Quality": 320,
+      "Premium Grade": 260,
+      "Commercial Grade": 200,
+      "Economy Grade": 150
+    },
+    "unit": "sq.ft",
+    "moq": "200 sq.ft (placeholder)",
+    "leadTime": "10–14 days (placeholder)",
+    "inStock": true,
+    "featured": false,
+    "imageSourceId": 67,
+    "isPlaceholder": true,
+    "visualCategory": "Light grey-white"
+  },
+  {
+    "id": 70,
+    "name": "Sample Stone 070",
+    "category": "Marble",
+    "origin": "To be confirmed",
+    "image": "/assets/catlog/final/light-grey-white/slab-068.jpeg",
+    "tag": "Sample Data",
+    "tagColor": "#b8b8b8",
+    "description": "Placeholder catalog listing for a stone with a light grey-white appearance. Replace this description with verified product details.",
+    "longDesc": "This is temporary sample data added to display and review all available stone images. The current visual grouping is \"Light grey-white\" and is not a confirmed commercial stone name. Confirm the stone name, origin, specifications, applications, pricing, and availability with Granitura before publishing.",
+    "specs": {
+      "Water Absorption": "To be confirmed",
+      "Compressive Strength": "To be confirmed",
+      "Flexural Strength": "To be confirmed",
+      "Finish Available": "Polished / Honed (placeholder)",
+      "Slab Size": "To be confirmed",
+      "Thickness": "To be confirmed"
+    },
+    "applications": [
+      "Flooring (placeholder)",
+      "Wall Cladding (placeholder)",
+      "Countertops (placeholder)"
+    ],
+    "pricing": {
+      "Export Quality": 320,
+      "Premium Grade": 260,
+      "Commercial Grade": 200,
+      "Economy Grade": 150
+    },
+    "unit": "sq.ft",
+    "moq": "200 sq.ft (placeholder)",
+    "leadTime": "10–14 days (placeholder)",
+    "inStock": true,
+    "featured": false,
+    "imageSourceId": 68,
+    "isPlaceholder": true,
+    "visualCategory": "Light grey-white"
+  },
+  {
+    "id": 71,
+    "name": "Sample Stone 071",
+    "category": "Marble",
+    "origin": "To be confirmed",
+    "image": "/assets/catlog/final/light-grey-white/slab-070.jpeg",
+    "tag": "Sample Data",
+    "tagColor": "#b8b8b8",
+    "description": "Placeholder catalog listing for a stone with a light grey-white appearance. Replace this description with verified product details.",
+    "longDesc": "This is temporary sample data added to display and review all available stone images. The current visual grouping is \"Light grey-white\" and is not a confirmed commercial stone name. Confirm the stone name, origin, specifications, applications, pricing, and availability with Granitura before publishing.",
+    "specs": {
+      "Water Absorption": "To be confirmed",
+      "Compressive Strength": "To be confirmed",
+      "Flexural Strength": "To be confirmed",
+      "Finish Available": "Polished / Honed (placeholder)",
+      "Slab Size": "To be confirmed",
+      "Thickness": "To be confirmed"
+    },
+    "applications": [
+      "Flooring (placeholder)",
+      "Wall Cladding (placeholder)",
+      "Countertops (placeholder)"
+    ],
+    "pricing": {
+      "Export Quality": 320,
+      "Premium Grade": 260,
+      "Commercial Grade": 200,
+      "Economy Grade": 150
+    },
+    "unit": "sq.ft",
+    "moq": "200 sq.ft (placeholder)",
+    "leadTime": "10–14 days (placeholder)",
+    "inStock": true,
+    "featured": false,
+    "imageSourceId": 70,
+    "isPlaceholder": true,
+    "visualCategory": "Light grey-white"
+  },
+  {
+    "id": 72,
+    "name": "Sample Stone 072",
+    "category": "Marble",
+    "origin": "To be confirmed",
+    "image": "/assets/catlog/final/light-grey-white/slab-071.jpeg",
+    "tag": "Sample Data",
+    "tagColor": "#b8b8b8",
+    "description": "Placeholder catalog listing for a stone with a light grey-white appearance. Replace this description with verified product details.",
+    "longDesc": "This is temporary sample data added to display and review all available stone images. The current visual grouping is \"Light grey-white\" and is not a confirmed commercial stone name. Confirm the stone name, origin, specifications, applications, pricing, and availability with Granitura before publishing.",
+    "specs": {
+      "Water Absorption": "To be confirmed",
+      "Compressive Strength": "To be confirmed",
+      "Flexural Strength": "To be confirmed",
+      "Finish Available": "Polished / Honed (placeholder)",
+      "Slab Size": "To be confirmed",
+      "Thickness": "To be confirmed"
+    },
+    "applications": [
+      "Flooring (placeholder)",
+      "Wall Cladding (placeholder)",
+      "Countertops (placeholder)"
+    ],
+    "pricing": {
+      "Export Quality": 320,
+      "Premium Grade": 260,
+      "Commercial Grade": 200,
+      "Economy Grade": 150
+    },
+    "unit": "sq.ft",
+    "moq": "200 sq.ft (placeholder)",
+    "leadTime": "10–14 days (placeholder)",
+    "inStock": true,
+    "featured": false,
+    "imageSourceId": 71,
+    "isPlaceholder": true,
+    "visualCategory": "Light grey-white"
+  },
+  {
+    "id": 73,
+    "name": "Sample Stone 073",
+    "category": "Marble",
+    "origin": "To be confirmed",
+    "image": "/assets/catlog/final/light-grey-white/slab-073.jpeg",
+    "tag": "Sample Data",
+    "tagColor": "#b8b8b8",
+    "description": "Placeholder catalog listing for a stone with a light grey-white appearance. Replace this description with verified product details.",
+    "longDesc": "This is temporary sample data added to display and review all available stone images. The current visual grouping is \"Light grey-white\" and is not a confirmed commercial stone name. Confirm the stone name, origin, specifications, applications, pricing, and availability with Granitura before publishing.",
+    "specs": {
+      "Water Absorption": "To be confirmed",
+      "Compressive Strength": "To be confirmed",
+      "Flexural Strength": "To be confirmed",
+      "Finish Available": "Polished / Honed (placeholder)",
+      "Slab Size": "To be confirmed",
+      "Thickness": "To be confirmed"
+    },
+    "applications": [
+      "Flooring (placeholder)",
+      "Wall Cladding (placeholder)",
+      "Countertops (placeholder)"
+    ],
+    "pricing": {
+      "Export Quality": 320,
+      "Premium Grade": 260,
+      "Commercial Grade": 200,
+      "Economy Grade": 150
+    },
+    "unit": "sq.ft",
+    "moq": "200 sq.ft (placeholder)",
+    "leadTime": "10–14 days (placeholder)",
+    "inStock": true,
+    "featured": false,
+    "imageSourceId": 73,
+    "isPlaceholder": true,
+    "visualCategory": "Light grey-white"
+  },
+  {
+    "id": 74,
+    "name": "Sample Stone 074",
+    "category": "Granite",
+    "origin": "To be confirmed",
+    "image": "/assets/catlog/final/dark-granite/slab-074.jpeg",
+    "tag": "Sample Data",
+    "tagColor": "#777777",
+    "description": "Placeholder catalog listing for a stone with a dark / black texture appearance. Replace this description with verified product details.",
+    "longDesc": "This is temporary sample data added to display and review all available stone images. The current visual grouping is \"Dark / black texture\" and is not a confirmed commercial stone name. Confirm the stone name, origin, specifications, applications, pricing, and availability with Granitura before publishing.",
+    "specs": {
+      "Water Absorption": "To be confirmed",
+      "Compressive Strength": "To be confirmed",
+      "Flexural Strength": "To be confirmed",
+      "Finish Available": "Polished / Honed (placeholder)",
+      "Slab Size": "To be confirmed",
+      "Thickness": "To be confirmed"
+    },
+    "applications": [
+      "Flooring (placeholder)",
+      "Wall Cladding (placeholder)",
+      "Countertops (placeholder)"
+    ],
+    "pricing": {
+      "Export Quality": 320,
+      "Premium Grade": 260,
+      "Commercial Grade": 200,
+      "Economy Grade": 150
+    },
+    "unit": "sq.ft",
+    "moq": "200 sq.ft (placeholder)",
+    "leadTime": "10–14 days (placeholder)",
+    "inStock": true,
+    "featured": false,
+    "imageSourceId": 74,
+    "isPlaceholder": true,
+    "visualCategory": "Dark / black texture"
+  }
+]

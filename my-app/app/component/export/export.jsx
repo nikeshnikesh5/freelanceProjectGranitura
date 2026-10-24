@@ -158,11 +158,21 @@ export default function Export() {
   const [nodesVisible, setNodesVisible] = useState(false);
   const sectionRef = useRef(null);
 
+
   useEffect(() => {
-    // Auto-trigger since we're in artifact preview
-    setTimeout(() => setLinesVisible(true), 400);
-    setTimeout(() => setNodesVisible(true), 2200);
-  }, []);
+  const lineTimer = window.setTimeout(() => {
+    setLinesVisible(true);
+  }, 400);
+
+  const nodeTimer = window.setTimeout(() => {
+    setNodesVisible(true);
+  }, 2200);
+
+  return () => {
+    window.clearTimeout(lineTimer);
+    window.clearTimeout(nodeTimer);
+  };
+}, []);
 
   return (
     <section ref={sectionRef} style={S.section}>

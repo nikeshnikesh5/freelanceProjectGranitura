@@ -251,9 +251,7 @@ export default function CatalogSection() {
             <div className="card-bg">
               <img src={item.image} alt={item.name} className="card-image" />
             </div>
-
             <span className="card-tag">{item.tag}</span>
-
             <div className="card-overlay">
               <div className="card-name">{item.name}</div>
               <div className="card-desc">{item.desc}</div>

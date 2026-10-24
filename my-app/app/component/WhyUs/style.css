@@ -165,11 +165,7 @@ all .45s ease;
 
 overflow:hidden;
 
-transform:
-translateY(30px);
-
-animation:
-cardReveal .7s ease forwards;
+ 
 
 }
 
