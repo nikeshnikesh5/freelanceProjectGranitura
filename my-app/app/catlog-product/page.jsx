@@ -1,8 +1,8 @@
  "use client";
 
 import { useState, useEffect, useRef } from "react";
-import SpecialistScheduler from "../component/SpecialistScheduler";
 import PRODUCTS from "../../data/db.json";
+import { Application, Graphics } from "pixi.js";
 
 
 
@@ -13,7 +13,69 @@ import PRODUCTS from "../../data/db.json";
 
 // ─────────────────────────────────────────────
 
-const CATEGORIES = ["All", "Marble", "Granite", "Natural Stone"];
+const CATEGORIES = ["Granite"];
+
+// Self-contained scheduler modal: no project-specific component import required.
+function SpecialistScheduler({ isOpen, onClose, onConfirm }) {
+  const [name, setName] = useState("");
+  const [email, setEmail] = useState("");
+  const [date, setDate] = useState("");
+  const [time, setTime] = useState("10:00");
+  const [message, setMessage] = useState("");
+  const [submitted, setSubmitted] = useState(false);
+
+  useEffect(() => {
+    if (!isOpen) return;
+    const handleKey = (event) => { if (event.key === "Escape") onClose(); };
+    document.addEventListener("keydown", handleKey);
+    return () => document.removeEventListener("keydown", handleKey);
+  }, [isOpen, onClose]);
+
+  useEffect(() => {
+    if (isOpen) {
+      setSubmitted(false);
+      setName(""); setEmail(""); setDate(""); setTime("10:00"); setMessage("");
+    }
+  }, [isOpen]);
+
+  if (!isOpen) return null;
+
+  const submit = (event) => {
+    event.preventDefault();
+    const booking = { name: name.trim(), email: email.trim(), date, time, message: message.trim() };
+    onConfirm?.(booking);
+    setSubmitted(true);
+  };
+
+  return (
+    <div style={m.overlay} onClick={onClose} role="presentation">
+      <div style={{ ...m.modal, maxWidth: 520 }} role="dialog" aria-modal="true" aria-labelledby="specialist-scheduler-title" onClick={(event) => event.stopPropagation()}>
+        <div style={m.modalHeader}>
+          <div><div style={m.modalEye}>PROJECT CONSULTATION</div><div id="specialist-scheduler-title" style={m.modalTitle}>Talk to a Specialist</div></div>
+          <button type="button" style={m.closeBtn} onClick={onClose} aria-label="Close">✕</button>
+        </div>
+        {submitted ? (
+          <div style={m.successBox}>
+            <div style={m.successTitle}>Request prepared</div>
+            <div style={m.successText}>Thanks, {name}. Your consultation request is ready. Connect this form to your email or CRM API to deliver it to your team.</div>
+            <button type="button" style={m.successClose} onClick={onClose}>Done</button>
+          </div>
+        ) : (
+          <form onSubmit={submit} style={{ padding: 24, display: "grid", gap: 14 }}>
+            <label style={m.label}>Full name<input required value={name} onChange={(e) => setName(e.target.value)} autoComplete="name" style={m.schedulerInput} placeholder="Your name" /></label>
+            <label style={m.label}>Business email<input required type="email" value={email} onChange={(e) => setEmail(e.target.value)} autoComplete="email" style={m.schedulerInput} placeholder="you@company.com" /></label>
+            <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: 12 }}>
+              <label style={m.label}>Preferred date<input required type="date" min={new Date().toISOString().slice(0, 10)} value={date} onChange={(e) => setDate(e.target.value)} style={m.schedulerInput} /></label>
+              <label style={m.label}>Preferred time<select value={time} onChange={(e) => setTime(e.target.value)} style={m.schedulerInput}><option value="10:00">10:00 AM</option><option value="12:00">12:00 PM</option><option value="14:00">2:00 PM</option><option value="16:00">4:00 PM</option></select></label>
+            </div>
+            <label style={m.label}>Project requirements<textarea value={message} onChange={(e) => setMessage(e.target.value)} rows={3} style={{ ...m.schedulerInput, resize: "vertical" }} placeholder="Stone type, quantity, destination, finish..." /></label>
+            <button type="submit" style={m.successClose}>Request consultation →</button>
+          </form>
+        )}
+      </div>
+    </div>
+  );
+}
 
 
 
@@ -704,241 +766,670 @@ function ProductCard({ product, onQuote, onDetail, index }) {
 
 
 // ─────────────────────────────────────────────
+// PIXI.JS INTERACTIVE HERO BACKGROUND
+// ─────────────────────────────────────────────
+
+function PixiStoneCanvas() {
+  const hostRef = useRef(null);
+  const pointerRef = useRef({ x: 0.5, y: 0.5 });
+
+  useEffect(() => {
+    const host = hostRef.current;
+    if (!host) return;
+
+    let app;
+    let disposed = false;
+    let initialized = false;
+    let destroyed = false;
+
+    // Pixi v8 can finish async initialization after React has already
+    // unmounted this component (especially in Strict Mode). Destroy once only.
+    const destroyApp = () => {
+      if (!app || !initialized || destroyed) return;
+      destroyed = true;
+      try {
+        app.destroy({ removeView: true }, { children: true });
+      } catch (error) {
+        console.warn("PixiJS cleanup warning:", error);
+      }
+      app = null;
+    };
+
+    const onPointerMove = (event) => {
+      const rect = host.getBoundingClientRect();
+      pointerRef.current = {
+        x: (event.clientX - rect.left) / Math.max(rect.width, 1),
+        y: (event.clientY - rect.top) / Math.max(rect.height, 1),
+      };
+    };
+
+    // const init = async () => {
+    //   app = new Application();
+    //   await app.init({
+    //     resizeTo: host,
+    //     backgroundAlpha: 0,
+    //     antialias: true,
+    //     autoDensity: true,
+    //     resolution: Math.min(window.devicePixelRatio || 1, 2),
+    //   });
+    //   initialized = true;
+
+    //   // If React unmounted while app.init() was pending, clean up here.
+    //   if (disposed) {
+    //     destroyApp();
+    //     return;
+    //   }
+
+    //   const canvas = app.canvas;
+    //   canvas.style.position = "absolute";
+    //   canvas.style.inset = "0";
+    //   canvas.style.width = "100%";
+    //   canvas.style.height = "100%";
+    //   canvas.style.pointerEvents = "none";
+    //   canvas.style.opacity = "0.9";
+    //   host.appendChild(canvas);
+
+    //   const art = new Graphics();
+    //   app.stage.addChild(art);
+
+    //   const particles = Array.from({ length: 54 }, (_, i) => ({
+    //     x: (i * 0.61803398875) % 1,
+    //     y: (i * 0.38196601125 + 0.13) % 1,
+    //     radius: 0.7 + (i % 4) * 0.35,
+    //     phase: i * 0.71,
+    //   }));
+
+    //   let elapsed = 0;
+    //   app.ticker.add((ticker) => {
+    //     elapsed += ticker.deltaTime * 0.012;
+    //     const width = app.screen.width;
+    //     const height = app.screen.height;
+    //     const pointer = pointerRef.current;
+    //     art.clear();
+
+    //     // Fine, flowing contour lines inspired by natural stone veining.
+    //     for (let line = 0; line < 15; line++) {
+    //       const baseY = height * (0.08 + line * 0.065);
+    //       art.moveTo(-20, baseY);
+    //       for (let step = 0; step <= 48; step++) {
+    //         const x = (width * step) / 48;
+    //         const wave =
+    //           Math.sin(step * 0.16 + line * 0.42 + elapsed) * height * 0.018 +
+    //           Math.sin(step * 0.07 - line * 0.31 + elapsed * 0.7) * height * 0.012;
+    //         const parallax = (pointer.y - 0.5) * (line - 7) * 1.8;
+    //         art.lineTo(x, baseY + wave + parallax);
+    //       }
+    //       art.stroke({
+    //         color: line % 4 === 0 ? 0xd4bc8a : 0x9bb9a3,
+    //         alpha: line % 4 === 0 ? 0.23 : 0.105,
+    //         width: line % 4 === 0 ? 1.15 : 0.65,
+    //       });
+    //     }
+
+    //     // A soft interactive focal ring follows the cursor.
+    //     const focusX = width * (0.68 + (pointer.x - 0.5) * 0.08);
+    //     const focusY = height * (0.46 + (pointer.y - 0.5) * 0.08);
+    //     for (let ring = 0; ring < 4; ring++) {
+    //       art.circle(focusX, focusY, 44 + ring * 23 + Math.sin(elapsed * 2 + ring) * 4)
+    //         .stroke({ color: 0xd4bc8a, alpha: 0.10 - ring * 0.015, width: 1 });
+    //     }
+
+    //     particles.forEach((particle) => {
+    //       const driftX = Math.sin(elapsed + particle.phase) * 0.009;
+    //       const driftY = Math.cos(elapsed * 0.8 + particle.phase) * 0.012;
+    //       const x = (particle.x + driftX + (pointer.x - 0.5) * 0.012) * width;
+    //       const y = (particle.y + driftY + (pointer.y - 0.5) * 0.012) * height;
+    //       art.circle(x, y, particle.radius)
+    //         .fill({ color: 0xd4bc8a, alpha: 0.18 + (Math.sin(elapsed + particle.phase) + 1) * 0.12 });
+    //     });
+    //   });
+    // };
+
+    const init = async () => {
+  try {
+    app = new Application();
+
+    await app.init({
+      resizeTo: host,
+      backgroundAlpha: 0,
+      antialias: true,
+      autoDensity: true,
+      resolution: Math.min(window.devicePixelRatio || 1, 2),
+    });
+
+    initialized = true;
+
+    // Clean up if React unmounted during initialization.
+    if (disposed) {
+      destroyApp();
+      return;
+    }
+
+    const canvas = app.canvas;
+
+    canvas.style.position = "absolute";
+    canvas.style.inset = "0";
+    canvas.style.width = "100%";
+    canvas.style.height = "100%";
+    canvas.style.pointerEvents = "none";
+    canvas.style.opacity = "0.9";
+
+    host.appendChild(canvas);
+
+    const art = new Graphics();
+    app.stage.addChild(art);
+
+    const particles = Array.from({ length: 54 }, (_, i) => ({
+      x: (i * 0.61803398875) % 1,
+      y: (i * 0.38196601125 + 0.13) % 1,
+      radius: 0.7 + (i % 4) * 0.35,
+      phase: i * 0.71,
+    }));
+
+    let elapsed = 0;
+
+    app.ticker.add((ticker) => {
+      elapsed += ticker.deltaTime * 0.012;
+
+      const width = app.screen.width;
+      const height = app.screen.height;
+      const pointer = pointerRef.current;
+
+      art.clear();
+
+      // Flowing contour lines.
+      for (let line = 0; line < 15; line++) {
+        const baseY = height * (0.08 + line * 0.065);
+
+        art.moveTo(-20, baseY);
+
+        for (let step = 0; step <= 48; step++) {
+          const x = (width * step) / 48;
+
+          const wave =
+            Math.sin(step * 0.16 + line * 0.42 + elapsed) *
+              height *
+              0.018 +
+            Math.sin(step * 0.07 - line * 0.31 + elapsed * 0.7) *
+              height *
+              0.012;
+
+          const parallax = (pointer.y - 0.5) * (line - 7) * 1.8;
+
+          art.lineTo(x, baseY + wave + parallax);
+        }
+
+        art.stroke({
+          color: line % 4 === 0 ? 0xd4bc8a : 0x9bb9a3,
+          alpha: line % 4 === 0 ? 0.23 : 0.105,
+          width: line % 4 === 0 ? 1.15 : 0.65,
+        });
+      }
+
+      // Interactive focal rings.
+      const focusX = width * (0.68 + (pointer.x - 0.5) * 0.08);
+      const focusY = height * (0.46 + (pointer.y - 0.5) * 0.08);
+
+      for (let ring = 0; ring < 4; ring++) {
+        art
+          .circle(
+            focusX,
+            focusY,
+            44 + ring * 23 + Math.sin(elapsed * 2 + ring) * 4
+          )
+          .stroke({
+            color: 0xd4bc8a,
+            alpha: 0.1 - ring * 0.015,
+            width: 1,
+          });
+      }
+
+      // Floating particles.
+      particles.forEach((particle) => {
+        const driftX = Math.sin(elapsed + particle.phase) * 0.009;
+        const driftY =
+          Math.cos(elapsed * 0.8 + particle.phase) * 0.012;
+
+        const x =
+          (particle.x + driftX + (pointer.x - 0.5) * 0.012) *
+          width;
+
+        const y =
+          (particle.y + driftY + (pointer.y - 0.5) * 0.012) *
+          height;
+
+        art
+          .circle(x, y, particle.radius)
+          .fill({
+            color: 0xd4bc8a,
+            alpha:
+              0.18 +
+              (Math.sin(elapsed + particle.phase) + 1) * 0.12,
+          });
+      });
+    });
+  } catch (error) {
+    console.error("PixiJS initialization failed:", error);
+
+    if (app && !disposed) {
+      destroyApp();
+    }
+  }
+};
+
+    host.addEventListener("pointermove", onPointerMove);
+    init().catch((error) => console.error("PixiJS hero failed to initialize:", error));
+
+    return () => {
+      disposed = true;
+      host.removeEventListener("pointermove", onPointerMove);
+
+      // If init has not finished, init() will call destroyApp() once it does.
+      // Calling destroy before init resolves can trigger the PixiJS error.
+      if (initialized) destroyApp();
+    };
+  }, []);
+
+  return (
+    <div
+      ref={hostRef}
+      aria-hidden="true"
+      style={{
+        position: "absolute",
+        inset: 0,
+        overflow: "hidden",
+        pointerEvents: "none",
+        zIndex: 0,
+      }}
+    />
+  );
+}
+
+
+// ─────────────────────────────────────────────
 
 // MAIN PAGE
 
 // ─────────────────────────────────────────────
 
+
+// "use client";
+
+// import { useState, useEffect, useRef } from "react";
+// import PRODUCTS from "../../data/db.json";
+// import { Application, Graphics } from "pixi.js";
+
+// Keep your existing PixiStoneCanvas, ProductCard,
+// QuoteModal, DetailDrawer, SpecialistScheduler,
+// CATEGORIES, and p style definitions in this file.
+
 export default function StoneCatalog() {
+  const ITEMS_PER_PAGE = 12;
 
-  const [activeFilter, setActiveFilter] = useState("All");
-
+  const [currentPage, setCurrentPage] = useState(1);
+  const [activeFilter, setActiveFilter] = useState("Granite");
   const [quoteProduct, setQuoteProduct] = useState(null);
-
   const [detailProduct, setDetailProduct] = useState(null);
-   
   const [openScheduler, setOpenScheduler] = useState(false);
 
+  // Filter products
+  const filtered = PRODUCTS.filter((product) => {
+    if (activeFilter === "All") return true;
 
+    return (
+      String(product.category || "").toLowerCase() ===
+      activeFilter.toLowerCase()
+    );
+  });
 
-  const filtered = activeFilter === "All"
+  // Pagination calculations
+  const totalPages = Math.ceil(filtered.length / ITEMS_PER_PAGE);
+  const startIndex = (currentPage - 1) * ITEMS_PER_PAGE;
 
-    ? PRODUCTS
+  const paginatedProducts = filtered.slice(
+    startIndex,
+    startIndex + ITEMS_PER_PAGE
+  );
 
-    : PRODUCTS.filter(p => p.category === activeFilter);
+  const goToPage = (page) => {
+    if (page >= 1 && page <= totalPages) {
+      setCurrentPage(page);
+    }
+  };
 
-
-
-  // Prevent body scroll when modal open
-
+  // Reset to page one when the filter changes
   useEffect(() => {
+    setCurrentPage(1);
+  }, [activeFilter]);
 
-    document.body.style.overflow = (quoteProduct || detailProduct) ? "hidden" : "";
+  // Prevent body scrolling while a modal or drawer is open
+  useEffect(() => {
+    const modalIsOpen = Boolean(quoteProduct || detailProduct);
 
-    return () => { document.body.style.overflow = ""; };
+    document.body.style.overflow = modalIsOpen ? "hidden" : "";
 
+    return () => {
+      document.body.style.overflow = "";
+    };
   }, [quoteProduct, detailProduct]);
 
-
-
   return (
-
     <div style={p.page}>
+      <style>{`
+        @media (max-width: 1350px) {
+          .granitura-stone-grid {
+            grid-template-columns: repeat(4, minmax(0, 1fr)) !important;
+          }
+        }
 
-      {/* ── HERO ── */}
+        @media (max-width: 1050px) {
+          .granitura-stone-grid {
+            grid-template-columns: repeat(3, minmax(0, 1fr)) !important;
+          }
+        }
 
+        @media (max-width: 720px) {
+          .granitura-stone-grid {
+            grid-template-columns: repeat(2, minmax(0, 1fr)) !important;
+          }
+        }
+
+        @media (max-width: 460px) {
+          .granitura-stone-grid {
+            grid-template-columns: 1fr !important;
+          }
+        }
+
+        /* Pagination container */
+        .granitura-pagination {
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          gap: 18px;
+          margin: 42px 0 24px;
+          padding: 24px 0;
+          border-top: 1px solid #e5e0d5;
+        }
+
+        .granitura-pagination-info {
+          margin: 0;
+          color: #77766f;
+          font-size: 13px;
+          text-align: center;
+        }
+
+        .granitura-pagination-controls {
+          display: flex;
+          flex-wrap: wrap;
+          align-items: center;
+          justify-content: center;
+          gap: 8px;
+        }
+
+        .granitura-page-number,
+        .granitura-page-arrow {
+          min-width: 42px;
+          height: 42px;
+          padding: 0 12px;
+          border: 1px solid #ded9ce;
+          border-radius: 4px;
+          background: #fff;
+          color: #263b2d;
+          font-size: 13px;
+          cursor: pointer;
+          transition:
+            background 0.2s ease,
+            color 0.2s ease,
+            border-color 0.2s ease;
+        }
+
+        .granitura-page-number:hover:not(.active),
+        .granitura-page-arrow:hover:not(:disabled) {
+          border-color: #263b2d;
+          background: #f4f3ed;
+        }
+
+        .granitura-page-number.active {
+          border-color: #263b2d;
+          background: #263b2d;
+          color: #fff;
+        }
+
+        .granitura-page-arrow:disabled {
+          opacity: 0.4;
+          cursor: not-allowed;
+        }
+
+        .granitura-page-number:focus-visible,
+        .granitura-page-arrow:focus-visible {
+          outline: 2px solid #b89a61;
+          outline-offset: 3px;
+        }
+
+        @media (max-width: 460px) {
+          .granitura-pagination {
+            margin-top: 28px;
+          }
+
+          .granitura-pagination-controls {
+            gap: 5px;
+          }
+
+          .granitura-page-number,
+          .granitura-page-arrow {
+            min-width: 36px;
+            height: 38px;
+            padding: 0 8px;
+            font-size: 12px;
+          }
+        }
+      `}</style>
+
+      {/* HERO */}
       <div style={p.hero}>
+        <PixiStoneCanvas />
 
         <div style={p.heroInner}>
-
           <div style={p.heroEye}>Premium Collection — Est. 2008</div>
 
           <h1 style={p.heroTitle}>
-
-            Luxury Stone<br />
-
-            <em style={p.heroTitleEm}>Catalog</em>
-
+            Indian Granite
+            <br />
+            <em style={p.heroTitleEm}>Collection</em>
           </h1>
 
           <div style={p.heroRule} />
 
           <p style={p.heroSub}>
-
-            Discover timeless marble, granite and natural stone sourced from
-
-            India's finest quarries — curated for architects, developers and
-
-            discerning international buyers.
-
+            Explore distinctive Indian granite selected for architectural,
+            hospitality and commercial projects across the Middle East.
+            Request export-ready specifications and a tailored quotation.
           </p>
 
           <div style={p.heroStats}>
-
-            {[["500+", "Stone Varieties"], ["20+", "Years Expertise"], ["4", "Export Markets"], ["ISO 9001", "Certified"]].map(([num, label]) => (
-
+            {[
+              ["India", "Quarry Sourcing"],
+              ["Bulk", "Project Supply"],
+              ["Custom", "Finishes & Sizes"],
+              ["GCC", "Export Enquiries"],
+            ].map(([num, label]) => (
               <div key={label} style={p.heroStat}>
-
                 <div style={p.heroStatNum}>{num}</div>
-
                 <div style={p.heroStatLabel}>{label}</div>
-
               </div>
-
             ))}
-
           </div>
-
         </div>
-
       </div>
 
-
-
-      {/* ── FILTERS ── */}
-
+      {/* FILTERS */}
       <div style={p.filterBar}>
-
         <div style={p.filterInner}>
-
           <div style={p.filterLabel}>Filter by type</div>
 
           <div style={p.filterBtns}>
-
-            {CATEGORIES.map(cat => (
-
-              <button key={cat}
-
-                style={{ ...p.filterBtn, ...(activeFilter === cat ? p.filterBtnActive : {}) }}
-
-                onClick={() => setActiveFilter(cat)}>
-
+            {CATEGORIES.map((cat) => (
+              <button
+                key={cat}
+                type="button"
+                style={{
+                  ...p.filterBtn,
+                  ...(activeFilter === cat ? p.filterBtnActive : {}),
+                }}
+                onClick={() => setActiveFilter(cat)}
+              >
                 {cat}
 
                 {cat !== "All" && (
-
                   <span style={p.filterCount}>
-
-                    {PRODUCTS.filter(pr => pr.category === cat).length}
-
+                    {
+                      PRODUCTS.filter(
+                        (product) =>
+                          String(product.category || "").toLowerCase() ===
+                          cat.toLowerCase()
+                      ).length
+                    }
                   </span>
-
                 )}
-
               </button>
-
             ))}
-
           </div>
 
-          <div style={p.resultCount}>{filtered.length} products</div>
-
+          <div style={p.resultCount}>
+            {filtered.length} products
+          </div>
         </div>
-
       </div>
 
-
-
-      {/* ── GRID ── */}
-
+      {/* PRODUCT GRID AND PAGINATION */}
       <div style={p.catalogWrap}>
-
-        <div style={p.grid}>
-
-          {filtered.map((product, i) => (
-
+        <div className="granitura-stone-grid" style={p.grid}>
+          {paginatedProducts.map((product, i) => (
             <ProductCard
-
               key={product.id}
-
               product={product}
-
-              index={i}
-
+              index={startIndex + i}
               onQuote={setQuoteProduct}
-
               onDetail={setDetailProduct}
-
             />
-
           ))}
-
         </div>
 
-      </div>
-
-
-
-      {/* ── CTA BANNER ── */}
-
-      <div style={p.ctaBanner}>
-
-        <div style={p.ctaInner}>
-
-          <div style={p.ctaLeft}>
-
-            <div style={p.ctaEye}>Custom Requirements?</div>
-
-            <h2 style={p.ctaTitle}>Need a bespoke stone solution?</h2>
-
-            <p style={p.ctaSub}>
-
-              Our specialists handle custom cutting, bookmatched panels, and bulk procurement
-
-              for projects of any scale — from single apartments to landmark towers.
-
+        {filtered.length === 0 ? (
+          <p style={{ textAlign: "center", padding: "40px 0" }}>
+            No products found in this category.
+          </p>
+        ) : totalPages > 1 ? (
+          <nav
+            className="granitura-pagination"
+            aria-label="Product pagination"
+          >
+            <p className="granitura-pagination-info">
+              Showing {startIndex + 1}–
+              {Math.min(startIndex + ITEMS_PER_PAGE, filtered.length)} of{" "}
+              {filtered.length} products
             </p>
 
-          </div>
+            <div className="granitura-pagination-controls">
+              <button
+                type="button"
+                className="granitura-page-arrow"
+                onClick={() => goToPage(currentPage - 1)}
+                disabled={currentPage === 1}
+                aria-label="Previous page"
+              >
+                ← Previous
+              </button>
 
-           {/* <button
-    style={p.ctaBtn}
-    onClick={() => setOpenScheduler(true)}
-  >
-    Talk to a Specialist →
-  </button> */}
+              {Array.from(
+                { length: totalPages },
+                (_, index) => index + 1
+              ).map((page) => (
+                <button
+                  key={page}
+                  type="button"
+                  className={`granitura-page-number ${
+                    currentPage === page ? "active" : ""
+                  }`}
+                  onClick={() => goToPage(page)}
+                  aria-label={`Page ${page}`}
+                  aria-current={
+                    currentPage === page ? "page" : undefined
+                  }
+                >
+                  {page}
+                </button>
+              ))}
 
-  <SpecialistScheduler
-    isOpen={openScheduler}
-    onClose={() => setOpenScheduler(false)}
-    specialistName="Dr. Elena Marsh"
-    onConfirm={(booking) => console.log(booking)}
-  />
-
-    
-
-        </div>
-
+              <button
+                type="button"
+                className="granitura-page-arrow"
+                onClick={() => goToPage(currentPage + 1)}
+                disabled={currentPage === totalPages}
+                aria-label="Next page"
+              >
+                Next →
+              </button>
+            </div>
+          </nav>
+        ) : null}
       </div>
 
+      {/* CTA BANNER */}
+      <div style={p.ctaBanner}>
+        <div style={p.ctaInner}>
+          <div style={p.ctaLeft}>
+            <div style={p.ctaEye}>Custom Requirements?</div>
 
+            <h2 style={p.ctaTitle}>
+              Need a bespoke stone solution?
+            </h2>
 
-      {/* ── MODALS ── */}
+            <p style={p.ctaSub}>
+              Our specialists handle custom cutting, bookmatched panels,
+              and bulk procurement for projects of any scale — from single
+              apartments to landmark towers.
+            </p>
+          </div>
 
+          <button
+            type="button"
+            style={p.ctaBtn}
+            onClick={() => setOpenScheduler(true)}
+          >
+            Talk to a Specialist →
+          </button>
+
+          <SpecialistScheduler
+            isOpen={openScheduler}
+            onClose={() => setOpenScheduler(false)}
+            onConfirm={(booking) =>
+              console.info("Consultation request:", booking)
+            }
+          />
+        </div>
+      </div>
+
+      {/* MODALS */}
       {quoteProduct && (
-
-        <QuoteModal product={quoteProduct} onClose={() => setQuoteProduct(null)} />
-
+        <QuoteModal
+          product={quoteProduct}
+          onClose={() => setQuoteProduct(null)}
+        />
       )}
 
       {detailProduct && (
-
         <DetailDrawer
-
           product={detailProduct}
-
           onClose={() => setDetailProduct(null)}
-
-          onQuote={(prod) => setQuoteProduct(prod)}
-
+          onQuote={(product) => {
+            setDetailProduct(null);
+            setQuoteProduct(product);
+          }}
         />
-
       )}
-
     </div>
-
   );
-
 }
 
 
@@ -969,7 +1460,7 @@ const p = {
 
   hero: {
 
-    background: "linear-gradient(160deg, #1a3a2a 0%, #0f2318 60%, #1a3a2a 100%)",
+    background: "radial-gradient(circle at 78% 44%, rgba(184,160,112,0.12), transparent 30%), linear-gradient(160deg, #1a3a2a 0%, #0f2318 60%, #1a3a2a 100%)",
 
     padding: "80px 8% 72px",
 
@@ -1107,15 +1598,32 @@ const p = {
 
 
 
-  catalogWrap: { padding: "48px 8% 64px" },
+  catalogWrap: { padding: "48px 5% 64px" },
+
+  catalogIntro: {
+    display: "flex", alignItems: "end", justifyContent: "space-between",
+    gap: "24px", flexWrap: "wrap", marginBottom: "28px",
+  },
+  catalogEyebrow: {
+    fontSize: "10px", letterSpacing: "2px", textTransform: "uppercase",
+    color: "#8d7750", marginBottom: "10px", fontWeight: "700",
+  },
+  catalogTitle: {
+    fontFamily: "Georgia, serif", fontSize: "clamp(1.7rem,3vw,2.6rem)",
+    lineHeight: "1.15", fontWeight: "400", color: "#1a3a2a", margin: 0,
+  },
+  catalogDescription: {
+    color: "#7a9080", fontSize: "13px", lineHeight: "1.7",
+    maxWidth: "360px", margin: 0,
+  },
 
   grid: {
 
     display: "grid",
 
-    gridTemplateColumns: "repeat(auto-fill, minmax(320px, 1fr))",
+    gridTemplateColumns: "repeat(5, minmax(0, 1fr))",
 
-    gap: "24px",
+    gap: "18px",
 
   },
 
@@ -1621,6 +2129,7 @@ const m = {
 
   },
 
+  schedulerInput: { width: "100%", boxSizing: "border-box", marginTop: 7, padding: "12px 13px", background: "#111713", border: "1px solid #39453b", borderRadius: 8, color: "#f5f1e8", font: "inherit", outlineColor: "#d4bc8a" }
 };
 
 

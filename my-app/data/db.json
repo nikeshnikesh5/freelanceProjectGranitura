@@ -2,7 +2,7 @@
   {
     "id": 1,
     "name": "Italian White Marble",
-    "category": "Marble",
+    "category":"granite",
     "origin": "Rajasthan, India",
     "image": "/assets/catlog/final/light-grey-white/slab-072.jpeg",
     "tag": "Best Seller",
@@ -40,7 +40,7 @@
   {
     "id": 2,
     "name": "Black Galaxy Granite",
-    "category": "Granite",
+    "category": "granite",
     "origin": "Andhra Pradesh, India",
     "image": "/assets/catlog/final/dark-granite/slab-005.jpeg",
     "tag": "Export Grade",
@@ -78,7 +78,7 @@
   {
     "id": 3,
     "name": "Forest Green Marble",
-    "category": "Marble",
+    "category":"granite",
     "origin": "Udaipur, Rajasthan",
     "image": "/assets/catlog/final/warm-red-brown/slab-029.jpeg",
     "tag": "Luxury",
@@ -116,7 +116,7 @@
   {
     "id": 4,
     "name": "Absolute Black Granite",
-    "category": "Granite",
+    "category": "granite",
     "origin": "Tamil Nadu, India",
     "image": "/assets/catlog/final/dark-granite/slab-004.jpeg",
     "tag": "High Demand",
@@ -154,7 +154,7 @@
   {
     "id": 5,
     "name": "Kota Blue Stone",
-    "category": "Natural Stone",
+    "category": "granite",
     "origin": "Kota, Rajasthan",
     "image": "/assets/catlog/final/light-grey-white/slab-041.jpeg",
     "tag": "Heritage Stone",
@@ -192,7 +192,7 @@
   {
     "id": 6,
     "name": "Kashmir White Granite",
-    "category": "Granite",
+    "category": "granite",
     "origin": "Tamil Nadu, India",
     "image": "/assets/catlog/final/light-grey-white/slab-069.jpeg",
     "tag": "Premium",
@@ -230,7 +230,7 @@
   {
     "id": 7,
     "name": "Indian Aurora Marble",
-    "category": "Marble",
+    "category":"granite",
     "origin": "Madhya Pradesh, India",
     "image": "/assets/catlog/final/warm-red-brown/slab-003.jpeg",
     "tag": "New Arrival",
@@ -268,7 +268,7 @@
   {
     "id": 8,
     "name": "Steel Grey Granite",
-    "category": "Granite",
+    "category": "granite",
     "origin": "Andhra Pradesh, India",
     "image": "/assets/catlog/final/light-grey-white/slab-012.jpeg",
     "tag": "Industrial",
@@ -306,7 +306,7 @@
   {
     "id": 9,
     "name": "Sample Stone 009",
-    "category": "Granite",
+    "category": "granite",
     "origin": "To be confirmed",
     "image": "/assets/catlog/final/dark-granite/slab-001.jpeg",
     "tag": "Sample Data",
@@ -344,7 +344,7 @@
   {
     "id": 10,
     "name": "Sample Stone 010",
-    "category": "Natural Stone",
+    "category": "granite",
     "origin": "To be confirmed",
     "image": "/assets/catlog/final/warm-red-brown/slab-002.jpeg",
     "tag": "Sample Data",
@@ -382,7 +382,7 @@
   {
     "id": 11,
     "name": "Sample Stone 011",
-    "category": "Natural Stone",
+    "category": "granite",
     "origin": "To be confirmed",
     "image": "/assets/catlog/final/warm-red-brown/slab-006.jpeg",
     "tag": "Sample Data",
@@ -420,7 +420,7 @@
   {
     "id": 12,
     "name": "Sample Stone 012",
-    "category": "Natural Stone",
+    "category": "granite",
     "origin": "To be confirmed",
     "image": "/assets/catlog/final/warm-red-brown/slab-007.jpeg",
     "tag": "Sample Data",
@@ -458,7 +458,7 @@
   {
     "id": 13,
     "name": "Sample Stone 013",
-    "category": "Granite",
+    "category": "granite",
     "origin": "To be confirmed",
     "image": "/assets/catlog/final/dark-granite/slab-008.jpeg",
     "tag": "Sample Data",
@@ -496,7 +496,7 @@
   {
     "id": 14,
     "name": "Sample Stone 014",
-    "category": "Natural Stone",
+    "category": "granite",
     "origin": "To be confirmed",
     "image": "/assets/catlog/final/warm-red-brown/slab-009.jpeg",
     "tag": "Sample Data",
@@ -534,7 +534,7 @@
   {
     "id": 15,
     "name": "Sample Stone 015",
-    "category": "Granite",
+    "category": "granite",
     "origin": "To be confirmed",
     "image": "/assets/catlog/final/dark-granite/slab-010.jpeg",
     "tag": "Sample Data",
@@ -572,7 +572,7 @@
   {
     "id": 16,
     "name": "Sample Stone 016",
-    "category": "Granite",
+    "category": "granite",
     "origin": "To be confirmed",
     "image": "/assets/catlog/final/dark-granite/slab-011.jpeg",
     "tag": "Sample Data",
@@ -610,7 +610,7 @@
   {
     "id": 17,
     "name": "Sample Stone 017",
-    "category": "Natural Stone",
+    "category": "granite",
     "origin": "To be confirmed",
     "image": "/assets/catlog/final/mixed-veined/slab-013.jpeg",
     "tag": "Sample Data",
@@ -648,7 +648,7 @@
   {
     "id": 18,
     "name": "Sample Stone 018",
-    "category": "Natural Stone",
+    "category": "granite",
     "origin": "To be confirmed",
     "image": "/assets/catlog/final/warm-red-brown/slab-014.jpeg",
     "tag": "Sample Data",
@@ -686,7 +686,7 @@
   {
     "id": 19,
     "name": "Sample Stone 019",
-    "category": "Marble",
+    "category":"granite",
     "origin": "To be confirmed",
     "image": "/assets/catlog/final/light-grey-white/slab-015.jpeg",
     "tag": "Sample Data",
@@ -724,7 +724,7 @@
   {
     "id": 20,
     "name": "Sample Stone 020",
-    "category": "Marble",
+    "category":"granite",
     "origin": "To be confirmed",
     "image": "/assets/catlog/final/light-grey-white/slab-016.jpeg",
     "tag": "Sample Data",
@@ -762,7 +762,7 @@
   {
     "id": 21,
     "name": "Sample Stone 021",
-    "category": "Marble",
+    "category":"granite",
     "origin": "To be confirmed",
     "image": "/assets/catlog/final/light-grey-white/slab-017.jpeg",
     "tag": "Sample Data",
@@ -800,7 +800,7 @@
   {
     "id": 22,
     "name": "Sample Stone 022",
-    "category": "Natural Stone",
+    "category": "granite",
     "origin": "To be confirmed",
     "image": "/assets/catlog/final/mixed-veined/slab-018.jpeg",
     "tag": "Sample Data",
@@ -838,7 +838,7 @@
   {
     "id": 23,
     "name": "Sample Stone 023",
-    "category": "Marble",
+    "category":"granite",
     "origin": "To be confirmed",
     "image": "/assets/catlog/final/light-grey-white/slab-019.jpeg",
     "tag": "Sample Data",
@@ -876,7 +876,7 @@
   {
     "id": 24,
     "name": "Sample Stone 024",
-    "category": "Natural Stone",
+    "category": "granite",
     "origin": "To be confirmed",
     "image": "/assets/catlog/final/mixed-veined/slab-020.jpeg",
     "tag": "Sample Data",
@@ -914,7 +914,7 @@
   {
     "id": 25,
     "name": "Sample Stone 025",
-    "category": "Natural Stone",
+    "category": "granite",
     "origin": "To be confirmed",
     "image": "/assets/catlog/final/warm-red-brown/slab-021.jpeg",
     "tag": "Sample Data",
@@ -952,7 +952,7 @@
   {
     "id": 26,
     "name": "Sample Stone 026",
-    "category": "Natural Stone",
+    "category": "granite",
     "origin": "To be confirmed",
     "image": "/assets/catlog/final/warm-red-brown/slab-022.jpeg",
     "tag": "Sample Data",
@@ -990,7 +990,7 @@
   {
     "id": 27,
     "name": "Sample Stone 027",
-    "category": "Natural Stone",
+    "category": "granite",
     "origin": "To be confirmed",
     "image": "/assets/catlog/final/mixed-veined/slab-023.jpeg",
     "tag": "Sample Data",
@@ -1028,7 +1028,7 @@
   {
     "id": 28,
     "name": "Sample Stone 028",
-    "category": "Natural Stone",
+    "category": "granite",
     "origin": "To be confirmed",
     "image": "/assets/catlog/final/warm-red-brown/slab-024.jpeg",
     "tag": "Sample Data",
@@ -1066,7 +1066,7 @@
   {
     "id": 29,
     "name": "Sample Stone 029",
-    "category": "Natural Stone",
+    "category": "granite",
     "origin": "To be confirmed",
     "image": "/assets/catlog/final/warm-red-brown/slab-025.jpeg",
     "tag": "Sample Data",
@@ -1104,7 +1104,7 @@
   {
     "id": 30,
     "name": "Sample Stone 030",
-    "category": "Natural Stone",
+    "category": "granite",
     "origin": "To be confirmed",
     "image": "/assets/catlog/final/warm-red-brown/slab-026.jpeg",
     "tag": "Sample Data",
@@ -1142,7 +1142,7 @@
   {
     "id": 31,
     "name": "Sample Stone 031",
-    "category": "Marble",
+    "category":"granite",
     "origin": "To be confirmed",
     "image": "/assets/catlog/final/light-grey-white/slab-027.jpeg",
     "tag": "Sample Data",
@@ -1180,7 +1180,7 @@
   {
     "id": 32,
     "name": "Sample Stone 032",
-    "category": "Granite",
+    "category": "granite",
     "origin": "To be confirmed",
     "image": "/assets/catlog/final/dark-granite/slab-028.jpeg",
     "tag": "Sample Data",
@@ -1218,7 +1218,7 @@
   {
     "id": 33,
     "name": "Sample Stone 033",
-    "category": "Natural Stone",
+    "category": "granite",
     "origin": "To be confirmed",
     "image": "/assets/catlog/final/warm-red-brown/slab-030.jpeg",
     "tag": "Sample Data",
@@ -1256,7 +1256,7 @@
   {
     "id": 34,
     "name": "Sample Stone 034",
-    "category": "Natural Stone",
+    "category": "granite",
     "origin": "To be confirmed",
     "image": "/assets/catlog/final/warm-red-brown/slab-031.jpeg",
     "tag": "Sample Data",
@@ -1294,7 +1294,7 @@
   {
     "id": 35,
     "name": "Sample Stone 035",
-    "category": "Granite",
+    "category": "granite",
     "origin": "To be confirmed",
     "image": "/assets/catlog/final/dark-granite/slab-032.jpeg",
     "tag": "Sample Data",
@@ -1332,7 +1332,7 @@
   {
     "id": 36,
     "name": "Sample Stone 036",
-    "category": "Natural Stone",
+    "category": "granite",
     "origin": "To be confirmed",
     "image": "/assets/catlog/final/warm-red-brown/slab-033.jpeg",
     "tag": "Sample Data",
@@ -1370,7 +1370,7 @@
   {
     "id": 37,
     "name": "Sample Stone 037",
-    "category": "Natural Stone",
+    "category": "granite",
     "origin": "To be confirmed",
     "image": "/assets/catlog/final/warm-red-brown/slab-034.jpeg",
     "tag": "Sample Data",
@@ -1408,7 +1408,7 @@
   {
     "id": 38,
     "name": "Sample Stone 038",
-    "category": "Natural Stone",
+    "category": "granite",
     "origin": "To be confirmed",
     "image": "/assets/catlog/final/warm-red-brown/slab-035.jpeg",
     "tag": "Sample Data",
@@ -1446,7 +1446,7 @@
   {
     "id": 39,
     "name": "Sample Stone 039",
-    "category": "Natural Stone",
+    "category": "granite",
     "origin": "To be confirmed",
     "image": "/assets/catlog/final/mixed-veined/slab-036.jpeg",
     "tag": "Sample Data",
@@ -1484,7 +1484,7 @@
   {
     "id": 40,
     "name": "Sample Stone 040",
-    "category": "Natural Stone",
+    "category": "granite",
     "origin": "To be confirmed",
     "image": "/assets/catlog/final/warm-red-brown/slab-037.jpeg",
     "tag": "Sample Data",
@@ -1522,7 +1522,7 @@
   {
     "id": 41,
     "name": "Sample Stone 041",
-    "category": "Natural Stone",
+    "category": "granite",
     "origin": "To be confirmed",
     "image": "/assets/catlog/final/warm-red-brown/slab-038.jpeg",
     "tag": "Sample Data",
@@ -1560,7 +1560,7 @@
   {
     "id": 42,
     "name": "Sample Stone 042",
-    "category": "Natural Stone",
+    "category": "granite",
     "origin": "To be confirmed",
     "image": "/assets/catlog/final/warm-red-brown/slab-039.jpeg",
     "tag": "Sample Data",
@@ -1598,7 +1598,7 @@
   {
     "id": 43,
     "name": "Sample Stone 043",
-    "category": "Natural Stone",
+    "category": "granite",
     "origin": "To be confirmed",
     "image": "/assets/catlog/final/mixed-veined/slab-040.jpeg",
     "tag": "Sample Data",
@@ -1636,7 +1636,7 @@
   {
     "id": 44,
     "name": "Sample Stone 044",
-    "category": "Natural Stone",
+    "category": "granite",
     "origin": "To be confirmed",
     "image": "/assets/catlog/final/warm-red-brown/slab-042.jpeg",
     "tag": "Sample Data",
@@ -1674,7 +1674,7 @@
   {
     "id": 45,
     "name": "Sample Stone 045",
-    "category": "Natural Stone",
+    "category": "granite",
     "origin": "To be confirmed",
     "image": "/assets/catlog/final/warm-red-brown/slab-043.jpeg",
     "tag": "Sample Data",
@@ -1712,7 +1712,7 @@
   {
     "id": 46,
     "name": "Sample Stone 046",
-    "category": "Natural Stone",
+    "category": "granite",
     "origin": "To be confirmed",
     "image": "/assets/catlog/final/warm-red-brown/slab-044.jpeg",
     "tag": "Sample Data",
@@ -1750,7 +1750,7 @@
   {
     "id": 47,
     "name": "Sample Stone 047",
-    "category": "Marble",
+    "category":"granite",
     "origin": "To be confirmed",
     "image": "/assets/catlog/final/light-grey-white/slab-045.jpeg",
     "tag": "Sample Data",
@@ -1788,7 +1788,7 @@
   {
     "id": 48,
     "name": "Sample Stone 048",
-    "category": "Granite",
+    "category": "granite",
     "origin": "To be confirmed",
     "image": "/assets/catlog/final/dark-granite/slab-046.jpeg",
     "tag": "Sample Data",
@@ -1826,7 +1826,7 @@
   {
     "id": 49,
     "name": "Sample Stone 049",
-    "category": "Natural Stone",
+    "category": "granite",
     "origin": "To be confirmed",
     "image": "/assets/catlog/final/warm-red-brown/slab-047.jpeg",
     "tag": "Sample Data",
@@ -1864,7 +1864,7 @@
   {
     "id": 50,
     "name": "Sample Stone 050",
-    "category": "Natural Stone",
+    "category": "granite",
     "origin": "To be confirmed",
     "image": "/assets/catlog/final/warm-red-brown/slab-048.jpeg",
     "tag": "Sample Data",
@@ -1902,7 +1902,7 @@
   {
     "id": 51,
     "name": "Sample Stone 051",
-    "category": "Natural Stone",
+    "category": "granite",
     "origin": "To be confirmed",
     "image": "/assets/catlog/final/warm-red-brown/slab-049.jpeg",
     "tag": "Sample Data",
@@ -1940,7 +1940,7 @@
   {
     "id": 52,
     "name": "Sample Stone 052",
-    "category": "Granite",
+    "category": "granite",
     "origin": "To be confirmed",
     "image": "/assets/catlog/final/dark-granite/slab-050.jpeg",
     "tag": "Sample Data",
@@ -1978,7 +1978,7 @@
   {
     "id": 53,
     "name": "Sample Stone 053",
-    "category": "Natural Stone",
+    "category": "granite",
     "origin": "To be confirmed",
     "image": "/assets/catlog/final/warm-red-brown/slab-051.jpeg",
     "tag": "Sample Data",
@@ -2016,7 +2016,7 @@
   {
     "id": 54,
     "name": "Sample Stone 054",
-    "category": "Natural Stone",
+    "category": "granite",
     "origin": "To be confirmed",
     "image": "/assets/catlog/final/warm-red-brown/slab-052.jpeg",
     "tag": "Sample Data",
@@ -2054,7 +2054,7 @@
   {
     "id": 55,
     "name": "Sample Stone 055",
-    "category": "Natural Stone",
+    "category": "granite",
     "origin": "To be confirmed",
     "image": "/assets/catlog/final/warm-red-brown/slab-053.jpeg",
     "tag": "Sample Data",
@@ -2092,7 +2092,7 @@
   {
     "id": 56,
     "name": "Sample Stone 056",
-    "category": "Natural Stone",
+    "category": "granite",
     "origin": "To be confirmed",
     "image": "/assets/catlog/final/warm-red-brown/slab-054.jpeg",
     "tag": "Sample Data",
@@ -2130,7 +2130,7 @@
   {
     "id": 57,
     "name": "Sample Stone 057",
-    "category": "Natural Stone",
+    "category": "granite",
     "origin": "To be confirmed",
     "image": "/assets/catlog/final/warm-red-brown/slab-055.jpeg",
     "tag": "Sample Data",
@@ -2168,7 +2168,7 @@
   {
     "id": 58,
     "name": "Sample Stone 058",
-    "category": "Natural Stone",
+    "category": "granite",
     "origin": "To be confirmed",
     "image": "/assets/catlog/final/mixed-veined/slab-056.jpeg",
     "tag": "Sample Data",
@@ -2206,7 +2206,7 @@
   {
     "id": 59,
     "name": "Sample Stone 059",
-    "category": "Natural Stone",
+    "category": "granite",
     "origin": "To be confirmed",
     "image": "/assets/catlog/final/warm-red-brown/slab-057.jpeg",
     "tag": "Sample Data",
@@ -2244,7 +2244,7 @@
   {
     "id": 60,
     "name": "Sample Stone 060",
-    "category": "Natural Stone",
+    "category": "granite",
     "origin": "To be confirmed",
     "image": "/assets/catlog/final/mixed-veined/slab-058.jpeg",
     "tag": "Sample Data",
@@ -2282,7 +2282,7 @@
   {
     "id": 61,
     "name": "Sample Stone 061",
-    "category": "Marble",
+    "category":"granite",
     "origin": "To be confirmed",
     "image": "/assets/catlog/final/light-grey-white/slab-059.jpeg",
     "tag": "Sample Data",
@@ -2320,7 +2320,7 @@
   {
     "id": 62,
     "name": "Sample Stone 062",
-    "category": "Natural Stone",
+    "category": "granite",
     "origin": "To be confirmed",
     "image": "/assets/catlog/final/mixed-veined/slab-060.jpeg",
     "tag": "Sample Data",
@@ -2358,7 +2358,7 @@
   {
     "id": 63,
     "name": "Sample Stone 063",
-    "category": "Natural Stone",
+    "category": "granite",
     "origin": "To be confirmed",
     "image": "/assets/catlog/final/warm-red-brown/slab-061.jpeg",
     "tag": "Sample Data",
@@ -2396,7 +2396,7 @@
   {
     "id": 64,
     "name": "Sample Stone 064",
-    "category": "Marble",
+    "category":"granite",
     "origin": "To be confirmed",
     "image": "/assets/catlog/final/light-grey-white/slab-062.jpeg",
     "tag": "Sample Data",
@@ -2434,7 +2434,7 @@
   {
     "id": 65,
     "name": "Sample Stone 065",
-    "category": "Natural Stone",
+    "category": "granite",
     "origin": "To be confirmed",
     "image": "/assets/catlog/final/warm-red-brown/slab-063.jpeg",
     "tag": "Sample Data",
@@ -2472,7 +2472,7 @@
   {
     "id": 66,
     "name": "Sample Stone 066",
-    "category": "Marble",
+    "category":"granite",
     "origin": "To be confirmed",
     "image": "/assets/catlog/final/light-grey-white/slab-064.jpeg",
     "tag": "Sample Data",
@@ -2510,7 +2510,7 @@
   {
     "id": 67,
     "name": "Sample Stone 067",
-    "category": "Granite",
+    "category": "granite",
     "origin": "To be confirmed",
     "image": "/assets/catlog/final/dark-granite/slab-065.jpeg",
     "tag": "Sample Data",
@@ -2548,7 +2548,7 @@
   {
     "id": 68,
     "name": "Sample Stone 068",
-    "category": "Marble",
+    "category":"granite",
     "origin": "To be confirmed",
     "image": "/assets/catlog/final/light-grey-white/slab-066.jpeg",
     "tag": "Sample Data",
@@ -2586,7 +2586,7 @@
   {
     "id": 69,
     "name": "Sample Stone 069",
-    "category": "Marble",
+    "category":"granite",
     "origin": "To be confirmed",
     "image": "/assets/catlog/final/light-grey-white/slab-067.jpeg",
     "tag": "Sample Data",
@@ -2624,7 +2624,7 @@
   {
     "id": 70,
     "name": "Sample Stone 070",
-    "category": "Marble",
+    "category":"granite",
     "origin": "To be confirmed",
     "image": "/assets/catlog/final/light-grey-white/slab-068.jpeg",
     "tag": "Sample Data",
@@ -2662,7 +2662,7 @@
   {
     "id": 71,
     "name": "Sample Stone 071",
-    "category": "Marble",
+    "category":"granite",
     "origin": "To be confirmed",
     "image": "/assets/catlog/final/light-grey-white/slab-070.jpeg",
     "tag": "Sample Data",
@@ -2700,7 +2700,7 @@
   {
     "id": 72,
     "name": "Sample Stone 072",
-    "category": "Marble",
+    "category":"granite",
     "origin": "To be confirmed",
     "image": "/assets/catlog/final/light-grey-white/slab-071.jpeg",
     "tag": "Sample Data",
@@ -2738,7 +2738,7 @@
   {
     "id": 73,
     "name": "Sample Stone 073",
-    "category": "Marble",
+    "category":"granite",
     "origin": "To be confirmed",
     "image": "/assets/catlog/final/light-grey-white/slab-073.jpeg",
     "tag": "Sample Data",
@@ -2776,7 +2776,7 @@
   {
     "id": 74,
     "name": "Sample Stone 074",
-    "category": "Granite",
+    "category": "granite",
     "origin": "To be confirmed",
     "image": "/assets/catlog/final/dark-granite/slab-074.jpeg",
     "tag": "Sample Data",
