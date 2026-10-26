@@ -1,17 +1,19 @@
 "use client"
 import { useState } from "react";
 import NavBar from "./component/navBar/NavBar";
-import Hero from "./component/Hero/Hero-Section";
+// import Hero from "./component/Hero/Hero-Section";
 import About from "./component/About/About";
 import CatlogSection from "./component/catalog/Catelog-Section";
 import ProcessSection from "./component/process/ProcesSection";
 import Testimonial from "./component/Testimonial/Testimonial";
 import Footer from "./component/Footer/footer";
 import WhyUs from "./component/WhyUs/whyus";
-import Export from "./component/export/export";
+// import Export from "./component/export/export";
 import GranituraMobileNav from "./mobile-responsive/MobNavbar";
-import MobExport from "../app/component/export/mobExport";
+// import MobExport from "../app/component/export/mobExport";
 import GraniteLoader from "../app/component/Loading/GranituraLoading";
+import ExportHero from "../app/component/exportHero/ExportHero";
+import  ExportJourneyHero  from "../app/component/ExportJourney/ExportJourneyHero"; 
 
 
 export default function Home() {
@@ -19,32 +21,34 @@ export default function Home() {
 
   return (   
      <>
-      {loading && (
+      {/* {loading && (
   <GraniteLoader
     duration={3200}
     onComplete={() => setLoading(false)}
-  />
-)}
+  /> */}
+{/* )} */}
 
     {/* Desktop + Tablet */}
-      <div className="desktop-nav">
+      {/* <div className="desktop-nav">
         <NavBar />
-      </div>
+      </div> */}
 
       {/* Mobile */}
-      <div className="mobile-nav">
+      {/* <div className="mobile-nav">
         <GranituraMobileNav />
-      </div>
-     <Hero/>
+      </div> */}
+     {/* <Hero/> */}
+      <ExportJourneyHero />
       <CatlogSection/>
       
      <div className="desktop-nav">
- <Export />
+ {/* <Export /> */}
+  {/* <ExportHero /> */}
      </div>
     {/* <div className="mobile-nav">
         <MobExport/>
       </div> */}
-      <About/>
+      {/* <About/> */}
      
       <ProcessSection/>
       <WhyUs />

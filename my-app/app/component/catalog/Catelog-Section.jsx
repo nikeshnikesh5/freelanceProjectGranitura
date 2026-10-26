@@ -9,7 +9,7 @@
 //   {
 //     id: 1,
 //     name: "Carrara Bianco",
-//     category: "marble",
+//     category:"granite",
 //     tag: "Italian Import",
 //     image: "/assets/catlog/luxurious-marble-texture-background.jpg",
 //     desc: "Quarried from the Apuan Alps — pure white with subtle grey veining.",
@@ -17,7 +17,7 @@
 //   {
 //     id: 2,
 //     name: "Verde Guatemala",
-//     category: "marble",
+//     category:"granite",
 //     tag: "Italian Import",
 //     image: "/assets/catlog/ItalianGranite.jpg",
 //     desc: "Deep emerald tones with luxurious natural veining.",
@@ -49,7 +49,7 @@
 //   {
 //     id: 6,
 //     name: "Crema Marfil",
-//     category: "marble",
+//     category:"granite",
 //     tag: "Italian Import",
 //     image: "/assets/catlog/luxurious-marble-texture-background.jpg",
 //     desc: "Warm ivory marble delivering timeless elegance and luxury.",
@@ -149,7 +149,7 @@ const catalogItems = [
   {
     id: 1,
     name: "Carrara Bianco",
-    category: "marble",
+    category:"granite",
     tag: "Italian Import",
     image: "/assets/catlog/luxurious-marble-texture-background.jpg",
     desc: "Quarried from the Apuan Alps — pure white with subtle grey veining.",
@@ -157,7 +157,7 @@ const catalogItems = [
   {
     id: 2,
     name: "Verde Guatemala",
-    category: "marble",
+    category:"granite",
     tag: "Italian Import",
     image: "/assets/catlog/ItalianGranite.jpg",
     desc: "Deep emerald tones with luxurious natural veining.",
@@ -189,7 +189,7 @@ const catalogItems = [
   {
     id: 6,
     name: "Crema Marfil",
-    category: "marble",
+    category:"granite",
     tag: "Italian Import",
     image: "/assets/catlog/luxurious-marble-texture-background.jpg",
     desc: "Warm ivory marble delivering timeless elegance and luxury.",
@@ -230,12 +230,12 @@ export default function CatalogSection() {
           </h2>
         </div>
 
-        <div className="catalog-filter">
+        {/* <div className="catalog-filter">
           <button className="filter-btn active" data-filter="all">All</button>
           <button className="filter-btn" data-filter="marble">Marble</button>
           <button className="filter-btn" data-filter="granite">Granite</button>
           <button className="filter-btn" data-filter="stone">Stone</button>
-        </div>
+        </div> */}
       </div>
 
       <div className="catalog-grid" ref={gridRef}>
