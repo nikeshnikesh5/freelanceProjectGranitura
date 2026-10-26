@@ -60,32 +60,28 @@ const varieties = [
 
 const stoneSlides = [
   {
-    name: "Black Galaxy",
+    name: "Absolute Black",
     type: "PREMIUM INDIAN GRANITE",
-    image: "/assets/Granites.jpg",
+    image: "/assets/AbsoluteBlack.jpg",
     finish: "Polished / Honed",
-    description: "A dramatic dark surface for premium architectural projects.",
+    description:
+      "A dramatic dark surface for premium architectural projects.",
   },
   {
-    name: "Imperial White",
-    type: "LIGHT GRANITE COLLECTION",
-    image: "/assets/ItalianMarbles.jpg",
+    name: "Black Galaxy",
+    type: "SIGNATURE GRANITE COLLECTION",
+    image: "/assets/blackgalaxy.jpg",
     finish: "Polished / Leather",
-    description: "A light, refined look for contemporary spaces.",
-  },
-  {
-    name: "Tan Brown",
-    type: "WARM GRANITE COLLECTION",
-    image: "/assets/BangloreStone.jpg",
-    finish: "Polished / Flamed",
-    description: "Rich natural tones for indoor and outdoor applications.",
+    description:
+      "A distinctive black surface with natural mineral sparkle.",
   },
   {
     name: "Steel Grey",
     type: "ARCHITECTURAL GRANITE",
-    image: "/assets/KotaBlackStone.jpg",
+    image: "/assets/steelgrey.jpg",
     finish: "Honed / Flamed",
-    description: "A versatile grey aesthetic for commercial projects.",
+    description:
+      "A versatile grey aesthetic for commercial and residential projects.",
   },
 ];
 
@@ -96,189 +92,290 @@ const features = [
   { number: "04", title: "Export supply", subtitle: "Middle East focus" },
 ];
 
+const CARD_WIDTH = 230;
+const CARD_HEIGHT = 350;
+
 export default function ExportHero() {
   const canvasHost = useRef(null);
+  const activeIndexRef = useRef(0);
+
   const [activeIndex, setActiveIndex] = useState(0);
   const [showAll, setShowAll] = useState(false);
-  const activeStone = stoneSlides[activeIndex];
+
+  // Every variety uses the closest available showcase slide.
+  const activeSlideIndex = activeIndex % stoneSlides.length;
+  const activeStone = stoneSlides[activeSlideIndex];
+  const selectedVariety = varieties[activeIndex];
+
+  useEffect(() => {
+    activeIndexRef.current = activeIndex;
+  }, [activeIndex]);
 
   useEffect(() => {
     const host = canvasHost.current;
     if (!host) return;
 
-    let app;
+    let app = null;
     let destroyed = false;
-    let resizeObserver;
-    let tickerFn;
+    let resizeObserver = null;
+    let tickerFn = null;
+    let stage = null;
+    let panels = [];
+
+    const destroyApp = () => {
+      if (!app) return;
+
+      try {
+        if (tickerFn) {
+          app.ticker.remove(tickerFn);
+          tickerFn = null;
+        }
+
+        app.destroy(
+          true,
+          { children: true },
+        );
+      } catch (error) {
+        console.warn("PixiJS cleanup warning:", error);
+      }
+
+      app = null;
+    };
 
     async function init() {
-      app = new Application();
+      try {
+        app = new Application();
 
-      await app.init({
-        backgroundAlpha: 0,
-        antialias: true,
-        autoDensity: true,
-        resolution: Math.min(window.devicePixelRatio || 1, 2),
-        resizeTo: host,
-      });
-
-      if (destroyed) {
-        app.destroy(true, { children: true });
-        return;
-      }
-
-      host.appendChild(app.canvas);
-
-      const stage = new Container();
-      app.stage.addChild(stage);
-
-      const panels = [];
-      const textures = [];
-
-      for (let i = 0; i < stoneSlides.length; i++) {
-        try {
-          textures.push(await Assets.load(stoneSlides[i].image));
-        } catch (error) {
-          console.warn(
-            `Could not load ${stoneSlides[i].image}. Check public/assets.`,
-            error
-          );
-          textures.push(null);
-        }
-      }
-
-      if (destroyed) {
-        app.destroy(true, { children: true });
-        return;
-      }
-
-      stoneSlides.forEach((stone, i) => {
-        const panel = new Container();
-        const shadow = new Graphics();
-        const sprite = textures[i] ? new Sprite(textures[i]) : null;
-        const fallback = new Graphics();
-        const mask = new Graphics();
-
-        shadow.roundRect(8, 10, 230, 350, 8).fill({
-          color: 0x000000,
-          alpha: 0.4,
+        await app.init({
+          backgroundAlpha: 0,
+          antialias: true,
+          autoDensity: true,
+          resolution: Math.min(window.devicePixelRatio || 1, 2),
+          resizeTo: host,
         });
 
-        fallback.roundRect(0, 0, 230, 350, 8).fill({
-          color: [0x29332e, 0x44433a, 0x534438, 0x303632][i],
-        });
-
-        panel.addChild(shadow, fallback);
-
-        if (sprite) {
-          sprite.anchor.set(0.5);
-          sprite.eventMode = "none";
-          panel.addChild(sprite);
+        if (destroyed) {
+          destroyApp();
+          return;
         }
 
-        mask.roundRect(0, 0, 230, 350, 8).fill(0xffffff);
-        panel.addChild(mask);
+        host.appendChild(app.canvas);
 
-        if (sprite) {
-          sprite.mask = mask;
+        app.canvas.style.position = "absolute";
+        app.canvas.style.inset = "0";
+        app.canvas.style.width = "100%";
+        app.canvas.style.height = "100%";
+        app.canvas.style.pointerEvents = "none";
+        app.canvas.style.opacity = "0.9";
+
+        stage = new Container();
+        app.stage.addChild(stage);
+
+        const loadedTextures = await Promise.all(
+          stoneSlides.map(async (stone) => {
+            try {
+              return await Assets.load(stone.image);
+            } catch (error) {
+              console.warn(
+                `Unable to load ${stone.image}. Check public/assets.`,
+                error
+              );
+              return null;
+            }
+          })
+        );
+
+        if (destroyed) {
+          destroyApp();
+          return;
         }
 
-        panel.eventMode = "static";
-        panel.cursor = "pointer";
+        stoneSlides.forEach((stone, index) => {
+          const panel = new Container();
 
-        panel.on("pointertap", () => {
-          window.dispatchEvent(
-            new CustomEvent("granitura-stone-select", { detail: i })
-          );
-        });
+          const shadow = new Graphics();
+          const fallback = new Graphics();
+          const sprite = loadedTextures[index]
+            ? new Sprite(loadedTextures[index])
+            : null;
+          const mask = new Graphics();
 
-        stage.addChild(panel);
-        panels.push({ panel, sprite, mask, shadow, fallback, index: i });
-      });
+          shadow
+            .roundRect(6, 9, CARD_WIDTH, CARD_HEIGHT, 8)
+            .fill({ color: 0x000000, alpha: 0.4 });
 
-      function layout() {
-        const w = host.clientWidth;
-        const h = host.clientHeight;
-        if (!w || !h) return;
+          fallback
+            .roundRect(0, 0, CARD_WIDTH, CARD_HEIGHT, 8)
+            .fill({
+              color: [0x202722, 0x34342e, 0x41443f][index],
+            });
 
-        const mobile = w < 520;
-        const cardW = mobile ? Math.min(105, w * 0.25) : Math.min(190, w * 0.255);
-        const cardH = cardW * 1.48;
-        const gap = mobile ? 9 : 16;
-        const totalW = cardW * 4 + gap * 3;
-        const startX = (w - totalW) / 2;
-        const centerY = h * (mobile ? 0.49 : 0.52);
-
-        panels.forEach(({ panel, sprite, mask, shadow, fallback, index }) => {
-          const x = startX + index * (cardW + gap);
-          const selected = index === activeIndex;
-          const y = centerY - cardH / 2 + (selected ? -16 : 14);
-
-          panel.position.set(x, y);
-          panel.alpha = selected ? 1 : 0.72;
-          panel.scale.set(selected ? 1.05 : 0.94);
+          panel.addChild(shadow, fallback);
 
           if (sprite) {
-            const scale = Math.max(
-              cardW / sprite.texture.width,
-              cardH / sprite.texture.height
+            sprite.anchor.set(0.5);
+
+            const textureWidth = sprite.texture.width || 1;
+            const textureHeight = sprite.texture.height || 1;
+
+            const coverScale = Math.max(
+              CARD_WIDTH / textureWidth,
+              CARD_HEIGHT / textureHeight
             );
-            sprite.scale.set(scale);
-            sprite.position.set(cardW / 2, cardH / 2);
+
+            sprite.scale.set(coverScale);
+            sprite.position.set(
+              CARD_WIDTH / 2,
+              CARD_HEIGHT / 2
+            );
+
+            panel.addChild(sprite);
           }
 
-          // Rebuild masks and backgrounds to fit responsive card dimensions.
-          mask.clear().roundRect(0, 0, cardW, cardH, 8).fill(0xffffff);
-          shadow.clear().roundRect(6, 9, cardW, cardH, 8).fill({
-            color: 0x000000,
-            alpha: 0.4,
-          });
-          fallback.clear().roundRect(0, 0, cardW, cardH, 8).fill({
-            color: [0x29332e, 0x44433a, 0x534438, 0x303632][index],
+          mask
+            .roundRect(0, 0, CARD_WIDTH, CARD_HEIGHT, 8)
+            .fill(0xffffff);
+
+          // Keep the mask from appearing as a white rectangle.
+          mask.renderable = false;
+          panel.addChild(mask);
+
+          if (sprite) {
+            sprite.mask = mask;
+          }
+
+          // The canvas is decorative; use the HTML picker for interaction.
+          panel.eventMode = "none";
+
+          stage.addChild(panel);
+
+          panels.push({
+            panel,
+            sprite,
+            mask,
+            shadow,
+            fallback,
+            index,
           });
         });
+
+        function layout() {
+          if (!host || destroyed) return;
+
+          const width = host.clientWidth;
+          const height = host.clientHeight;
+
+          if (!width || !height) return;
+
+          const mobile = width < 520;
+          const cardWidth = mobile
+            ? Math.min(105, width * 0.25)
+            : Math.min(190, width * 0.255);
+
+          const cardHeight = cardWidth * (CARD_HEIGHT / CARD_WIDTH);
+          const gap = mobile ? 9 : 16;
+          const totalWidth =
+            cardWidth * panels.length + gap * (panels.length - 1);
+
+          const startX = (width - totalWidth) / 2;
+          const centerY = height * (mobile ? 0.49 : 0.52);
+          const selectedIndex =
+            activeIndexRef.current % stoneSlides.length;
+
+          panels.forEach(
+            ({ panel, index }) => {
+              const selected = index === selectedIndex;
+              const scale =
+                (cardWidth / CARD_WIDTH) * (selected ? 1.05 : 0.94);
+
+              const visualWidth = CARD_WIDTH * scale;
+              const visualHeight = CARD_HEIGHT * scale;
+
+              const centerX =
+                startX +
+                index * (cardWidth + gap) +
+                cardWidth / 2;
+
+              const centerCardY =
+                centerY + (selected ? -16 : 14);
+
+              panel.scale.set(scale);
+              panel.position.set(
+                centerX - visualWidth / 2,
+                centerCardY - visualHeight / 2
+              );
+
+              panel.alpha = selected ? 1 : 0.72;
+            }
+          );
+        }
+
+        let elapsed = 0;
+
+        tickerFn = (ticker) => {
+          elapsed += ticker.deltaTime * 0.012;
+
+          panels.forEach(({ panel, index }) => {
+            const selected =
+              index ===
+              activeIndexRef.current % stoneSlides.length;
+
+            // Subtle floating movement without accumulating position drift.
+            const width = host.clientWidth;
+            const mobile = width < 520;
+            const cardWidth = mobile
+              ? Math.min(105, width * 0.25)
+              : Math.min(190, width * 0.255);
+            const cardHeight =
+              cardWidth * (CARD_HEIGHT / CARD_WIDTH);
+            const gap = mobile ? 9 : 16;
+            const totalWidth =
+              cardWidth * panels.length +
+              gap * (panels.length - 1);
+            const startX = (width - totalWidth) / 2;
+            const centerX =
+              startX +
+              index * (cardWidth + gap) +
+              cardWidth / 2;
+            const centerY =
+              host.clientHeight * (mobile ? 0.49 : 0.52) +
+              (selected ? -16 : 14) +
+              Math.sin(elapsed + index) * 2;
+
+            const scale =
+              (cardWidth / CARD_WIDTH) * (selected ? 1.05 : 0.94);
+
+            panel.position.set(
+              centerX - (CARD_WIDTH * scale) / 2,
+              centerY - (CARD_HEIGHT * scale) / 2
+            );
+          });
+        };
+
+        app.ticker.add(tickerFn);
+
+        resizeObserver = new ResizeObserver(layout);
+        resizeObserver.observe(host);
+
+        layout();
+      } catch (error) {
+        console.error("PixiJS hero initialization failed:", error);
+        destroyApp();
       }
-
-      let elapsed = 0;
-      tickerFn = (ticker) => {
-        elapsed += ticker.deltaTime;
-        panels.forEach(({ panel, index }) => {
-          panel.y += Math.sin(elapsed * 0.025 + index) * 0.12;
-        });
-      };
-
-      app.ticker.add(tickerFn);
-
-      resizeObserver = new ResizeObserver(layout);
-      resizeObserver.observe(host);
-      layout();
     }
 
-    init().catch((error) => {
-      console.error("PixiJS hero could not initialise:", error);
-    });
+    init();
 
     return () => {
       destroyed = true;
       resizeObserver?.disconnect();
-      if (app) {
-        if (tickerFn) app.ticker.remove(tickerFn);
-        app.destroy(true, { children: true });
-      }
+      destroyApp();
     };
-  }, [activeIndex]);
-
-  useEffect(() => {
-    const handleSelection = (event) => {
-      setActiveIndex(event.detail);
-    };
-
-    window.addEventListener("granitura-stone-select", handleSelection);
-    return () =>
-      window.removeEventListener("granitura-stone-select", handleSelection);
   }, []);
 
-  const selectedVariety = varieties[activeIndex];
+  const handleVarietySelect = (index) => {
+    setActiveIndex(index);
+  };
 
   return (
     <section className="export-hero" id="home">
@@ -288,14 +385,16 @@ export default function ExportHero() {
         <a className="export-brand" href="/" aria-label="Granitura home">
           <span className="brand-mark">⌁</span>
           <span className="brand-name">GRANITURA</span>
-          <span className="brand-caption">NATURAL STONE WORLDWIDE</span>
+          <span className="brand-caption">
+            NATURAL STONE WORLDWIDE
+          </span>
         </a>
 
         <nav className="export-links" aria-label="Main navigation">
           <a className="active" href="/">Home</a>
           <a href="/catlog-product">Catalog</a>
-          <a href="#process">Our Process</a>
-          <a href="#about">About</a>
+          <a href="/#process">Our Process</a>
+          <a href="/#about">About</a>
           <a href="/contact">Contact</a>
         </nav>
 
@@ -320,9 +419,9 @@ export default function ExportHero() {
           </h1>
 
           <p className="export-description">
-            Granite supplied for Middle Eastern projects — from fresh blocks
-            to precision cut-to-size pieces, selected for quality, consistency
-            and architectural character.
+            Granite supplied for Middle Eastern projects — from fresh
+            blocks to precision cut-to-size pieces, selected for quality,
+            consistency and architectural character.
           </p>
 
           <div className="export-actions">
@@ -361,7 +460,9 @@ export default function ExportHero() {
           <div className="stone-info" aria-live="polite">
             <div className="stone-info-top">
               <span className="stone-index">
-                0{activeIndex + 1} <i>/ 04</i>
+                {String(activeSlideIndex + 1).padStart(2, "0")}
+                {" "}
+                <i>/ {String(stoneSlides.length).padStart(2, "0")}</i>
               </span>
               <span className="stone-type">{activeStone.type}</span>
             </div>
@@ -374,7 +475,10 @@ export default function ExportHero() {
               <strong>{activeStone.finish}</strong>
             </div>
 
-            <a href="/export-quote" className="stone-enquire">
+            <a
+              href={`/export-quote?stone=${encodeURIComponent(selectedVariety)}`}
+              className="stone-enquire"
+            >
               Enquire about this stone <span>↗</span>
             </a>
           </div>
@@ -382,27 +486,39 @@ export default function ExportHero() {
           <div className="variety-picker">
             <div className="picker-heading">
               <span>SELECT A VARIETY</span>
-              <button type="button" onClick={() => setShowAll(!showAll)}>
+              <button
+                type="button"
+                onClick={() => setShowAll((previous) => !previous)}
+                aria-expanded={showAll}
+              >
                 {showAll ? "Show less −" : "View all 50+ ↗"}
               </button>
             </div>
 
             <div className={`variety-list ${showAll ? "expanded" : ""}`}>
-              {(showAll ? varieties : varieties.slice(0, 5)).map((name) => {
-                const index = varieties.indexOf(name);
-                return (
-                  <button
-                    type="button"
-                    key={name}
-                    className={selectedVariety === name ? "selected" : ""}
-                    onClick={() => setActiveIndex(index % stoneSlides.length)}
-                  >
-                    <span className={`variety-swatch swatch-${index % 4}`} />
-                    <span>{name}</span>
-                    {selectedVariety === name && <span className="check">✓</span>}
-                  </button>
-                );
-              })}
+              {(showAll ? varieties : varieties.slice(0, 5)).map(
+                (name) => {
+                  const index = varieties.indexOf(name);
+
+                  return (
+                    <button
+                      type="button"
+                      key={name}
+                      className={activeIndex === index ? "selected" : ""}
+                      aria-pressed={activeIndex === index}
+                      onClick={() => handleVarietySelect(index)}
+                    >
+                      <span
+                        className={`variety-swatch swatch-${index % 4}`}
+                      />
+                      <span>{name}</span>
+                      {activeIndex === index && (
+                        <span className="check">✓</span>
+                      )}
+                    </button>
+                  );
+                }
+              )}
             </div>
           </div>
         </div>
@@ -412,7 +528,9 @@ export default function ExportHero() {
         <span>FROM INDIAN QUARRIES</span>
         <span className="footer-arrow">→</span>
         <span>TO MIDDLE EAST PROJECTS</span>
-        <span className="footer-note">NATURAL STONE · PROJECT SUPPLY</span>
+        <span className="footer-note">
+          NATURAL STONE · PROJECT SUPPLY
+        </span>
       </footer>
     </section>
   );
